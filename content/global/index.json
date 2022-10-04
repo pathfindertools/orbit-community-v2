@@ -1,0 +1,112 @@
+{
+  "siteUrl": "microgen.vercel.app",
+  "gtmId": "",
+  "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
+  "desktopWidth": "1380",
+  "backgroundColor": "white",
+  "colors": {
+    "primary": "#0090FF",
+    "accent1": "#0E4465",
+    "accent2": "#1BBF6E",
+    "accent3": "#2DD0DB",
+    "accent4": "#00D0DB",
+    "white": "#FFFFFF",
+    "grayLight": "#E8E8EF",
+    "gray": "#B0B0BF",
+    "grayDark": "#7B7A80",
+    "black": "#000000"
+  },
+  "fonts": {
+    "font1": "Space Grotesk:wght@400;700",
+    "font2": "Suisse Intl",
+    "font3": "Righteous:wght@400",
+    "font4": "Open Sans:wght@400;700"
+  },
+  "sizeLeading": {
+    "textXs": "16/20",
+    "textSm": "18/20",
+    "textMd": "20/25",
+    "textLg": "24/25",
+    "textXl": "28/30",
+    "text2xl": "32/30",
+    "text3xl": "36/40",
+    "text4xl": "40/40",
+    "text5xl": "80/80",
+    "text6xl": "100/100",
+    "text7xl": "150/120",
+    "text8xl": "200/170"
+  },
+  "buttons": {
+    "primaryFill": "bg-primary",
+    "primaryBorder": "border-accent3 border-r-0",
+    "primaryTypography": "text-white font-2 text-sm mb-0 font-bold",
+    "primaryPadding": "pt-2.5 pb-2.5 pr-6 pl-6",
+    "primaryRounded": "rounded",
+    "secondaryBorder": "border-white border-2",
+    "secondaryTypography": "text-white undefined text-sm undefined font-bold",
+    "secondaryPadding": "pt-2 pb-2 pr-6 pl-6",
+    "secondaryRounded": "rounded-md",
+    "minorBorder": "border-white border-0",
+    "minorTypography": "text-white undefined text-sm undefined font-bold",
+    "minorPadding": "pt-2 pb-2 pr-6 pl-6",
+    "minorRounded": "rounded-none"
+  },
+  "links": {
+    "color": "white"
+  },
+  "logo": {
+    "logoType": "",
+    "logoTypeStyle": "text-white undefined text-base undefined font-bold",
+    "image": "https://res.cloudinary.com/protocolai/image/upload/v1664824486/orbit-community-v2/Orbit-Logo_m7mbnf.svg",
+    "imageWidth": "127",
+    "imageHeight": "122",
+    "imageMargin": "0"
+  },
+  "nav": {
+    "navItems": [
+      {
+        "label": "ABOUT",
+        "link": "/"
+      },
+      {
+        "label": "APPLY",
+        "link": "/apply"
+      },
+      {
+        "label": "EVENTS",
+        "link": "/events"
+      },
+      {
+        "label": "LEADERBOARD",
+        "link": "/leaderboard"
+      }
+    ],
+    "navAlignment": "text-left",
+    "navTypeStyle": "text-white font-1 text-base mb-0 ",
+    "navBackgroundColor": "from-primary to-accent2 bg-gradient-to-br opacity-100",
+    "padding": "pt-20 pb-0 pr-0 pl-10"
+  },
+  "blocks": [
+    {
+      "style": {
+        "textAlignment": "text-center",
+        "minHeight": "min-h-0",
+        "padding": "pt-10 pb-10 pr-10 pl-10",
+        "width": "normal",
+        "labelStyles": "text-black undefined text-sm mb-0 ",
+        "headlineStyles": "text-black undefined text-5xl mb-0 ",
+        "subheadStyles": "text-black undefined text-3xl mb-0 ",
+        "textStyles": "text-white undefined text-sm mb-0 ",
+        "contentOrder": "labelHeadingsContent"
+      },
+      "background": {
+        "fillStyles": "bg-primary"
+      },
+      "label": "",
+      "headline": "",
+      "subhead": "",
+      "body": "Made with love by [Protocol Labs](https://protocol.ai)\n",
+      "_template": "banner"
+    }
+  ]
+}

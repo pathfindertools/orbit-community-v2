@@ -1,0 +1,49 @@
+<svg width="1439" height="5781" viewBox="0 0 1439 5781" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.4" filter="url(#filter0_d_1604_1522)">
+<line x1="29.5015" y1="1.66597e-08" x2="29.5011" y2="5766.16" stroke="#0090FF"/>
+<line x1="259.502" y1="1.66597e-08" x2="259.502" y2="5766.16" stroke="#0090FF"/>
+<line x1="489.502" y1="1.66597e-08" x2="489.502" y2="5766.16" stroke="#0090FF"/>
+<line x1="719.499" y1="1.66597e-08" x2="719.499" y2="5766.16" stroke="#0090FF"/>
+<line x1="949.5" y1="1.66597e-08" x2="949.499" y2="5766.16" stroke="#0090FF"/>
+<line x1="1179.5" y1="1.66597e-08" x2="1179.5" y2="5766.16" stroke="#0090FF"/>
+<line x1="1409.5" y1="1.66597e-08" x2="1409.5" y2="5766.16" stroke="#0090FF"/>
+</g>
+<g opacity="0.5">
+<line y1="-0.5" x2="377.414" y2="-0.5" transform="matrix(0.606761 -0.794884 0.956977 0.290164 720 300)" stroke="#0090FF"/>
+<line x1="719.355" y1="651.352" x2="489.355" y2="883.352" stroke="#0090FF"/>
+<line y1="-0.5" x2="326.686" y2="-0.5" transform="matrix(0.704039 0.710161 0.710161 -0.704039 719 651)" stroke="#0090FF"/>
+<line x1="719.102" y1="533.489" x2="0.102106" y2="683.489" stroke="#0090FF"/>
+<line x1="719.102" y1="3189.49" x2="0.102106" y2="3339.49" stroke="#0090FF"/>
+<line x1="719.898" y1="379.511" x2="1438.9" y2="229.511" stroke="#0090FF"/>
+<line y1="-0.5" x2="734.48" y2="-0.5" transform="matrix(0.978924 0.204226 0.204226 -0.978924 720 533)" stroke="#0090FF"/>
+<line y1="-0.5" x2="734.48" y2="-0.5" transform="matrix(0.978924 0.204226 0.204226 -0.978924 720 3189)" stroke="#0090FF"/>
+<line y1="-0.5" x2="734.48" y2="-0.5" transform="matrix(-0.978924 -0.204226 -0.204226 0.978924 719 380)" stroke="#0090FF"/>
+<line y1="-0.5" x2="377.414" y2="-0.5" transform="matrix(-0.606761 -0.794884 -0.956977 0.290164 719 300)" stroke="#0090FF"/>
+<line y1="-0.5" x2="377.414" y2="-0.5" transform="matrix(0.606761 -0.794884 0.956977 0.290164 719 4135)" stroke="#0090FF"/>
+<line x1="718.898" y1="3757.51" x2="1437.9" y2="3607.51" stroke="#0090FF"/>
+<line x1="718.102" y1="3864.49" x2="-0.897895" y2="4014.49" stroke="#0090FF"/>
+<line y1="-0.5" x2="734.48" y2="-0.5" transform="matrix(-0.978924 -0.204226 -0.204226 0.978924 718 3758)" stroke="#0090FF"/>
+<line y1="-0.5" x2="734.48" y2="-0.5" transform="matrix(0.978924 0.204226 0.204226 -0.978924 719 3864)" stroke="#0090FF"/>
+<line y1="-0.5" x2="377.414" y2="-0.5" transform="matrix(-0.606761 -0.794884 -0.956977 0.290164 718 4135)" stroke="#0090FF"/>
+<line x1="719.898" y1="1543.51" x2="1438.9" y2="1393.51" stroke="#0090FF"/>
+<line y1="-0.5" x2="377.414" y2="-0.5" transform="matrix(0.606761 -0.794884 0.956977 0.290164 719 4781)" stroke="#0090FF"/>
+<line y1="-0.5" x2="377.414" y2="-0.5" transform="matrix(-0.606762 0.794884 -0.956977 -0.290165 718 4182)" stroke="#0090FF"/>
+<line y1="-0.5" x2="377.414" y2="-0.5" transform="matrix(-0.606761 -0.794884 -0.956977 0.290164 718 4781)" stroke="#0090FF"/>
+<line y1="-0.5" x2="377.414" y2="-0.5" transform="matrix(0.606761 0.794884 0.956977 -0.290164 719 4182)" stroke="#0090FF"/>
+<line y1="-0.5" x2="734.48" y2="-0.5" transform="matrix(-0.978924 -0.204226 -0.204226 0.978924 719 1544)" stroke="#0090FF"/>
+<line x1="718.898" y1="5234.51" x2="1437.9" y2="5084.51" stroke="#0090FF"/>
+<line y1="-0.5" x2="734.48" y2="-0.5" transform="matrix(-0.978924 -0.204226 -0.204226 0.978924 718 5235)" stroke="#0090FF"/>
+</g>
+<defs>
+<filter id="filter0_d_1604_1522" x="19.001" y="-6" width="1401" height="5786.16" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1604_1522"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1604_1522" result="shape"/>
+</filter>
+</defs>
+</svg>
