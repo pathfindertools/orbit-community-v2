@@ -134,6 +134,16 @@ module.exports = {
         '3': ["var(--font3)", "sans-serif"],
         '4': ["var(--font4)", "sans-serif"]
       },
+      borderRadius: {
+        'none': '0',
+        'sm': '0.125rem',
+        DEFAULT: '4px',
+        'md': '0.375rem',
+        'lg': '0.5rem',
+        'full': '9999px',
+        'large': '12px',
+        'xl': '100px',
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],

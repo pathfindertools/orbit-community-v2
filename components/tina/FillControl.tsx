@@ -11,6 +11,9 @@ export default function FillControl({ field, input, meta }) {
     { label: "None", value: "transparent" },
     { label: "Solid", value: "solid" },
     { label: "Gradient", value: "gradient" },
+    { label: "Gradient Rounded", value: "gradientRounded" },
+    { label: "Gradient Rounded Fade", value: "gradientRoundedFade" },
+    { label: "Gradient Fade", value: "gradientFade" },
   ]
   const [fillType, setFillType] = useState(getFillType(input.value));
   const bgColors = [
@@ -88,6 +91,9 @@ export default function FillControl({ field, input, meta }) {
       transparent: "",
       solid: bgColor,
       gradient: `${fromColor} ${toColor} ${direction}`,
+      gradientRounded: `${fromColor} ${toColor} ${direction} rounded-t-xl inset-5`,
+      gradientRoundedFade: `${fromColor} ${toColor} ${direction} rounded-t-xl inset-5`,
+      gradientFade: `${fromColor} ${toColor} ${direction} inset-5`,
     }
     input.value = `${fillClasses[fillType]} ${opacity}`;
     (input as any)._valueTracker?.setValue(lastValue);
@@ -95,7 +101,9 @@ export default function FillControl({ field, input, meta }) {
   }, [bgColor, toColor, fromColor, fillType, direction, opacity, inputRef.current]);
 
   function getFillType(value: string) {
-    if (value.includes("to-")) {
+    if (value.includes("to-") && value.includes("rounded")) {
+      return "gradientRounded";
+    } else if (value.includes("to-")) {
       return "gradient";
     } else if (value.includes("bg-")) {
       return "solid";
@@ -128,7 +136,7 @@ export default function FillControl({ field, input, meta }) {
         {fillType === "solid" &&
           <ColorPicker value={bgColor?.replace('bg-','')} onClick={handleSetBgColor} />
         }
-        {fillType === "gradient" &&
+        {fillType === "gradient" || fillType === "gradientRounded" &&
           <>
             <ColorPicker value={fromColor?.replace('from-','')} onClick={handleSetFromColor} />
             <ColorPicker value={toColor?.replace('to-','')} onClick={handleSetToColor} />
