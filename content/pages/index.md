@@ -34,7 +34,7 @@ blocks:
       labelStyles: 'text-white font-1 text-sm mb-0 '
       headlineStyles: 'text-white font-1 text-2xl mb-10 '
       subheadStyles: 'text-white font-1 text-3xl mb-10 '
-      textStyles: 'text-white font-1 text-base mb-10 '
+      textStyles: 'text-white font-1 text-lg mb-10 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: >-
