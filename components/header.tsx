@@ -139,11 +139,11 @@ export const Header = ({
     <section className="relative">
       <>
         {/* Desktop Nav */}
-        <div className="md:hidden absolute z-10 top-0 left-0 right-0">
+        <div className="md:hidden fixed z-50 top-0 left-0 right-0 pointer-events-none">
           <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
             <div className="">
               <Logo className="flex-none mb-16" />
-              <ul style={navStyles} className={`${nav.navTypeStyle} ${nav.navAlignment} w-48 flex-grow list-none md:hidden`}>
+              <ul style={navStyles} className={`${nav.navTypeStyle} ${nav.navAlignment} w-48 flex-grow list-none md:hidden pointer-events-auto`}>
 
                 {pageJumps(blocks)?.map(function (item, index) {
                   return (

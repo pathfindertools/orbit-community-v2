@@ -138,7 +138,7 @@ blocks:
     _template: banner
   - style:
       alignment: flex-row-reverse items-center items-start-vertical gap-8
-      padding: pt-20 pb-20 pr-60 pl-80
+      padding: pt-20 pb-32 pr-60 pl-80
       featureImage: wpx-120  mr-auto
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
