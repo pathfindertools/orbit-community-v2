@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <Section>
       <div className="absolute left-0 right-0 h-px bg-white"></div>
-      <div className="relative h-full w-full max-w-site-full mx-auto pt-20 pb-10 px-40">
+      <div className="relative h-full w-full max-w-site-full mx-auto pt-20 pb-10 px-60">
         <h3 className="text-white text-lg font-1 mb-10">CONNECT</h3>
         <div className="grid grid-cols-2 gap-10">
           <div>
