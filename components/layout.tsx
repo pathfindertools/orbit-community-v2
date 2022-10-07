@@ -127,7 +127,7 @@ export const Layout = ({
                 position: absolute;
                 width: 100%;
                 height: 100%;
-                background: url(./img/starfield.jpg);
+                background: url(/img/starfield.jpg);
               }
               .gradient {
                 background: rgb(7,28,49);
@@ -135,7 +135,7 @@ export const Layout = ({
                 opacity: .6;
               }
               .lines {
-                background: url(./img/lines.svg) top center repeat-y;
+                background: url(/img/lines.svg) top center repeat-y;
               }
 
               .markdown a:not(.button) {
