@@ -166,7 +166,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-20 pr-60 pl-80
+      padding: pt-20 pb-20 pr-60 pl-60
       width: normal
       labelStyles: 'text-white font-1 text-2xl mb-10 '
       headlineStyles: 'text-white font-3 text-5xl mb-0 '
@@ -182,6 +182,42 @@ blocks:
     subhead: ''
     body: ''
     _template: banner
+  - style:
+      minHeight: min-h-0
+      fullWidth: true
+      padding: pt-20 pr-10 pb-20 pl-10
+    markup: >-
+      <div class="px-60 max-w-site-full mx-auto">
+
+      <h2 class="text-white text-2xl font-1 uppercase mb-8">Apply as an
+      Individual</h2>
+
+      <div data-tf-widget="ymd3bOdh" data-tf-iframe-props="title=Orbit
+      Individual Contributor Application" data-tf-medium="snippet"
+      style="width:100%;height:400px;"></div>
+
+      </div>
+
+      <script src="//embed.typeform.com/next/embed.js"></script>
+    _template: embed
+  - style:
+      minHeight: min-h-0
+      fullWidth: true
+      padding: pt-20 pr-10 pb-20 pl-10
+    markup: >-
+      <div class="px-60 max-w-site-full mx-auto">
+
+      <h2 class="text-white text-2xl font-1 uppercase mb-8">Apply as an
+      Enterprise</h2>
+
+      <div data-tf-widget="yKqclHrB" data-tf-iframe-props="title=Orbit Spaceship
+      Application" data-tf-medium="snippet"
+      style="width:100%;height:400px;"></div>
+
+      </div>
+
+      <script src="//embed.typeform.com/next/embed.js"></script>
+    _template: embed
 meta:
   pageTitle: Microgen
   pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.

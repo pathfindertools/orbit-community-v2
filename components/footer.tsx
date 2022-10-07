@@ -19,19 +19,19 @@ export const Footer = () => {
             <ul className="text-white text-sm">
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-10">
-                  <img className="mx-auto" src="./img/icon-calendar.svg" />
+                  <img className="mx-auto" src="/img/icon-calendar.svg" />
                 </div>
                 <a href="#">Subscribe to Our Calendar</a>
               </div>
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-10">
-                  <img className="mx-auto" src="./img/icon-mail.svg" />
+                  <img className="mx-auto" src="/img/icon-mail.svg" />
                 </div>
                 <a href="#">Subscribe to out mailing list</a>
               </div>
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-10">
-                  <img className="mx-auto" src="./img/icon-slack.svg" />
+                  <img className="mx-auto" src="/img/icon-slack.svg" />
                 </div>
                 <a href="#">Filecoin Slack Channel</a>
               </div>
@@ -39,27 +39,27 @@ export const Footer = () => {
           </div>
           <div className="grid grid-cols-2 text-white text-sm pt-10">
             <div>
-              <img className="mb-8 h-8" src="./img/icon-twitter.svg" />
+              <img className="mb-8 h-8" src="/img/icon-twitter.svg" />
               <ul className="mb-12">
                 <Link label="Filecoin" link="#" />
                 <Link label="Filecoin Foundation" link="#" />
               </ul>
             </div>
             <div>
-              <img className="mb-8 h-8" src="./img/icon-youtube.svg" />
+              <img className="mb-8 h-8" src="/img/icon-youtube.svg" />
               <ul className="mb-12">
                 <Link label="Filecoin" link="#" />
                 <Link label="Filecoin Foundation" link="#" />
               </ul>
             </div>
             <div>
-              <img className="mb-8 h-8" src="./img/icon-meetup.svg" />
+              <img className="mb-8 h-8" src="/img/icon-meetup.svg" />
               <ul className="mb-12">
                 <Link label="Filecoin" link="#" />
               </ul>
             </div>
             <div>
-              <img className="mb-8 h-8" src="./img/icon-discord.svg" />
+              <img className="mb-8 h-8" src="/img/icon-discord.svg" />
               <ul className="mb-12">
                 <Link label="IPFS" link="#" />
               </ul>
