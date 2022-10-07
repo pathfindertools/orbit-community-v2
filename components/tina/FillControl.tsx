@@ -90,10 +90,10 @@ export default function FillControl({ field, input, meta }) {
     const fillClasses = {
       transparent: "",
       solid: bgColor,
-      gradient: `${fromColor} ${toColor} ${direction}`,
-      gradientRounded: `${fromColor} ${toColor} ${direction} rounded-t-xl inset-5`,
-      gradientRoundedFade: `${fromColor} ${toColor} ${direction} rounded-t-xl inset-5`,
-      gradientFade: `${fromColor} ${toColor} ${direction} inset-5`,
+      gradient: `${fillType} ${fromColor} ${toColor} ${direction}` ,
+      gradientRounded: `${fillType} ${fromColor} ${toColor} ${direction} rounded-t-xl left-5 right-5`,
+      gradientRoundedFade: `${fillType} ${fromColor} ${direction} rounded-t-xl left-5 right-5`,
+      gradientFade: `${fillType} ${fromColor} ${direction} left-5 right-5`,
     }
     input.value = `${fillClasses[fillType]} ${opacity}`;
     (input as any)._valueTracker?.setValue(lastValue);
@@ -101,14 +101,9 @@ export default function FillControl({ field, input, meta }) {
   }, [bgColor, toColor, fromColor, fillType, direction, opacity, inputRef.current]);
 
   function getFillType(value: string) {
-    if (value.includes("to-") && value.includes("rounded")) {
-      return "gradientRounded";
-    } else if (value.includes("to-")) {
-      return "gradient";
-    } else if (value.includes("bg-")) {
-      return "solid";
-    }
-    return "transparent";
+    const fillTypes = ['transparent', 'solid', 'gradient', 'gradientRounded', 'gradientFade', 'gradientRoundedFade']
+    const fillType = fillTypes.find((item) => { value.split(' ').includes(item)})
+    return fillType;
   }
   function handleSetBgColor(value: string) {
     setBgColor(`bg-${value}`)
@@ -136,7 +131,26 @@ export default function FillControl({ field, input, meta }) {
         {fillType === "solid" &&
           <ColorPicker value={bgColor?.replace('bg-','')} onClick={handleSetBgColor} />
         }
-        {fillType === "gradient" || fillType === "gradientRounded" &&
+        {fillType === "gradientFade" &&
+          <>
+            <ColorPicker value={fromColor?.replace('from-','')} onClick={handleSetFromColor} />
+            <SelectMenu value={direction} onChange={setDirection} options={directions} className="w-12" />
+          </>
+        }
+        {fillType === "gradientRoundedFade"  &&
+          <>
+            <ColorPicker value={fromColor?.replace('from-','')} onClick={handleSetFromColor} />
+            <SelectMenu value={direction} onChange={setDirection} options={directions} className="w-12" />
+          </>
+        }
+        {fillType === "gradientRounded" &&
+          <>
+            <ColorPicker value={fromColor?.replace('from-','')} onClick={handleSetFromColor} />
+            <ColorPicker value={toColor?.replace('to-','')} onClick={handleSetToColor} />
+            <SelectMenu value={direction} onChange={setDirection} options={directions} className="w-12" />
+          </>
+        }
+        {fillType === "gradient" &&
           <>
             <ColorPicker value={fromColor?.replace('from-','')} onClick={handleSetFromColor} />
             <ColorPicker value={toColor?.replace('to-','')} onClick={handleSetToColor} />

@@ -38,8 +38,8 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: >-
-        from-primary to-accent1 bg-gradient-to-b rounded-t-xl inset-5
-        opacity-100
+        gradientRounded from-primary to-accent1 bg-gradient-to-b rounded-t-xl
+        left-5 right-5 opacity-100
     label: ''
     headline: WELCOME!
     subhead: >-
@@ -84,6 +84,8 @@ blocks:
       subheadStyles: 'text-black undefined text-lg mb-0 '
       textStyles: 'text-black undefined text-sm mb-0 '
       buttonType: primary
+    background:
+      fillStyles: gradientFade from-accent1 bg-gradient-to-b left-5 right-5 opacity-100
     label: CONTRIBUTE
     headline: BECOME AN INDIVIDUAL CONTRIBUTOR
     subhead: ''
