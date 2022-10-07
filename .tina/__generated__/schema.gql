@@ -1059,7 +1059,47 @@ type PagesBlocksTailwindCards {
   navigationLabel: String
 }
 
-union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksTailwindFeature | PagesBlocksTailwindCards
+type PagesBlocksLeaderCardsBackgroundOrnaments {
+  src: String
+  alignment: String
+  width: String
+  height: String
+  xOffset: String
+  yOffset: String
+}
+
+type PagesBlocksLeaderCardsBackground {
+  fillStyles: String
+  src: String
+  position: String
+  ornaments: [PagesBlocksLeaderCardsBackgroundOrnaments]
+}
+
+type PagesBlocksLeaderCardsCardlabels {
+  nameLabel: String
+  countryLabel: String
+  badgeLabel: String
+}
+
+type PagesBlocksLeaderCardsItems {
+  imageSrc: String
+  name: String
+  twitter: String
+  country: String
+  badge: String
+}
+
+type PagesBlocksLeaderCards {
+  background: PagesBlocksLeaderCardsBackground
+  rule: String
+  headline: String
+  cardlabels: PagesBlocksLeaderCardsCardlabels
+  items: [PagesBlocksLeaderCardsItems]
+  rule2: String
+  navigationLabel: String
+}
+
+union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksTailwindFeature | PagesBlocksTailwindCards | PagesBlocksLeaderCards
 
 type PagesMeta {
   pageTitle: String
@@ -2076,6 +2116,46 @@ input PagesBlocksTailwindCardsMutation {
   navigationLabel: String
 }
 
+input PagesBlocksLeaderCardsBackgroundOrnamentsMutation {
+  src: String
+  alignment: String
+  width: String
+  height: String
+  xOffset: String
+  yOffset: String
+}
+
+input PagesBlocksLeaderCardsBackgroundMutation {
+  fillStyles: String
+  src: String
+  position: String
+  ornaments: [PagesBlocksLeaderCardsBackgroundOrnamentsMutation]
+}
+
+input PagesBlocksLeaderCardsCardlabelsMutation {
+  nameLabel: String
+  countryLabel: String
+  badgeLabel: String
+}
+
+input PagesBlocksLeaderCardsItemsMutation {
+  imageSrc: String
+  name: String
+  twitter: String
+  country: String
+  badge: String
+}
+
+input PagesBlocksLeaderCardsMutation {
+  background: PagesBlocksLeaderCardsBackgroundMutation
+  rule: String
+  headline: String
+  cardlabels: PagesBlocksLeaderCardsCardlabelsMutation
+  items: [PagesBlocksLeaderCardsItemsMutation]
+  rule2: String
+  navigationLabel: String
+}
+
 input PagesBlocksMutation {
   feature: PagesBlocksFeatureMutation
   photoCards: PagesBlocksPhotoCardsMutation
@@ -2084,6 +2164,7 @@ input PagesBlocksMutation {
   embed: PagesBlocksEmbedMutation
   tailwindFeature: PagesBlocksTailwindFeatureMutation
   tailwindCards: PagesBlocksTailwindCardsMutation
+  leaderCards: PagesBlocksLeaderCardsMutation
 }
 
 input PagesMetaMutation {

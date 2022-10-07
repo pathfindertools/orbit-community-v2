@@ -165,6 +165,51 @@ blocks:
         link: /
         type: primary
     _template: feature
+  - headline: LEADERBOARD
+    items:
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637418/orbit-community/avatar-brian-ahimbisibwe_ll7jqe.png
+        name: Brian Ahimbisibwe
+        twitter: ahimbis07260494
+        country: uganda
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
+        name: Ammar Husami
+        twitter: husamia
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637416/orbit-community/avatar-blockchain-denver_gimuhk.png
+        name: Blockchain Denver
+        twitter: du_web3
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Ken Labs
+        twitter: KenLabs_Web3
+        country: china
+        badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637440/orbit-community/avatar-martin-kyanja_byhpum.png
+        name: Martin Kyanja
+        twitter: kyanja_m
+        country: tanzania
+        badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
+        name: Galina Fendikevich
+        twitter: galinaweb3
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
+        name: Kumaraguru Thambidurai
+        twitter: hackyguru
+        country: india
+        badge: cadet
+    _template: leaderCards
 meta:
   pageTitle: Microgen
   pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.
