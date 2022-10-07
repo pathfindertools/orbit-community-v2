@@ -17,117 +17,125 @@ blocks:
     body: ''
     _template: banner
   - style:
-      alignment: 'flex-col items-center items-start-vertical '
-      padding: pt-20 pb-20 pr-60 pl-80
-      featureImage: '  object-center'
-      featureContent: w-full min-h-0 text-left
-      labelStyles: 'text-white font-1 text-sm mb-0 '
-      headlineStyles: 'text-white font-1 text-2xl mb-10 '
-      subheadStyles: 'text-white font-1 text-3xl mb-10 '
-      textStyles: 'text-white font-1 text-lg mb-10 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: >-
-        gradientRounded from-primary to-accent1 bg-gradient-to-b rounded-t-xl
-        left-5 right-5 opacity-100
-    label: ''
-    headline: WELCOME!
-    subhead: >-
-      The Filecoin Orbit is a Community Program focused on building a thriving
-      and engaging community of global ambassadors within the Filecoin Ecosystem
-      ambassadors globally.
-    body: >
-      Participants in the Filecoin Orbit Program help to amplify the voice of
-      Filecoin, IPFS, and libp2p in the web3 community (both online and
-      offline), organize meetups and events, and create content and educational
-      resources.&#x20;
-
-
-      Whether you're a developer or a non-technical supporter, new to Filecoin,
-      or a regular contributor, all that's required in order to participate is
-      an interest in advancing the mission to preserve humanity's most important
-      information through events and content like Filecoin Orbit.
-    buttons:
-      - label: Learn More
-        link: /
-        type: primary
-    navigationLabel: ''
-    _template: feature
-  - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-16 pr-60 pl-80
-      contentWidth: w-full
-      columns: '4'
+      padding: pt-20 pb-0 pr-60 pl-80
+      width: normal
       labelStyles: 'text-white font-1 text-3xl mb-10 '
-      headlineStyles: 'text-white font-3 text-5xl mb-20 '
+      headlineStyles: 'text-white font-3 text-5xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
-    cardStyle:
-      fillStyles: ' opacity-100'
-      padding: pt-4 pb-4 pr-4 pl-4
-      borderStyles: border-white border-0
-      imageStyles: ' undefined undefined undefined'
-      labelStyles: 'text-white undefined text-base mb-0 '
-      headlineStyles: 'text-black undefined text-2xl mb-0 '
-      subheadStyles: 'text-black undefined text-lg mb-0 '
-      textStyles: 'text-black undefined text-sm mb-0 '
-      buttonType: primary
     background:
-      fillStyles: gradientFade from-accent1 bg-gradient-to-b left-5 right-5 opacity-100
-    label: CONTRIBUTE
+      fillStyles: >-
+        gradientRounded from-accent2 to-primary bg-gradient-to-b rounded-t-xl
+        left-5 right-5 opacity-100
+    label: COMMUNITY TIERS
     headline: BECOME AN INDIVIDUAL CONTRIBUTOR
+    subhead: ''
+    body: ''
+    _template: banner
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-10 pb-20 pr-60 pl-80
+      width: normal
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-5xl mb-0 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-white font-2 text-base mb-10 '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: gradientFade from-primary bg-gradient-to-b left-5 right-5 opacity-100
+    label: ''
+    headline: ''
+    subhead: ''
+    body: >
+      If you join as an Individual Contributor you will have an opportunity to
+      join our Program as a Cadet and progress into Ensign, Lieutenant, or
+      Captain ranks as you reach certain milestones. As an individual, you will
+      be focusing on growing your local community and increasing the presence of
+      Filecoin & IPFS in your region and globally.&#x20;
+    buttons:
+      - label: Apply
+        link: /
+        type: secondary
+    _template: banner
+  - tailwind:
+      section: ''
+      wrap: max-w-site-full mx-auto pr-60 pl-80
+      imageWrap: ''
+      image: ''
+      contentWrap: ''
+      content: ''
+      label: ''
+      headline: ''
+      subhead: ''
+      text: ''
+      buttons: ''
+      button: ''
+      cardWrap: ''
+      card: flex gap-16 mb-20
+      cardImageWrap: 'w-1/4 '
+      cardImage: w-full
+      cardContentWrap: 'w-3/4 '
+      cardContent: ''
+      cardHeadline: text-white font-1 text-2xl mb-10
+      cardText: text-white font-2 text-base
+    label: ''
+    headline: ''
     subhead: ''
     body: ''
     items:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1664993102/orbit-community-v2/cadet_raptvd.svg
-        label: TIER 1
-        text: ''
+        headline: TIER 1
+        subhead: ''
+        text: >
+          New members will join the Filecoin Orbit Community Program at the
+          Cadet rank. In this role, you will become an active participant in the
+          community and meet other Filecoin Orbit Community Members. Cadets help
+          amplify Filecoin news and official announcements via social media
+          channels, by joining local meetups, and expanding their knowledge of
+          Filecoin, IPFS, and libp2p.
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1664993008/orbit-community-v2/ensign_rtri6g.svg
-        label: TIER 2
-        text: ''
+            https://res.cloudinary.com/protocolai/image/upload/v1664993102/orbit-community-v2/cadet_raptvd.svg
+        headline: TIER 2
+        subhead: ''
+        text: >
+          Individual Contributors can progress to the Ensign rank once they
+          become an active contributor to the Filecoin Orbit Community and have
+          a working knowledge of Filecoin, IPFS, and libp2p. Ensigns focus on
+          supporting local community growth, joining meetups, giving talks at
+          local events, helping community members organize events, and creating
+          content.
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1664993127/orbit-community-v2/lieutenant_yx3jb4.svg
-        label: TIER 3
-        text: ''
+            https://res.cloudinary.com/protocolai/image/upload/v1664993102/orbit-community-v2/cadet_raptvd.svg
+        headline: TIER 3
+        subhead: ''
+        text: >
+          Ensigns can progress to the Lieutenant rank once they are
+          knowledgeable about Filecoin, IPFS, and libp2p, and make impactful
+          contributions to their local Filecoin Orbit community. Lieutenants
+          help grow their established local community, organize local meetups,
+          participate as a speaker at different events, and create unique
+          content pieces (videos, blogs, podcasts).
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1664993123/orbit-community-v2/captain_v9pq78.svg
-        label: TIER 4
-        text: ''
-    _template: photoCards
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-0 pb-20 pr-60 pl-80
-      width: normal
-      labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: 'text-black font-1 text-5xl mb-0 '
-      subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-white font-1 text-base mb-10 '
-      contentOrder: labelHeadingsContent
-    label: ''
-    headline: ''
-    subhead: ''
-    body: >
-      You can apply to become a Filecoin Orbit member if you are an individual,
-      partner, or organization who is interested in helping us grow the
-      Community, become a thought leader in the web3 space, and network with
-      like-minded individuals.
-    buttons:
-      - label: Apply
-        link: /
-        type: primary
-      - label: Learn more
-        link: /
-        type: primary
-    _template: banner
+            https://res.cloudinary.com/protocolai/image/upload/v1664993102/orbit-community-v2/cadet_raptvd.svg
+        headline: TIER 4
+        subhead: ''
+        text: >
+          Lieutenants can progress to the Captain rank once they have become
+          proficient in all the areas covered in Tiers 1-3. Captains manage
+          their local community, run events, and also implement necessary
+          changes to the program and help scale it. Captains run regular local
+          events and serve as a mentor and a leader to Cadets, Ensigns, and
+          Lieutenants while representing the Filecoin Ecosystem.
+    _template: tailwindCards
   - style:
       alignment: flex-row-reverse items-center items-start-vertical gap-8
       padding: pt-20 pb-32 pr-60 pl-80
@@ -155,6 +163,25 @@ blocks:
         link: /
         type: primary
     _template: feature
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pb-20 pr-60 pl-80
+      width: normal
+      labelStyles: 'text-white font-1 text-2xl mb-10 '
+      headlineStyles: 'text-white font-3 text-5xl mb-0 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-white font-2 text-base mb-10 '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: >-
+        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-xl left-5
+        right-5 opacity-100
+    label: JOIN THE COMMUNITY
+    headline: APPLY TO CONTRIBUTE
+    subhead: ''
+    body: ''
+    _template: banner
 meta:
   pageTitle: Microgen
   pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.
