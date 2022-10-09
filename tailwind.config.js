@@ -142,7 +142,8 @@ module.exports = {
         'lg': '0.5rem',
         'full': '9999px',
         'large': '12px',
-        'xl': '100px',
+        'xl': '50px',
+        '2xl': '100px',
       }
     },
   },

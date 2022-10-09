@@ -14,12 +14,28 @@ export const leaderCardsBlockSchema: TinaTemplate = {
   label: "Leader Cards",
   ui: {
     defaultItem: {
+      category: "home",
       headline: "This is the main headline",
       items: [defaultCard, defaultCard, defaultCard],
     },
   },
   fields: [
-    backgroundSchema,
+    {
+      label: "Category",
+      name: "category",
+      type: "string",
+      ui: {
+        component: "select",
+      },
+      options: [
+        { label: "Home", value: "home" },
+        { label: "Cadet", value: "cadet" },
+        { label: "Ensign", value: "ensign" },
+        { label: "Lieutenant", value: "lieutenant" },
+        { label: "Captain", value: "captain" },
+        { label: "Spaceship", value: "spaceship" },
+      ]
+    },
     {
       label: "",
       name: "rule",

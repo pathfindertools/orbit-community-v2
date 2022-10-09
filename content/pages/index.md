@@ -34,7 +34,7 @@ blocks:
       labelStyles: 'text-white font-1 text-sm mb-0 '
       headlineStyles: 'text-white font-1 text-2xl mb-10 '
       subheadStyles: 'text-white font-1 text-3xl mb-10 '
-      textStyles: 'text-white font-1 text-lg mb-10 '
+      textStyles: 'text-white font-2 text-lg mb-10 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: >-
@@ -165,7 +165,12 @@ blocks:
         link: /
         type: primary
     _template: feature
-  - headline: LEADERBOARD
+  - category: home
+    headline: LEADERBOARD
+    cardlabels:
+      nameLabel: Name
+      countryLabel: Country
+      badgeLabel: Tier
     items:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637418/orbit-community/avatar-brian-ahimbisibwe_ll7jqe.png

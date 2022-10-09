@@ -91,8 +91,8 @@ export default function FillControl({ field, input, meta }) {
       transparent: "",
       solid: bgColor,
       gradient: `${fillType} ${fromColor} ${toColor} ${direction}` ,
-      gradientRounded: `${fillType} ${fromColor} ${toColor} ${direction} rounded-t-xl left-5 right-5`,
-      gradientRoundedFade: `${fillType} ${fromColor} ${direction} rounded-t-xl left-5 right-5`,
+      gradientRounded: `${fillType} ${fromColor} ${toColor} ${direction} rounded-t-2xl left-5 right-5`,
+      gradientRoundedFade: `${fillType} ${fromColor} ${direction} rounded-t-2xl left-5 right-5`,
       gradientFade: `${fillType} ${fromColor} ${direction} left-5 right-5`,
     }
     input.value = `${fillClasses[fillType]} ${opacity}`;

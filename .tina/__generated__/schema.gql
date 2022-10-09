@@ -1059,22 +1059,6 @@ type PagesBlocksTailwindCards {
   navigationLabel: String
 }
 
-type PagesBlocksLeaderCardsBackgroundOrnaments {
-  src: String
-  alignment: String
-  width: String
-  height: String
-  xOffset: String
-  yOffset: String
-}
-
-type PagesBlocksLeaderCardsBackground {
-  fillStyles: String
-  src: String
-  position: String
-  ornaments: [PagesBlocksLeaderCardsBackgroundOrnaments]
-}
-
 type PagesBlocksLeaderCardsCardlabels {
   nameLabel: String
   countryLabel: String
@@ -1090,7 +1074,7 @@ type PagesBlocksLeaderCardsItems {
 }
 
 type PagesBlocksLeaderCards {
-  background: PagesBlocksLeaderCardsBackground
+  category: String
   rule: String
   headline: String
   cardlabels: PagesBlocksLeaderCardsCardlabels
@@ -2116,22 +2100,6 @@ input PagesBlocksTailwindCardsMutation {
   navigationLabel: String
 }
 
-input PagesBlocksLeaderCardsBackgroundOrnamentsMutation {
-  src: String
-  alignment: String
-  width: String
-  height: String
-  xOffset: String
-  yOffset: String
-}
-
-input PagesBlocksLeaderCardsBackgroundMutation {
-  fillStyles: String
-  src: String
-  position: String
-  ornaments: [PagesBlocksLeaderCardsBackgroundOrnamentsMutation]
-}
-
 input PagesBlocksLeaderCardsCardlabelsMutation {
   nameLabel: String
   countryLabel: String
@@ -2147,7 +2115,7 @@ input PagesBlocksLeaderCardsItemsMutation {
 }
 
 input PagesBlocksLeaderCardsMutation {
-  background: PagesBlocksLeaderCardsBackgroundMutation
+  category: String
   rule: String
   headline: String
   cardlabels: PagesBlocksLeaderCardsCardlabelsMutation

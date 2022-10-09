@@ -1,14 +1,7 @@
 import * as React from "react";
-import { isString } from "../../helpers/utilities";
 import { Section } from "../section";
 
-const linkTarget = (link) => {
-  const isExternalLink = isString(link) && link.charAt(0) !== '#'
-  return isExternalLink ? '_blank' : ''
-}
-
-
-const Card = ({ data, index, parentField = ""  }) => {
+const Card = ({ data, category, index, parentField = "" }) => {
   return (
     <div className="lc flex bg-accent1 text-white w-full py-4 px-10 sm:px-4 rounded-lg">
       <div className="flex w-full">
@@ -35,9 +28,11 @@ const Card = ({ data, index, parentField = ""  }) => {
         </div>
         <div
           className="flex-none w-20 min-w-12 h-12 bg-contain bg-no-repeat sm:mr-4"
-          style={{backgroundImage: `url(./img/flag-${data.country}.png)`}}
+          style={{ backgroundImage: `url(./img/flag-${data.country}.png)` }}
         ></div>
-        <div className=" flex-none w-8 h-12 bg-contain bg-no-repeat" style={{backgroundImage: `url(./img/badge-${data.badge}.png)`}}></div>
+        {category === "home" &&
+          <div className="flex-none w-8 h-12 bg-contain bg-no-repeat" style={{ backgroundImage: `url(./img/badge-${data.badge}.png)` }}></div>
+        }
       </div>
     </div>
   )
@@ -45,41 +40,45 @@ const Card = ({ data, index, parentField = ""  }) => {
 
 
 export const LeaderCards = ({ data, parentField = "" }) => {
-  const tw = data.tailwind || {};
+  const wrapClasses = data.category === "home" ?
+    "bg-gradient-to-b from-accent1 via-primary to-accent2 p-20 rounded-xl" :
+    "flex gap-12"
   return (
-    <Section className="p-20 px-60 sm:px-4 sm:py-8" background={data.background} navigationLabel={data.navigationLabel}>
-      <div className="">
-        <div className={tw.content}>
-          {data.headline && <h2 className="font-bold font-3 text-4xl uppercase text-center text-white mb-8 sm:text-2xl" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
-        </div>
-      </div>
-      <div className="leader-cards grid gap-2 grid-cols-1 mx-auto max-w-desktop-full">
-{/*         
-        { data.headline && 
-          <div className="flex bg-black items-center px-10 md:px-6 py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
-            <span className="w-1/3 flex-1">{data.cardlabels?.nameLabel}</span>
-            <span className="px-6 ">{data.cardlabels?.countryLabel}</span>
-            <span>{data.cardlabels?.badgeLabel}</span>
-          </div> 
+    <Section className="p-20 max-w-5xl mx-auto sm:px-4 sm:py-8" navigationLabel={data.navigationLabel}>
+      {data.headline && <h2 className="font-bold font-3 text-4xl uppercase text-center text-white mb-8 sm:text-2xl" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
+      <div className={wrapClasses}>
+        {data.category !== "home" &&
+          <div className="w-48">
+            <div className="flex items-center px-10 md:px-6 py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
+              <span className="px-6 ">{data.cardlabels?.badgeLabel}</span>
+            </div>
+            <img src={`/img/${data.category}.svg`} />
+          </div>
         }
-        { data.headline && 
-          <div className="flex sm:hidden bg-black items-center px-10 py-4 md:px-6 sm:py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
-            <span className="w-1/3 flex-1">{data.cardlabels?.nameLabel}</span>
-            <span className="px-6 ">{data.cardlabels?.countryLabel}</span>
-            <span>{data.cardlabels?.badgeLabel}</span>
-          </div> 
-        } */}
-
-        {data.items && (
-          data.items.map(function (block, index) {
-            return <Card
-              key={index}
-              index={index}
-              data={block}
-              parentField={`${parentField}.items`}
-            />
-          })
-        )}
+        <div className="w-full">
+          <div className="leader-cards grid gap-2 grid-cols-1 mx-auto max-w-desktop-full">
+            {data.cardlabels?.nameLabel &&
+              <div className="flex items-center px-10 md:px-6 py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
+                <span className="w-1/3 flex-1">{data.cardlabels?.nameLabel}</span>
+                <span className="px-6">{data.cardlabels?.countryLabel}</span>
+                {data.category === "home" &&
+                  <span>{data.cardlabels?.badgeLabel}</span>
+                }
+              </div>
+            }
+            {data.items && (
+              data.items.map(function (block, index) {
+                return <Card
+                  key={index}
+                  index={index}
+                  category={data.category}
+                  data={block}
+                  parentField={`${parentField}.items`}
+                />
+              })
+            )}
+          </div>
+        </div>
       </div>
     </Section>
   );
