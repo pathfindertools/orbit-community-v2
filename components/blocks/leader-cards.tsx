@@ -12,6 +12,7 @@ const Card = ({ data, category, index, parentField = "" }) => {
               src={data.imageSrc}
               className=""
               data-tinafield={`${parentField}.${index}.image`}
+              width="128"
             />
           )}
         </div>
@@ -28,10 +29,10 @@ const Card = ({ data, category, index, parentField = "" }) => {
         </div>
         <div
           className="flex-none w-20 min-w-12 h-12 bg-contain bg-no-repeat sm:mr-4"
-          style={{ backgroundImage: `url(./img/flag-${data.country}.png)` }}
+          style={{ backgroundImage: `url(/img/flag-${data.country}.png)` }}
         ></div>
         {category === "home" &&
-          <div className="flex-none w-8 h-12 bg-contain bg-no-repeat" style={{ backgroundImage: `url(./img/badge-${data.badge}.png)` }}></div>
+          <div className="flex-none w-8 h-12 bg-contain bg-no-repeat" style={{ backgroundImage: `url(/img/badge-${data.badge}.png)` }}></div>
         }
       </div>
     </div>
