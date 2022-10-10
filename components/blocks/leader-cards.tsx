@@ -42,7 +42,7 @@ const Card = ({ data, category, index, parentField = "" }) => {
 export const LeaderCards = ({ data, parentField = "" }) => {
   const wrapClasses = data.category === "home" ?
     "bg-gradient-to-b from-accent1 via-primary to-accent2 p-20 rounded-xl" :
-    "flex gap-12"
+    "flex gap-16 pl-28"
   return (
     <Section className="p-20 max-w-5xl mx-auto sm:px-4 sm:py-8" navigationLabel={data.navigationLabel}>
       {data.headline && <h2 className="font-bold font-3 text-4xl uppercase text-center text-white mb-8 sm:text-2xl" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}

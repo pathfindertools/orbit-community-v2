@@ -16,7 +16,52 @@ blocks:
     subhead: ''
     body: ''
     _template: banner
-  - headline: This is the main headline
+  - category: spaceship
+    headline: ''
+    cardlabels:
+      nameLabel: Name
+      countryLabel: Country
+      badgeLabel: TIER
+    items:
+      - name: Name
+        twitter: Twitter
+        country: us
+        badge: cadet
+      - name: Name
+        twitter: Twitter
+        country: us
+        badge: cadet
+      - name: Name
+        twitter: Twitter
+        country: us
+        badge: cadet
+    _template: leaderCards
+  - category: ensign
+    headline: ''
+    cardlabels:
+      nameLabel: Name
+      countryLabel: Country
+      badgeLabel: TIER
+    items:
+      - name: Name
+        twitter: Twitter
+        country: us
+        badge: cadet
+      - name: Name
+        twitter: Twitter
+        country: us
+        badge: cadet
+      - name: Name
+        twitter: Twitter
+        country: us
+        badge: cadet
+    _template: leaderCards
+  - category: cadet
+    headline: ''
+    cardlabels:
+      nameLabel: Name
+      countryLabel: Country
+      badgeLabel: Tier
     items:
       - name: Name
         twitter: Twitter
