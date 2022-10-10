@@ -16,6 +16,61 @@ blocks:
     subhead: ''
     body: ''
     _template: banner
+  - tailwind:
+      section: ' max-w-4xl mx-auto mb-20'
+      wrap: ''
+      imageWrap: ''
+      image: ''
+      contentWrap: ''
+      content: ''
+      label: ''
+      headline: text-white text-xl font-2 mb-20
+      subhead: ''
+      text: ''
+      buttons: ''
+      button: ''
+      cardWrap: grid grid-cols-2 gap-12 max-w-4xl mx-auto
+      card: relative rounded-lg overflow-hidden
+      cardImage: ''
+      cardButton: absolute inset-0 px-6 pt-3 text-white uppercase text-base
+    label: ''
+    headline: VIEW ALL EVENTS BY CITY
+    subhead: ''
+    body: ''
+    items:
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1665436073/orbit-community-v2/city-chicago_d2taqu.svg
+        headline: ''
+        subhead: ''
+        text: ''
+        link: '#'
+        buttonLabel: SEE ALL
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1665436071/orbit-community-v2/city-miami_xvzu5y.svg
+        link: '#'
+        buttonLabel: SEE ALL
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1665436077/orbit-community-v2/city-warri_jmkw8s.svg
+        link: '#'
+        buttonLabel: See All
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1665436073/orbit-community-v2/city-lagos_azlzcz.svg
+        link: '#'
+        buttonLabel: SEE ALL
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1665436073/orbit-community-v2/city-kampala_df8uvk.svg
+        link: '#'
+        buttonLabel: SEE ALL
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1665436076/orbit-community-v2/city-nairobi_gfv48a.svg
+        buttonLabel: SEE LABEL
+    _template: tailwindCards
   - style:
       minHeight: min-h-0
       fullWidth: true

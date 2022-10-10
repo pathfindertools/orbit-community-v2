@@ -120,7 +120,7 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-white font-1 text-base mb-10 '
+      textStyles: 'text-white font-2 text-lg mb-10 '
       contentOrder: labelHeadingsContent
     label: ''
     headline: ''
@@ -145,7 +145,7 @@ blocks:
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-white font-3 text-5xl mb-5 '
-      subheadStyles: 'text-white font-1 text-3xl mb-10 '
+      subheadStyles: 'text-white font-2 text-xl mb-10 '
       textStyles: 'text-white font-2 text-lg mb-10 '
       contentOrder: labelHeadingsContent
     image:

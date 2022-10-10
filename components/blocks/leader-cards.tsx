@@ -46,8 +46,8 @@ export const LeaderCards = ({ data, parentField = "" }) => {
     "flex gap-16 pl-28"
   return (
     <Section className="p-20 max-w-5xl mx-auto sm:px-4 sm:py-8" navigationLabel={data.navigationLabel}>
-      {data.headline && <h2 className="font-bold font-3 text-4xl uppercase text-center text-white mb-8 sm:text-2xl" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
       <div className={wrapClasses}>
+        {data.headline && <h2 className="font-bold font-3 text-5xl uppercase text-center text-white mb-12 sm:text-2xl" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
         {data.category !== "home" &&
           <div className="w-48">
             <div className="flex items-center px-10 md:px-6 py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
@@ -80,6 +80,11 @@ export const LeaderCards = ({ data, parentField = "" }) => {
             )}
           </div>
         </div>
+        {data.category === "home" &&
+          <div className="text-white font-1 text-2xl mt-12">
+            <a href="/leaderboard">VIEW LEADERBOARD</a>
+          </div>
+        }
       </div>
     </Section>
   );
