@@ -23,10 +23,12 @@ blocks:
       countryLabel: Country
       badgeLabel: TIER
     items:
-      - name: Name
-        twitter: Twitter
-        country: us
-        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1665414845/orbit-community-v2/avatar-ethereum-nigeria_kzjzui.png
+        name: Ethereum Nigeria
+        twitter: EthereumNigeria
+        country: nigeria
+        badge: spaceship
       - name: Name
         twitter: Twitter
         country: us
