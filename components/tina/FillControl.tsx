@@ -101,9 +101,15 @@ export default function FillControl({ field, input, meta }) {
   }, [bgColor, toColor, fromColor, fillType, direction, opacity, inputRef.current]);
 
   function getFillType(value: string) {
-    const fillTypes = ['transparent', 'solid', 'gradient', 'gradientRounded', 'gradientFade', 'gradientRoundedFade']
-    const fillType = fillTypes.find((item) => { value.split(' ').includes(item)})
-    return fillType;
+    const fillTypes = ['gradient', 'gradientRounded', 'gradientFade', 'gradientRoundedFade', 'bg-']
+    const fillTypeArray = fillTypes.filter(item => value.split(' ').includes(item))
+    let fillType = fillTypeArray[0]
+    if (!fillType && value.includes('bg-')) {
+        fillType = 'solid'
+    } else if (!fillType) {
+      fillType = 'transparent'
+    }
+    return fillType
   }
   function handleSetBgColor(value: string) {
     setBgColor(`bg-${value}`)
