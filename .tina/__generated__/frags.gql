@@ -883,6 +883,9 @@ fragment PagesParts on Pages {
       rule2
       navigationLabel
     }
+    ... on PagesBlocksMap {
+      mapUrl
+    }
   }
   meta {
     __typename

@@ -19320,6 +19320,33 @@
                 "blocks",
                 "leaderCards"
               ]
+            },
+            {
+              "name": "map",
+              "label": "Map",
+              "ui": {
+                "defaultItem": {
+                  "mapUrl": ""
+                }
+              },
+              "fields": [
+                {
+                  "label": "Google Map URL",
+                  "name": "mapUrl",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "map",
+                    "mapUrl"
+                  ]
+                }
+              ],
+              "namespace": [
+                "pages",
+                "blocks",
+                "map"
+              ]
             }
           ],
           "namespace": [

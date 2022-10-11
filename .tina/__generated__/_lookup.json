@@ -53,7 +53,8 @@
       "embed": "PagesBlocksEmbed",
       "tailwindFeature": "PagesBlocksTailwindFeature",
       "tailwindCards": "PagesBlocksTailwindCards",
-      "leaderCards": "PagesBlocksLeaderCards"
+      "leaderCards": "PagesBlocksLeaderCards",
+      "map": "PagesBlocksMap"
     }
   },
   "PagesDocument": {

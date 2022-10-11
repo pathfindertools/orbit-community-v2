@@ -29,7 +29,7 @@ blocks:
     background:
       fillStyles: >-
         gradientRounded from-accent2 to-primary bg-gradient-to-b rounded-t-xl
-        left-5 right-5 opacity-100
+        left-3 right-3 opacity-100
     label: COMMUNITY TIERS
     headline: BECOME AN INDIVIDUAL CONTRIBUTOR
     subhead: ''
@@ -46,7 +46,7 @@ blocks:
       textStyles: 'text-white font-2 text-base mb-10 '
       contentOrder: labelHeadingsContent
     background:
-      fillStyles: gradientFade from-primary bg-gradient-to-b left-5 right-5 opacity-100
+      fillStyles: gradientFade from-primary bg-gradient-to-b left-3 right-3 opacity-100
     label: ''
     headline: ''
     subhead: ''

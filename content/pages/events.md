@@ -49,37 +49,36 @@ blocks:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1665436071/orbit-community-v2/city-miami_xvzu5y.svg
+        text: ''
         link: '#'
         buttonLabel: SEE ALL
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1665436077/orbit-community-v2/city-warri_jmkw8s.svg
+        text: ''
         link: '#'
         buttonLabel: See All
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1665436073/orbit-community-v2/city-lagos_azlzcz.svg
+        text: ''
         link: '#'
         buttonLabel: SEE ALL
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1665436073/orbit-community-v2/city-kampala_df8uvk.svg
+        text: ''
         link: '#'
         buttonLabel: SEE ALL
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1665436076/orbit-community-v2/city-nairobi_gfv48a.svg
+        text: ''
         buttonLabel: SEE LABEL
     _template: tailwindCards
-  - style:
-      minHeight: min-h-0
-      fullWidth: true
-      padding: pt-0 pb-0 pr-0 pl-0
-    markup: >-
-      <iframe
-      src="https://www.google.com/maps/d/u/0/embed?mid=1U38pKn3rFnLQeXc4GFpHWm-FpDEIs8A&ehbc=2E312F"
-      width="100%" height="700"></iframe>
-    _template: embed
+  - mapUrl: >-
+      https://www.google.com/maps/d/u/0/embed?mid=1U38pKn3rFnLQeXc4GFpHWm-FpDEIs8A&ehbc=2E312F
+    _template: map
 meta:
   pageTitle: Microgen
   pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.

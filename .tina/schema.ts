@@ -4,6 +4,7 @@ import { featureBlockSchema } from "./feature";
 import { photoCardsBlockSchema } from "./photo-cards";
 import { textCardsBlockSchema } from "./text-cards";
 import { leaderCardsBlockSchema } from "./leader-cards";
+import { mapBlockSchema } from "./map";
 import { bannerBlockSchema } from "./banner";
 import { embedBlockSchema } from "./embed";
 import { tailwindFeatureBlockSchema } from "./tailwind-feature";
@@ -37,6 +38,7 @@ export default defineSchema({
             tailwindFeatureBlockSchema,
             tailwindCardsBlockSchema,
             leaderCardsBlockSchema,
+            mapBlockSchema,
           ],
         },
         {

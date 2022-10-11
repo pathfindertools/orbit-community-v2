@@ -1083,7 +1083,11 @@ type PagesBlocksLeaderCards {
   navigationLabel: String
 }
 
-union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksTailwindFeature | PagesBlocksTailwindCards | PagesBlocksLeaderCards
+type PagesBlocksMap {
+  mapUrl: String
+}
+
+union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksTailwindFeature | PagesBlocksTailwindCards | PagesBlocksLeaderCards | PagesBlocksMap
 
 type PagesMeta {
   pageTitle: String
@@ -2124,6 +2128,10 @@ input PagesBlocksLeaderCardsMutation {
   navigationLabel: String
 }
 
+input PagesBlocksMapMutation {
+  mapUrl: String
+}
+
 input PagesBlocksMutation {
   feature: PagesBlocksFeatureMutation
   photoCards: PagesBlocksPhotoCardsMutation
@@ -2133,6 +2141,7 @@ input PagesBlocksMutation {
   tailwindFeature: PagesBlocksTailwindFeatureMutation
   tailwindCards: PagesBlocksTailwindCardsMutation
   leaderCards: PagesBlocksLeaderCardsMutation
+  map: PagesBlocksMapMutation
 }
 
 input PagesMetaMutation {

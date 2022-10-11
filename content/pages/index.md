@@ -2,13 +2,19 @@
 draft: true
 blocks:
   - style:
-      alignment: flex-col items-center items-start-vertical gap-12
-      padding: pt-28 pb-28 pr-32 pl-80
-      featureImage: ' hpx-60 mr-auto'
-      featureContent: w-full min-h-0 text-left
-      labelStyles: 'text-white font-1 text-3xl mb-10 '
-      headlineStyles: 'text-white font-3 text-8xl mb-10 '
-      subheadStyles: 'text-white font-1 text-3xl mb-10 '
+      alignment: >-
+        flex-col items-center items-start-vertical gap-12 sm:flex-col
+        sm:items-center sm:items-center-vertical sm:
+      padding: 'pt-28 pb-28 pr-32 pl-80 sm:pt-16 sm:pb-16 sm:pr-5 sm:pl-5'
+      featureImage: ' hpx-60 mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: 'text-white font-1 text-xl mb-5 '
+      headlineStyles: >-
+        text-white font-3 text-8xl mb-10  sm:text-white sm:font-3 sm:text-5xl
+        sm:mb-5 
+      subheadStyles: >-
+        text-white font-1 text-3xl mb-10  sm:text-white sm:font-1 sm:text-xl
+        sm:mb-5 
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
     background:
@@ -18,7 +24,7 @@ blocks:
         https://res.cloudinary.com/protocolai/image/upload/v1664831439/orbit-community-v2/logo-group_anxtcq.png
     label: WELCOME TO THE
     headline: FILECOIN ORBIT
-    subhead: COMMUNITY PROGRAM
+    subhead: COMMUNITY
     body: ''
     buttons:
       - label: Apply
@@ -28,18 +34,18 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
-      padding: pt-20 pb-20 pr-60 pl-80
+      padding: 'pt-20 pb-20 pr-60 pl-80 sm:pt-2.5 sm:pb-10 sm:pr-8 sm:pl-8'
       featureImage: '  object-center'
       featureContent: w-full min-h-0 text-left
-      labelStyles: 'text-white font-1 text-sm mb-0 '
-      headlineStyles: 'text-white font-1 text-2xl mb-10 '
-      subheadStyles: 'text-white font-1 text-3xl mb-10 '
-      textStyles: 'text-white font-2 text-lg mb-10 '
+      labelStyles: 'text-white font-1 text-xs mb-0 '
+      headlineStyles: 'text-white font-1 text-base mb-10 '
+      subheadStyles: 'text-white font-1 text-xl mb-10 '
+      textStyles: 'text-white font-2 text-base mb-10 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: >-
         gradientRounded from-primary to-accent1 bg-gradient-to-b rounded-t-xl
-        left-5 right-5 opacity-100
+        left-3 right-3 opacity-100
     label: ''
     headline: WELCOME!
     subhead: >-
@@ -66,7 +72,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-16 pr-60 pl-80
+      padding: 'pt-20 pb-16 pr-60 pl-80 sm:pt-0 sm:pb-0 sm:pr-0 sm:pl-0'
       contentWidth: w-full
       columns: '4'
       labelStyles: 'text-white font-1 text-3xl mb-10 '
@@ -85,7 +91,7 @@ blocks:
       textStyles: 'text-black undefined text-sm mb-0 '
       buttonType: primary
     background:
-      fillStyles: gradientFade from-accent1 bg-gradient-to-b left-5 right-5 opacity-100
+      fillStyles: gradientFade from-accent1 bg-gradient-to-b left-3 right-3 opacity-100
     label: CONTRIBUTE
     headline: BECOME AN INDIVIDUAL CONTRIBUTOR
     subhead: ''
@@ -115,7 +121,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-0 pb-20 pr-60 pl-80
+      padding: 'pt-0 pb-20 pr-60 pl-80 sm:pt-0 sm:pb-0 sm:pr-0 sm:pl-0'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
@@ -140,7 +146,7 @@ blocks:
     _template: banner
   - style:
       alignment: flex-row-reverse items-center items-start-vertical gap-8
-      padding: pt-20 pb-32 pr-60 pl-80
+      padding: 'pt-20 pb-32 pr-60 pl-80 sm:pt-0 sm:pb-0 sm:pr-0 sm:pl-0'
       featureImage: wpx-120  mr-auto
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '

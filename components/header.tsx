@@ -136,7 +136,7 @@ export const Header = ({
 
   
   return (
-    <section className="relative">
+    <section className="relative overflow-x-hidden">
       <>
         {/* Desktop Nav */}
         <div className="md:hidden fixed z-50 top-0 left-0 right-0 pointer-events-none">
