@@ -82,7 +82,7 @@ blocks:
       https://www.google.com/maps/d/u/0/embed?mid=1U38pKn3rFnLQeXc4GFpHWm-FpDEIs8A&ehbc=2E312F
     _template: map
 meta:
-  pageTitle: Microgen
-  pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.
+  pageTitle: Orbit Community - Events
+  pageDescription: Orbit Community - Events
 ---
 

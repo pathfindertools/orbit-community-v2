@@ -83,8 +83,47 @@ blocks:
   - mapUrl: >-
       https://www.google.com/maps/d/u/0/embed?mid=1U38pKn3rFnLQeXc4GFpHWm-FpDEIs8A&ehbc=2E312F
     _template: map
+  - tailwind:
+      section: mt-28
+      wrap: 'max-w-6xl mx-auto px-32 py-28 sm:px-8 sm:pb-8 sm:pt-12'
+      imageWrap: ''
+      image: ''
+      contentWrap: 'text-white '
+      content: ''
+      label: ''
+      headline: text-lg font-1 mb-10
+      subhead: ''
+      text: ''
+      buttons: ''
+      button: ''
+      cardWrap: 'text-white '
+      card: 'relative mb-28 sm:mb-12'
+      cardHeadline: 'text-6xl font-3 w-2/3 sm:mb-8 sm:text-4xl'
+      cardButtons: 'absolute top-0 right-0 sm:relative'
+      cardButton: 'inline-block w-40 sm:w-36 text-center border rounded-lg p-2   sm:p-1'
+    background:
+      fillStyles: >-
+        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-2
+        right-2 sm:rounded-t-xl opacity-100
+    label: ''
+    headline: JOIN US
+    subhead: ''
+    body: ''
+    items:
+      - label: ''
+        headline: CADET JOURNEY
+        subhead: ''
+        text: ''
+        link: '#'
+        buttonLabel: APPLY
+      - headline: ENTERPRISE JOURNEY
+        subhead: ''
+        text: ''
+        link: '#'
+        buttonLabel: APPLY
+    _template: tailwindCards
 meta:
-  pageTitle: Microgen
-  pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.
+  pageTitle: Orbit Community - Leaderboard
+  pageDescription: Orbit Community - Leaderboard
 ---
 

@@ -230,7 +230,7 @@ blocks:
         badge: cadet
     _template: leaderCards
 meta:
-  pageTitle: Microgen
-  pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.
+  pageTitle: Orbit Community
+  pageDescription: Orbit Community
 ---
 
