@@ -4,10 +4,12 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-32 pb-32 pr-56 pl-80
+      padding: 'pt-36 pb-36 pr-52 pl-80 sm:pt-16 sm:pb-16 sm:pr-7 sm:pl-7'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: 'text-white font-3 text-7xl mb-0 '
+      headlineStyles: >-
+        text-white font-3 text-7xl mb-0  sm:text-white sm:font-3 sm:text-4xl
+        sm:mb-0 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent

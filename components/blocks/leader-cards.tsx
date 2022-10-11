@@ -2,6 +2,7 @@ import * as React from "react";
 import { Section } from "../section";
 
 const Card = ({ data, category, index, parentField = "" }) => {
+  const isHome = category === "home"
   return (
     <div className="lc flex bg-accent1 text-white w-full py-4 px-10 sm:px-4 rounded-lg sm:rounded">
       <div className="flex w-full">
@@ -31,9 +32,7 @@ const Card = ({ data, category, index, parentField = "" }) => {
           className="flex-none w-20 min-w-12 h-12 bg-contain bg-no-repeat sm:mr-4 sm:w-12"
           style={{ backgroundImage: `url(/img/flag-${data.country}.png)` }}
         ></div>
-        {category === "home" &&
-          <div className="flex-none w-8 h-12 bg-contain bg-no-repeat sm:w-8" style={{ backgroundImage: `url(/img/badge-${data.badge}.png)` }}></div>
-        }
+        <div className={`flex-none w-8 h-12 bg-contain bg-no-repeat sm:w-8 ${isHome ? "" : "hidden sm:block"}`} style={{ backgroundImage: `url(/img/badge-${data.badge}.png)` }}></div>
       </div>
     </div>
   )
@@ -41,15 +40,16 @@ const Card = ({ data, category, index, parentField = "" }) => {
 
 
 export const LeaderCards = ({ data, parentField = "" }) => {
-  const wrapClasses = data.category === "home" ?
+  const isHome = data.category === "home"
+  const wrapClasses = isHome ?
     "bg-gradient-to-b from-accent1 via-primary to-accent2 p-20 rounded-xl sm:px-4 sm:pb-12" :
-    "flex gap-16 pl-28"
+    "flex gap-16 pl-28 sm:px-0"
   return (
     <Section className="p-20 max-w-5xl mx-auto sm:px-4 sm:py-8" navigationLabel={data.navigationLabel}>
       <div className={wrapClasses}>
         {data.headline && <h2 className="font-bold font-3 text-5xl uppercase text-center text-white mb-12 sm:text-4xl" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
-        {data.category !== "home" &&
-          <div className="w-48">
+        {!isHome &&
+          <div className="w-48 sm:hidden">
             <div className="flex items-center px-10 md:px-6 py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
               <span className="px-6 ">{data.cardlabels?.badgeLabel}</span>
             </div>
@@ -59,12 +59,10 @@ export const LeaderCards = ({ data, parentField = "" }) => {
         <div className="w-full">
           <div className="leader-cards grid gap-2 grid-cols-1 mx-auto max-w-desktop-full">
             {data.cardlabels?.nameLabel &&
-              <div className="flex items-center px-10 md:px-6 py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
+              <div className="flex items-center px-10 md:px-6 py-4 sm:px-4 text-md font-2 text-white font-bold uppercase">
                 <span className="w-1/3 flex-1">{data.cardlabels?.nameLabel}</span>
                 <span className="px-6">{data.cardlabels?.countryLabel}</span>
-                {data.category === "home" &&
-                  <span>{data.cardlabels?.badgeLabel}</span>
-                }
+                <span className={`${isHome ? "" : "hidden sm:block"}`}>{data.cardlabels?.badgeLabel}</span>
               </div>
             }
             {data.items && (
