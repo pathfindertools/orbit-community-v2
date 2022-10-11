@@ -83,7 +83,7 @@
     ],
     "navAlignment": "text-left",
     "navTypeStyle": "text-white font-1 text-base mb-0 ",
-    "navBackgroundColor": "from-primary to-accent2 bg-gradient-to-br opacity-100",
+    "navBackgroundColor": "bg-primary opacity-100",
     "padding": "pt-20 pb-0 pr-0 pl-10"
   },
   "blocks": [

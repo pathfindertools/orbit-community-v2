@@ -25,7 +25,7 @@ export const CardGrid = ({ data, children, parentField }) => {
             width = {data.style?.contentWidth}
             parentField = {parentField}
           />
-        <div className={`grid sm:block gap-10 ${gridCols[data.style?.columns]}`}>
+        <div className={`grid gap-10 ${gridCols[data.style?.columns]} sm:grid-cols-2`}>
           {children}
         </div>
       </div>
