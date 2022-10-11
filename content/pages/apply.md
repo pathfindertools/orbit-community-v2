@@ -140,36 +140,51 @@ blocks:
     _template: tailwindCards
   - style:
       alignment: flex-row-reverse items-center items-start-vertical gap-8
-      padding: 'pt-20 pb-32 pr-60 pl-80 sm:pt-10 sm:pb-20 sm:pr-8 sm:pl-8'
+      padding: 'pt-20 pb-0 pr-60 pl-80 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
       featureImage: wpx-120  mr-auto
-      featureContent: w-full min-h-0 text-left
+      featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
         text-white font-3 text-5xl mb-5  sm:text-white sm:font-3 sm:text-4xl
         sm:mb-2.5 
       subheadStyles: >-
-        text-white font-1 text-3xl mb-10  sm:text-white sm:font-1 sm:text-xl
+        text-white font-2 text-2xl mb-10  sm:text-white sm:font-2 sm:text-lg
         sm:mb-10 
       textStyles: >-
         text-white font-2 text-lg mb-10  sm:text-white sm:font-2 sm:text-sm
         sm:mb-10 
       contentOrder: labelHeadingsContent
     image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1665006752/orbit-community-v2/spaceship_bpudz2.svg
+      src: ''
     label: ''
     headline: BECOME A SPACESHIP
     subhead: Organizations
+    body: ''
+    _template: feature
+  - style:
+      alignment: flex-row items-start items-start-vertical gap-12
+      padding: pt-0 pb-20 pr-56 pl-80
+      featureImage: wpx-120  mx-auto
+      featureContent: w-2/3 min-h-0 text-left
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-5xl mb-0 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-white font-2 text-base mb-10 '
+      contentOrder: labelHeadingsContent
+    image:
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1665006752/orbit-community-v2/spaceship_bpudz2.svg
+    label: ''
+    headline: ''
+    subhead: ''
     body: >
-      As a business, your organization can apply to become a Spaceship level
-      member as a part of Filecoin Orbit Program and help us grow the Community.
+      If you join as a business (Spaceship level member), you will be showcasing
+      new use cases for Filecoin, IPFS, libp2p, giving talks at local meetups,
+      organizing workshops, introducing new collaborators, and much more.
     buttons:
-      - label: Learn More
-        link: /
-        type: primary
       - label: Apply
         link: /
-        type: primary
+        type: secondary
     _template: feature
   - style:
       textAlignment: text-left

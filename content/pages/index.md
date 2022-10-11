@@ -7,7 +7,7 @@ blocks:
         sm:items-center sm:items-center-vertical sm:
       padding: 'pt-28 pb-28 pr-32 pl-80 sm:pt-16 sm:pb-16 sm:pr-5 sm:pl-5'
       featureImage: ' hpx-60 mx-auto'
-      featureContent: w-full min-h-0 text-center
+      featureContent: w-full min-h-0 text-left
       labelStyles: 'text-white font-1 text-xl mb-5 '
       headlineStyles: >-
         text-white font-3 text-8xl mb-10  sm:text-white sm:font-3 sm:text-5xl
@@ -66,7 +66,7 @@ blocks:
     buttons:
       - label: Learn More
         link: /
-        type: primary
+        type: minor
     navigationLabel: ''
     _template: feature
   - style:
@@ -76,7 +76,9 @@ blocks:
       contentWidth: w-full
       columns: '4'
       labelStyles: 'text-white font-1 text-xl mb-10 '
-      headlineStyles: 'text-white font-3 text-3xl mb-20 '
+      headlineStyles: >-
+        text-white font-3 text-5xl mb-20  sm:text-white sm:font-3 sm:text-3xl
+        sm:mb-20 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
@@ -137,12 +139,12 @@ blocks:
       Community, become a thought leader in the web3 space, and network with
       like-minded individuals.
     buttons:
-      - label: Apply
-        link: /
-        type: primary
       - label: Learn more
         link: /
-        type: primary
+        type: minor
+      - label: Apply
+        link: /
+        type: secondary
     _template: banner
   - style:
       alignment: >-
@@ -174,10 +176,10 @@ blocks:
     buttons:
       - label: Learn More
         link: /
-        type: primary
+        type: minor
       - label: Apply
         link: /
-        type: primary
+        type: secondary
     _template: feature
   - category: home
     headline: LEADERBOARD

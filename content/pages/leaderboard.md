@@ -100,7 +100,9 @@ blocks:
       card: 'relative mb-28 sm:mb-12'
       cardHeadline: 'text-6xl font-3 w-2/3 sm:mb-8 sm:text-4xl'
       cardButtons: 'absolute top-0 right-0 sm:relative'
-      cardButton: 'inline-block w-40 sm:w-36 text-center border rounded-lg p-2   sm:p-1'
+      cardButton: >-
+        inline-block w-40 sm:w-36 text-center font-2 font-bold border-2
+        rounded-lg p-2   sm:p-1
     background:
       fillStyles: >-
         gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-2
