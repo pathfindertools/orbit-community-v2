@@ -8,6 +8,7 @@ import { TailwindFeature } from "./blocks/tailwind-feature";
 import { TailwindCards } from "./blocks/tailwind-cards";
 import { LeaderCards } from "./blocks/leader-cards";
 import { Map } from "./blocks/map";
+import { SliderCards } from "./blocks/slider-cards";
 
 export const Blocks = (props: Pages | Global) => {
   return (
@@ -69,6 +70,12 @@ export const Blocks = (props: Pages | Global) => {
                 return (
                   <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
                     <Map data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PagesBlocksSliderCards":
+                return (
+                  <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
+                    <SliderCards data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
              

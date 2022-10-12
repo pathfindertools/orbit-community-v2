@@ -152,6 +152,13 @@ export const Layout = ({
               .markdown a {
                 text-decoration: underline;
               }
+              .slick-dots {
+                text-align: right !important;
+              }
+              .slick-dots li button:before {
+                font-size: 12px !important;
+                color: white !important;
+              }
             `,
             }}
           />

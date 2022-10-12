@@ -9,6 +9,7 @@ import { bannerBlockSchema } from "./banner";
 import { embedBlockSchema } from "./embed";
 import { tailwindFeatureBlockSchema } from "./tailwind-feature";
 import { tailwindCardsBlockSchema } from "./tailwind-cards";
+import { sliderCardsBlockSchema } from "./slider-cards";
 
 export default defineSchema({
   collections: [
@@ -39,6 +40,7 @@ export default defineSchema({
             tailwindCardsBlockSchema,
             leaderCardsBlockSchema,
             mapBlockSchema,
+            sliderCardsBlockSchema,
           ],
         },
         {

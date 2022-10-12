@@ -17,7 +17,7 @@ export const itemListFieldPlugin = {
     const field = {
       ...props.field,
       itemProps: (item) => {
-        return { label: item.headline || item.subhead || item.label }
+        return { label: item.headline || item.subhead || item.label || item.name }
       },
     }
     return <GroupListField {...props} field={field} />

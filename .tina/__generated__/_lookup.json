@@ -54,7 +54,8 @@
       "tailwindFeature": "PagesBlocksTailwindFeature",
       "tailwindCards": "PagesBlocksTailwindCards",
       "leaderCards": "PagesBlocksLeaderCards",
-      "map": "PagesBlocksMap"
+      "map": "PagesBlocksMap",
+      "sliderCards": "PagesBlocksSliderCards"
     }
   },
   "PagesDocument": {
