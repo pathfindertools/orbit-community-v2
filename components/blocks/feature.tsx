@@ -158,27 +158,29 @@ export const Feature = ({ data, parentField = "" }) => {
   
   return (
     <Section background={data.background} navigationLabel={data.navigationLabel}>
-      <div className={`relative flex ${alignmentNoGapClasses} ${minHeight}`}>
-        <div className={`${imageWrapClasses(style)}`}>
-          {data.image?.src && (
-            <img
-              className={`${imgClasses(style)}`}
-              style={imgStyles(style)}
-              alt={data.image?.alt}
-              src={data.image?.src}
-              data-tinafield={`${parentField}.image`}
+      <div className="max-w-5xl mx-auto transform translate-x-20 sm:translate-x-0">
+        <div className={`relative flex ${alignmentNoGapClasses} ${minHeight}`}>
+          <div className={`${imageWrapClasses(style)}`}>
+            {data.image?.src && (
+              <img
+                className={`${imgClasses(style)}`}
+                style={imgStyles(style)}
+                alt={data.image?.alt}
+                src={data.image?.src}
+                data-tinafield={`${parentField}.image`}
+              />
+            )}
+          </div>
+          <div className={`${contentWrapClasses(style)}`}>
+            <Content
+              data = {data}
+              styles = {style}
+              alignment = {textAlign}            
+              width = {contentWidth(style)}
+              parentField = {parentField}
+              className = {contentMargin(style)}
             />
-          )}
-        </div>
-        <div className={`${contentWrapClasses(style)}`}>
-          <Content
-            data = {data}
-            styles = {style}
-            alignment = {textAlign}            
-            width = {contentWidth(style)}
-            parentField = {parentField}
-            className = {contentMargin(style)}
-          />
+          </div>
         </div>
       </div>
     </Section>

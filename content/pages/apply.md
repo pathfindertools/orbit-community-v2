@@ -4,7 +4,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-36 pb-36 pr-52 pl-80 sm:pt-16 sm:pb-16 sm:pr-7 sm:pl-7'
+      padding: 'pt-36 pb-36 pr-24 pl-24 sm:pt-24 sm:pb-16 sm:pr-7 sm:pl-7'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
@@ -21,7 +21,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-20 pb-0 pr-60 pl-80 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
+      padding: 'pt-20 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
       width: normal
       labelStyles: 'text-white font-1 text-lg mb-2.5 '
       headlineStyles: 'text-white font-3 text-4xl mb-0 '
@@ -40,7 +40,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-10 pb-20 pr-60 pl-80 sm:pt-5 sm:pb-10 sm:pr-8 sm:pl-8'
+      padding: 'pt-10 pb-20 pr-24 pl-24 sm:pt-5 sm:pb-10 sm:pr-8 sm:pl-8'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
@@ -65,7 +65,7 @@ blocks:
     _template: banner
   - tailwind:
       section: ''
-      wrap: 'max-w-site-full mx-auto pr-60 pl-80 sm:px-6'
+      wrap: 'px-20 max-w-5xl mx-auto transform translate-x-20 sm:translate-x-0'
       imageWrap: ''
       image: ''
       contentWrap: ''
@@ -140,7 +140,7 @@ blocks:
     _template: tailwindCards
   - style:
       alignment: flex-row-reverse items-center items-start-vertical gap-8
-      padding: 'pt-20 pb-0 pr-60 pl-80 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
+      padding: 'pt-20 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
       featureImage: wpx-120  mr-auto
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -163,9 +163,9 @@ blocks:
     _template: feature
   - style:
       alignment: flex-row items-start items-start-vertical gap-12
-      padding: pt-0 pb-20 pr-56 pl-80
+      padding: pt-0 pb-20 pr-24 pl-24
       featureImage: wpx-120  mx-auto
-      featureContent: w-2/3 min-h-0 text-left
+      featureContent: w-3/4 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
@@ -189,7 +189,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-20 pb-20 pr-60 pl-60 sm:pt-10 sm:pb-10 sm:pr-8 sm:pl-8'
+      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-8 sm:pl-8'
       width: normal
       labelStyles: >-
         text-white font-1 text-2xl mb-10  sm:text-white sm:font-1 sm:text-lg
@@ -214,7 +214,7 @@ blocks:
       fullWidth: true
       padding: pt-20 pr-10 pb-20 pl-10
     markup: >-
-      <div class="px-60 sm:px-0 max-w-site-full mx-auto">
+      <div class="px-40 sm:px-0 max-w-5xl mx-auto">
 
       <h2 class="text-white text-2xl font-1 uppercase mb-8">Apply as an
       Individual</h2>
@@ -232,7 +232,7 @@ blocks:
       fullWidth: true
       padding: pt-20 pr-10 pb-20 pl-10
     markup: >-
-      <div class="px-60 sm:px-0 max-w-site-full mx-auto">
+      <div class="px-40 sm:px-0 max-w-5xl mx-auto">
 
       <h2 class="text-white text-2xl font-1 uppercase mb-8">Apply as an
       Enterprise</h2>

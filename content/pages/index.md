@@ -5,13 +5,15 @@ blocks:
       alignment: >-
         flex-col items-center items-start-vertical gap-12 sm:flex-col
         sm:items-center sm:items-center-vertical sm:
-      padding: 'pt-28 pb-28 pr-32 pl-80 sm:pt-16 sm:pb-16 sm:pr-5 sm:pl-5'
+      padding: 'pt-28 pb-28 pr-24 pl-24 sm:pt-16 sm:pb-5 sm:pr-5 sm:pl-16'
       featureImage: ' hpx-60 mx-auto'
       featureContent: w-full min-h-0 text-left
-      labelStyles: 'text-white font-1 text-xl mb-5 '
+      labelStyles: >-
+        text-white font-1 text-xl mb-5  sm:text-white sm:font-1 sm:text-xl
+        sm:mb-0 
       headlineStyles: >-
-        text-white font-3 text-8xl mb-10  sm:text-white sm:font-3 sm:text-5xl
-        sm:mb-5 
+        text-white font-3 text-8xl mb-10  sm:text-white sm:font-3 sm:text-4xl
+        sm:mb-0 
       subheadStyles: >-
         text-white font-1 text-3xl mb-10  sm:text-white sm:font-1 sm:text-xl
         sm:mb-5 
@@ -34,13 +36,17 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
-      padding: 'pt-20 pb-20 pr-60 pl-80 sm:pt-2.5 sm:pb-10 sm:pr-8 sm:pl-8'
+      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-2.5 sm:pb-10 sm:pr-8 sm:pl-8'
       featureImage: '  object-center'
       featureContent: w-full min-h-0 text-left
       labelStyles: 'text-white font-1 text-xs mb-0 '
-      headlineStyles: 'text-white font-1 text-base mb-10 '
-      subheadStyles: 'text-white font-1 text-xl mb-10 '
-      textStyles: 'text-white font-2 text-base mb-10 '
+      headlineStyles: 'text-white font-1 text-xl mb-10 '
+      subheadStyles: >-
+        text-white font-2 text-3xl mb-10  sm:text-white sm:font-2 sm:text-xl
+        sm:mb-10 
+      textStyles: >-
+        text-white font-2 text-lg mb-10  sm:text-white sm:font-2 sm:text-base
+        sm:mb-10 
       contentOrder: labelHeadingsContent
     background:
       fillStyles: >-
@@ -72,7 +78,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-20 pb-16 pr-60 pl-80 sm:pt-10 sm:pb-10 sm:pr-8 sm:pl-8'
+      padding: 'pt-20 pb-16 pr-24 pl-24 sm:pt-10 sm:pb-10 sm:pr-8 sm:pl-8'
       contentWidth: w-full
       columns: '4'
       labelStyles: 'text-white font-1 text-xl mb-10 '
@@ -123,7 +129,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-0 pb-20 pr-60 pl-80 sm:pt-0 sm:pb-10 sm:pr-7 sm:pl-7'
+      padding: 'pt-0 pb-20 pr-24 pl-24 sm:pt-0 sm:pb-10 sm:pr-7 sm:pl-7'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
@@ -148,9 +154,9 @@ blocks:
     _template: banner
   - style:
       alignment: >-
-        flex-row-reverse items-center items-start-vertical gap-8
+        flex-row-reverse items-center items-start-vertical gap-6
         sm:flex-col-reverse sm:items-center sm:items-center-vertical sm:
-      padding: 'pt-20 pb-32 pr-60 pl-80 sm:pt-10 sm:pb-16 sm:pr-7 sm:pl-7'
+      padding: 'pt-20 pb-32 pr-20 pl-20 sm:pt-10 sm:pb-16 sm:pr-7 sm:pl-7'
       featureImage: wpx-120  mx-auto
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '

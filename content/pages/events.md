@@ -4,7 +4,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-36 pb-36 pr-52 pl-80 sm:pt-16 sm:pb-16 sm:pr-7 sm:pl-7'
+      padding: 'pt-36 pb-36 pr-24 pl-24 sm:pt-24 sm:pb-16 sm:pr-7 sm:pl-7'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
@@ -51,7 +51,7 @@ blocks:
     buttonType: minor
     _template: sliderCards
   - tailwind:
-      section: ' max-w-4xl mx-auto mb-20 sm:px-6 sm:mb-6'
+      section: ' max-w-5xl mx-auto mb-20 px-20 sm:px-6 sm:mb-6'
       wrap: ''
       imageWrap: ''
       image: ''

@@ -34,7 +34,7 @@
     "text5xl": "80/80",
     "text6xl": "100/100",
     "text7xl": "150/120",
-    "text8xl": "200/170"
+    "text8xl": "180/160"
   },
   "buttons": {
     "primaryFill": "bg-primary opacity-100",
