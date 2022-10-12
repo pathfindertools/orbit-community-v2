@@ -18,6 +18,38 @@ blocks:
     subhead: ''
     body: ''
     _template: banner
+  - slidesToShow: '1'
+    background:
+      fillStyles: >-
+        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-2
+        right-2 sm:rounded-t-xl opacity-100
+    headline: Upcoming Events
+    body: ''
+    items:
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1665586731/orbit-community-v2/event-filecoin-miami_cksat4.jpg
+        name: Filecoin Miami Community Launch
+        time: 'Mon, July 18, 2022, 6:30 PM EDT'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1665586734/orbit-community-v2/event-future-data-storage_oa12ke.jpg
+        name: The Future of Data Storage
+        time: 'Sat, July 23, 2022, 7:00 PM EDT'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1665586734/orbit-community-v2/event-future-data-storage_oa12ke.jpg
+        name: Slide 3
+        time: 'Sat, July 23, 2022, 7:00 PM EDT'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1665586734/orbit-community-v2/event-future-data-storage_oa12ke.jpg
+        name: Slide 4
+        time: 'Sat, July 23, 2022, 7:00 PM EDT'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1665586734/orbit-community-v2/event-future-data-storage_oa12ke.jpg
+        name: Slide 5
+        time: 'Sat, July 23, 2022, 7:00 PM EDT'
+    buttonLabel: SEE ALL EVENTS
+    buttonLink: '#'
+    buttonType: minor
+    _template: sliderCards
   - tailwind:
       section: ' max-w-4xl mx-auto mb-20 sm:px-6 sm:mb-6'
       wrap: ''

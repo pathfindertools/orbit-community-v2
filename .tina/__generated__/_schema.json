@@ -19347,6 +19347,499 @@
                 "blocks",
                 "map"
               ]
+            },
+            {
+              "name": "sliderCards",
+              "label": "Slider Cards",
+              "ui": {
+                "defaultItem": {
+                  "slidesToShow": "1",
+                  "headline": "This is the main headline",
+                  "body": {
+                    "children": [
+                      {
+                        "type": "p",
+                        "children": [
+                          {
+                            "text": "This is a rich text component you can add hyperlinks, etc."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "items": [
+                    {
+                      "name": "Name",
+                      "time": "Time"
+                    },
+                    {
+                      "name": "Name",
+                      "time": "Time"
+                    },
+                    {
+                      "name": "Name",
+                      "time": "Time"
+                    }
+                  ]
+                }
+              },
+              "fields": [
+                {
+                  "label": "Slides To Show",
+                  "description": "How many slides to show in one frame",
+                  "name": "slidesToShow",
+                  "type": "string",
+                  "ui": {
+                    "component": "select"
+                  },
+                  "options": [
+                    {
+                      "label": "1",
+                      "value": "1"
+                    },
+                    {
+                      "label": "2",
+                      "value": "2"
+                    },
+                    {
+                      "label": "3",
+                      "value": "3"
+                    },
+                    {
+                      "label": "4",
+                      "value": "4"
+                    },
+                    {
+                      "label": "5",
+                      "value": "5"
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "slidesToShow"
+                  ]
+                },
+                {
+                  "label": "",
+                  "name": "rule",
+                  "type": "string",
+                  "ui": {
+                    "component": "ruledTitle"
+                  },
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "rule"
+                  ]
+                },
+                {
+                  "label": "Background",
+                  "name": "background",
+                  "type": "object",
+                  "fields": [
+                    {
+                      "type": "string",
+                      "label": "Background",
+                      "name": "fillStyles",
+                      "ui": {
+                        "component": "fillControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "sliderCards",
+                        "background",
+                        "fillStyles"
+                      ]
+                    },
+                    {
+                      "label": "Image",
+                      "name": "src",
+                      "type": "image",
+                      "ui": {
+                        "clearable": true
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "sliderCards",
+                        "background",
+                        "src"
+                      ]
+                    },
+                    {
+                      "label": "Image Position",
+                      "name": "position",
+                      "ui": {
+                        "component": "select"
+                      },
+                      "type": "string",
+                      "options": [
+                        {
+                          "label": "Center",
+                          "value": "object-center"
+                        },
+                        {
+                          "label": "Top",
+                          "value": "object-top"
+                        },
+                        {
+                          "label": "Right Top",
+                          "value": "object-right-top"
+                        },
+                        {
+                          "label": "Right",
+                          "value": "object-right"
+                        },
+                        {
+                          "label": "Right Bottom",
+                          "value": "object-right-bottom"
+                        },
+                        {
+                          "label": "Bottom",
+                          "value": "object-bottom"
+                        },
+                        {
+                          "label": "Left Bottom",
+                          "value": "object-left-bottom"
+                        },
+                        {
+                          "label": "Left",
+                          "value": "object-left"
+                        },
+                        {
+                          "label": "Left Top",
+                          "value": "object-left-top"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "sliderCards",
+                        "background",
+                        "position"
+                      ]
+                    },
+                    {
+                      "label": "Ornaments",
+                      "name": "ornaments",
+                      "type": "object",
+                      "list": true,
+                      "fields": [
+                        {
+                          "label": "Image",
+                          "name": "src",
+                          "type": "image",
+                          "ui": {
+                            "clearable": true
+                          },
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "sliderCards",
+                            "background",
+                            "ornaments",
+                            "src"
+                          ]
+                        },
+                        {
+                          "label": "Alignment",
+                          "name": "alignment",
+                          "ui": {
+                            "component": "select"
+                          },
+                          "type": "string",
+                          "options": [
+                            {
+                              "label": "Center",
+                              "value": "center"
+                            },
+                            {
+                              "label": "Top",
+                              "value": "top"
+                            },
+                            {
+                              "label": "Right Top",
+                              "value": "top-right"
+                            },
+                            {
+                              "label": "Right",
+                              "value": "right"
+                            },
+                            {
+                              "label": "Right Bottom",
+                              "value": "bottom-right"
+                            },
+                            {
+                              "label": "Bottom",
+                              "value": "bottom"
+                            },
+                            {
+                              "label": "Left Bottom",
+                              "value": "bottom-left"
+                            },
+                            {
+                              "label": "Left",
+                              "value": "left"
+                            },
+                            {
+                              "label": "Left Top",
+                              "value": "top-left"
+                            }
+                          ],
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "sliderCards",
+                            "background",
+                            "ornaments",
+                            "alignment"
+                          ]
+                        },
+                        {
+                          "label": "Width",
+                          "name": "width",
+                          "type": "string",
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "sliderCards",
+                            "background",
+                            "ornaments",
+                            "width"
+                          ]
+                        },
+                        {
+                          "label": "Height",
+                          "name": "height",
+                          "type": "string",
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "sliderCards",
+                            "background",
+                            "ornaments",
+                            "height"
+                          ]
+                        },
+                        {
+                          "label": "X Offset",
+                          "name": "xOffset",
+                          "type": "string",
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "sliderCards",
+                            "background",
+                            "ornaments",
+                            "xOffset"
+                          ]
+                        },
+                        {
+                          "label": "Y Offset",
+                          "name": "yOffset",
+                          "type": "string",
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "sliderCards",
+                            "background",
+                            "ornaments",
+                            "yOffset"
+                          ]
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "sliderCards",
+                        "background",
+                        "ornaments"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "background"
+                  ]
+                },
+                {
+                  "label": "Headline",
+                  "name": "headline",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "headline"
+                  ]
+                },
+                {
+                  "label": "Body",
+                  "name": "body",
+                  "type": "rich-text",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "body"
+                  ]
+                },
+                {
+                  "label": "Cards",
+                  "name": "items",
+                  "type": "object",
+                  "list": true,
+                  "ui": {
+                    "component": "itemListField"
+                  },
+                  "fields": [
+                    {
+                      "label": "Image",
+                      "name": "imageSrc",
+                      "type": "image",
+                      "ui": {
+                        "clearable": true
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "sliderCards",
+                        "items",
+                        "imageSrc"
+                      ]
+                    },
+                    {
+                      "label": "Name",
+                      "name": "name",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "sliderCards",
+                        "items",
+                        "name"
+                      ]
+                    },
+                    {
+                      "label": "Time",
+                      "name": "time",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "sliderCards",
+                        "items",
+                        "time"
+                      ]
+                    },
+                    {
+                      "label": "Link",
+                      "name": "link",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "sliderCards",
+                        "items",
+                        "link"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "items"
+                  ]
+                },
+                {
+                  "label": "Button Label",
+                  "name": "buttonLabel",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "buttonLabel"
+                  ]
+                },
+                {
+                  "label": "Button Link",
+                  "name": "buttonLink",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "buttonLink"
+                  ]
+                },
+                {
+                  "label": "Button Type",
+                  "name": "buttonType",
+                  "type": "string",
+                  "ui": {
+                    "component": "select"
+                  },
+                  "options": [
+                    {
+                      "label": "Primary",
+                      "value": "primary"
+                    },
+                    {
+                      "label": "Secondary",
+                      "value": "secondary"
+                    },
+                    {
+                      "label": "Minor",
+                      "value": "minor"
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "buttonType"
+                  ]
+                },
+                {
+                  "label": "",
+                  "name": "rule2",
+                  "type": "string",
+                  "ui": {
+                    "component": "ruledTitle"
+                  },
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "rule2"
+                  ]
+                },
+                {
+                  "label": "Navigation Label",
+                  "name": "navigationLabel",
+                  "description": "Add a jump to this section to the navigation.",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "sliderCards",
+                    "navigationLabel"
+                  ]
+                }
+              ],
+              "namespace": [
+                "pages",
+                "blocks",
+                "sliderCards"
+              ]
             }
           ],
           "namespace": [
