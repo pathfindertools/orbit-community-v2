@@ -77,6 +77,10 @@ blocks:
         name: OpenGate
         twitter: OpenGateNFT
         badge: spaceship
+      - name: ORIGIN Storage
+        twitter: OriginStorage_
+        country: china
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
