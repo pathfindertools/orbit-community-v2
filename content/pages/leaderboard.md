@@ -83,6 +83,12 @@ blocks:
         twitter: OriginStorage_
         country: china
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666236663/EQQluqS9_400x400_g7vweu.jpg
+        name: NewWebGroup
+        twitter: NewWebGroup
+        country: china
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
