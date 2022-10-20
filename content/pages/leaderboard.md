@@ -231,7 +231,9 @@ blocks:
       - name: Jaydip Thacker
         country: india
         badge: cadet
-      - {}
+      - name: Mahima Thacker
+        country: india
+        badge: cadet
       - {}
       - {}
       - {}
