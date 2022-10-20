@@ -221,7 +221,9 @@ blocks:
         name: Dhruv Sathwara
         twitter: Dhruv_Slat
         country: india
-      - {}
+      - name: Sarthak Tiwari
+        twitter: sarthackk
+        country: india
       - {}
       - {}
       - {}
