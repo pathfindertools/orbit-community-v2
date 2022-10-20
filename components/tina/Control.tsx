@@ -2,6 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import IconMobile from './icons/IconMobile';
 import FieldLabel from './widgets/FieldLabel';
 
+const trimDoubleSpace = (string) => {
+  return string.replace(/ +(?= )/g,'')
+}
+
 export default function Control({ field, input, fieldRow }) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [hasMobileStyles, setHasMobileStyles] = useState(input.value.includes("sm:"));
@@ -18,7 +22,7 @@ export default function Control({ field, input, fieldRow }) {
   function updateHiddenField() {
     const input = inputRef.current;
     const lastValue = input.value;
-    const newValue = hasMobileStyles ? `${desktopValue} ${mobileValue}` : desktopValue;
+    const newValue = trimDoubleSpace(hasMobileStyles ? `${desktopValue} ${mobileValue}` : desktopValue);
     input.value = newValue;
     (input as any)._valueTracker?.setValue(lastValue);
     input.dispatchEvent(new Event("input", {bubbles: true}));

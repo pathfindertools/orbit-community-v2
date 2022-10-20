@@ -8128,7 +8128,7 @@
                       ]
                     },
                     {
-                      "label": "",
+                      "label": "Image",
                       "name": "featureImage",
                       "type": "string",
                       "ui": {
@@ -13626,7 +13626,7 @@
                       ]
                     },
                     {
-                      "label": "",
+                      "label": "Image",
                       "name": "featureImage",
                       "type": "string",
                       "ui": {

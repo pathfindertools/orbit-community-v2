@@ -63,7 +63,7 @@ blocks:
       text: ''
       buttons: ''
       button: ''
-      cardWrap: 'grid grid-cols-2 gap-12 max-w-4xl mx-auto sm:gap-4'
+      cardWrap: 'grid grid-cols-2 gap-12 max-w-4xl mx-auto sm:gap-4 sm:grid-cols-1'
       card: relative rounded-lg overflow-hidden
       cardImage: ''
       cardButton: absolute inset-0 px-6 pt-3 text-white uppercase text-base
