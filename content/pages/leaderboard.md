@@ -122,6 +122,12 @@ blocks:
         twitter: valist_io
         country: us
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237393/vHvdCI50_400x400_fpl2ln.png
+        name: JobCrypt
+        twitter: JobCrypt/photo
+        country: uk
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
