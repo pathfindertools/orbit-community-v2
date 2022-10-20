@@ -55,6 +55,9 @@ blocks:
         twitter: Canza Finance
         country: nigeria
         badge: spaceship
+      - name: Zondax
+        twitter: _zondax_
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
