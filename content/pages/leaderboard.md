@@ -156,7 +156,11 @@ blocks:
         name: 4EVERLAND
         twitter: 4everland_org
         badge: spaceship
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237771/block_bqakmh.png
+        name: Blockathon DAO
+        country: china
+        badge: spaceship
       - {}
     _template: leaderCards
   - category: ensign
