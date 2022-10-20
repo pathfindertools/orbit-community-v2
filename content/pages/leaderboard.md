@@ -226,6 +226,16 @@ blocks:
         name: Ke Xu
         country: us
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294792/agathe_t8qoek.png
+        name: Agathe Laurent
+        country: ''
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294652/Nishit_Sheth_for_Regulus_Website_-_Nishit_Sheth_1_yyled6.jpg
+        name: Nishit Sheth
+        country: us
+        badge: cadet
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294373/TEHTVS1L6-U016SPYUW93-e7fa4800ba30-512_ohux62.jpg
         name: Mansi Joshi
         twitter: Mansi17723
@@ -276,16 +286,11 @@ blocks:
         country: us
         badge: cadet
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666294652/Nishit_Sheth_for_Regulus_Website_-_Nishit_Sheth_1_yyled6.jpg
-        name: Nishit Sheth
+          https://res.cloudinary.com/protocolai/image/upload/v1666294857/TEHTVS1L6-U01S544SKLZ-56484d3a53a4-512_exmoel.jpg
+        name: Dante Cullari
+        twitter: KonvergenceInc
         country: us
         badge: cadet
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666294792/agathe_t8qoek.png
-        name: Agathe Laurent
-        country: ''
-        badge: cadet
-      - {}
       - name: Name
         twitter: Twitter
         country: us
