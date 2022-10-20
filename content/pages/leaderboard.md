@@ -257,7 +257,10 @@ blocks:
       - name: Anjali Thacker
         country: india
         badge: cadet
-      - {}
+      - name: Mitch Lewis
+        twitter: 0x_Mitch
+        country: us
+        badge: cadet
       - {}
       - {}
       - {}
