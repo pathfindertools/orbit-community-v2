@@ -4,11 +4,11 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-36 pb-36 pr-24 pl-24 sm:pt-24 sm:pb-16 sm:pr-7 sm:pl-7'
+      padding: 'pt-36 pb-36 pr-24 pl-24 sm:pt-28 sm:pb-10 sm:pr-7 sm:pl-7'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
-        text-white font-3 text-7xl mb-0  sm:text-white sm:font-3 sm:text-4xl
+        text-white font-3 text-11xl mb-0  sm:text-white sm:font-3 sm:text-9xl
         sm:mb-0 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
@@ -315,14 +315,14 @@ blocks:
       contentWrap: 'text-white '
       content: ''
       label: ''
-      headline: text-lg font-1 mb-10
+      headline: 'text-2xl font-1 mb-10 sm:text-xl'
       subhead: ''
       text: ''
       buttons: ''
       button: ''
       cardWrap: 'text-white '
       card: 'relative mb-28 sm:mb-12'
-      cardHeadline: 'text-6xl font-3 w-2/3 sm:mb-8 sm:text-4xl'
+      cardHeadline: 'text-10xl font-3 w-2/3 sm:mb-8 sm:text-8xl'
       cardButtons: 'absolute top-0 right-0 sm:relative'
       cardButton: >-
         inline-block w-40 sm:w-36 text-center font-2 font-bold border-2

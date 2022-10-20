@@ -8,7 +8,7 @@ blocks:
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
-        text-white font-3 text-7xl mb-0  sm:text-white sm:font-3 sm:text-4xl
+        text-white font-3 text-11xl mb-0  sm:text-white sm:font-3 sm:text-8xl
         sm:mb-0 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '

@@ -187,7 +187,7 @@ export const Feature = ({ data, parentField = '' }) => {
 
   return (
     <Section background={data.background} navigationLabel={data.navigationLabel}>
-      <div className="max-w-5xl mx-auto transform translate-x-20 sm:translate-x-0">
+      <div className="max-w-5xl mx-auto transform translate-x-16 sm:translate-x-0">
         <div className={`relative flex ${alignmentNoGapClasses} ${minHeight}`}>
           <div className={`image-wrap ${imageWrapClasses(style)}`}>
             {data.image?.src && (

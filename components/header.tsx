@@ -60,7 +60,7 @@ const MobileSub = ({item, className}) => {
         </svg>
       </a>
       {/* {isOpen && ( */}
-        <div className={`${background} fixed inset-0 transition-all transform ${isOpen ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0 pointer-events-none'}`} >
+        <div className={`${background} fixed inset-0 transition-all transform ${isOpen ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0 pointer-events-none'}`} >
           <a className="block p-4 leading-8 mb-1" onClick={() => setIsOpen(false)}>
             <svg className="inline-block w-3 h-3 mr-1 relative -top-px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path fill="#ffffff" d="M447.1 256C447.1 273.7 433.7 288 416 288H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416C433.7 224 447.1 238.3 447.1 256z"/>

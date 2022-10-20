@@ -8,7 +8,7 @@ export const Banner = ({ data, parentField = "" }) => {
       background={data.background}
       navigationLabel={data.navigationLabel}
     >
-      <div className="max-w-5xl mx-auto transform translate-x-20 sm:translate-x-0">
+      <div className="max-w-5xl mx-auto transform translate-x-16 sm:translate-x-0">
         <div className={`${data?.style?.padding} ${data.style?.minHeight} ${data.style?.textAlignment}`}>
           <div className={`mx-auto ${data.style?.width === "narrow" ? "w-2/3 sm:w-full" : "w-full"}`}>
             {data.image && (

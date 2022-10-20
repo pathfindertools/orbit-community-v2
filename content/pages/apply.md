@@ -4,11 +4,11 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-36 pb-20 pr-24 pl-24 sm:pt-24 sm:pb-16 sm:pr-7 sm:pl-7'
+      padding: 'pt-36 pb-20 pr-24 pl-24 sm:pt-28 sm:pb-12 sm:pr-5 sm:pl-5'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
-        text-white font-3 text-11xl mb-0  sm:text-white sm:font-3 sm:text-4xl
+        text-white font-3 text-11xl mb-0  sm:text-white sm:font-3 sm:text-8xl
         sm:mb-0 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
@@ -23,8 +23,12 @@ blocks:
       minHeight: min-h-0
       padding: 'pt-20 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
       width: normal
-      labelStyles: 'text-white font-1 text-3xl mb-10 '
-      headlineStyles: 'text-white font-3 text-10xl mb-0 '
+      labelStyles: >-
+        text-white font-1 text-3xl mb-10  sm:text-white sm:font-1 sm:text-xl
+        sm:mb-10 
+      headlineStyles: >-
+        text-white font-3 text-10xl mb-0  sm:text-white sm:font-3 sm:text-8xl
+        sm:mb-0 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
@@ -65,7 +69,9 @@ blocks:
     _template: banner
   - tailwind:
       section: ''
-      wrap: 'px-20 max-w-5xl mx-auto transform translate-x-20 sm:translate-x-0'
+      wrap: >-
+        px-20 max-w-5xl mx-auto transform translate-x-16 sm:translate-x-0
+        sm:px-5
       imageWrap: ''
       image: ''
       contentWrap: ''
@@ -77,13 +83,13 @@ blocks:
       buttons: ''
       button: ''
       cardWrap: ''
-      card: 'flex gap-16 mb-20 sm:gap-6'
-      cardImageWrap: 'w-1/4 '
-      cardImage: w-full
-      cardContentWrap: 'w-3/4 '
+      card: 'flex gap-16 mb-20 sm:gap-6 sm:flex-col'
+      cardImageWrap: 'w-1/4 sm:w-1/2'
+      cardImage: 'w-full '
+      cardContentWrap: 'w-3/4 sm:w-full'
       cardContent: ''
       cardHeadline: 'text-white font-1 text-3xl mb-8 sm:text-xl sm:mb-4'
-      cardText: 'text-white font-2 text-2xl sm:text-sm'
+      cardText: 'text-white font-2 text-2xl sm:text-lg'
     label: ''
     headline: ''
     subhead: ''
@@ -139,19 +145,21 @@ blocks:
           Lieutenants while representing the Filecoin Ecosystem.
     _template: tailwindCards
   - style:
-      alignment: flex-row-reverse items-center items-start-vertical gap-8
-      padding: 'pt-20 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
-      featureImage: wpx-120  mr-auto
+      alignment: >-
+        flex-row-reverse items-center items-start-vertical gap-8 sm:flex-col
+        sm:items-center sm:items-start-vertical sm:gap-8
+      padding: 'pt-20 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
+      featureImage: wpx-120 wpx-120 mr-auto
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
-        text-white font-3 text-5xl mb-5  sm:text-white sm:font-3 sm:text-4xl
+        text-white font-3 text-10xl mb-5  sm:text-white sm:font-3 sm:text-8xl
         sm:mb-2.5 
       subheadStyles: >-
-        text-white font-2 text-2xl mb-10  sm:text-white sm:font-2 sm:text-lg
-        sm:mb-10 
+        text-white font-2 text-2xl mb-10 font-bold sm:text-white sm:font-2
+        sm:text-lg sm:mb-10 
       textStyles: >-
-        text-white font-2 text-lg mb-10  sm:text-white sm:font-2 sm:text-sm
+        text-white font-2 text-2xl mb-10  sm:text-white sm:font-2 sm:text-sm
         sm:mb-10 
       contentOrder: labelHeadingsContent
     image:
@@ -164,12 +172,14 @@ blocks:
   - style:
       alignment: flex-row items-start items-start-vertical gap-12
       padding: pt-0 pb-20 pr-24 pl-24
-      featureImage: wpx-120  mx-auto
+      featureImage: wpx-120 wpx-120 mx-auto
       featureContent: w-3/4 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-white font-2 text-base mb-10 '
+      textStyles: >-
+        text-white font-2 text-2xl mb-10  sm:text-white sm:font-2 sm:text-xl
+        sm:mb-10 
       contentOrder: labelHeadingsContent
     image:
       src: >-
@@ -189,21 +199,21 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-8 sm:pl-8'
+      padding: 'pt-28 pb-0 pr-20 pl-20 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
       width: normal
       labelStyles: >-
-        text-white font-1 text-2xl mb-10  sm:text-white sm:font-1 sm:text-lg
+        text-white font-1 text-4xl mb-14  sm:text-white sm:font-1 sm:text-2xl
         sm:mb-5 
       headlineStyles: >-
-        text-white font-3 text-5xl mb-0  sm:text-white sm:font-3 sm:text-4xl
+        text-white font-3 text-10xl mb-0  sm:text-white sm:font-3 sm:text-8xl
         sm:mb-0 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-white font-2 text-base mb-10 '
+      textStyles: 'text-white font-2 text-base mb-0 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: >-
         gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-2
-        right-2 opacity-100
+        right-2 sm:rounded-t-xl opacity-100
     label: JOIN THE COMMUNITY
     headline: APPLY TO CONTRIBUTE
     subhead: ''
