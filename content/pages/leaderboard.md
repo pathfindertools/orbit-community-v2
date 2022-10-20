@@ -161,7 +161,6 @@ blocks:
         name: Blockathon DAO
         country: china
         badge: spaceship
-      - {}
     _template: leaderCards
   - category: ensign
     headline: ''
