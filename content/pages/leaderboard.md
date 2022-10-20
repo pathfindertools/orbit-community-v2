@@ -43,6 +43,12 @@ blocks:
         twitter: KenLabs_Web3
         country: us
         badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666235698/Amza-Ifq_400x400_ezag9z.png
+        name: Secured Finance
+        twitter: FinanceSecured
+        country: germany
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
