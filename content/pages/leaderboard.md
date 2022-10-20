@@ -222,9 +222,21 @@ blocks:
         twitter: Dhruv_Slat
         country: india
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294950/20220921_081644_0000_-_Allan_Mang_eni_2_fqfjtj.png
+        name: Allan Mang’eni
+        twitter: AllanMangeni
+        country: ''
+        badge: cadet
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666293797/TEHTVS1L6-U03T3GXRBKN-05fc9baf20d9-512_u4rn7j.jpg
         name: Ke Xu
         country: us
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294903/35195457-6FA7-4913-81D6-5B20C8533FCB_-_Kumaraguru_T_1_ji529n.jpg
+        name: Kumaraguru T
+        twitter: Twitter
+        country: india
+        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294792/agathe_t8qoek.png
         name: Agathe Laurent
@@ -290,18 +302,6 @@ blocks:
       - name: Tolga Yayci
         twitter: yaycitolga
         country: us
-        badge: cadet
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666294903/35195457-6FA7-4913-81D6-5B20C8533FCB_-_Kumaraguru_T_1_ji529n.jpg
-        name: Kumaraguru T
-        twitter: Twitter
-        country: india
-        badge: cadet
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666294950/20220921_081644_0000_-_Allan_Mang_eni_2_fqfjtj.png
-        name: Allan Mang’eni
-        twitter: AllanMangeni
-        country: ''
         badge: cadet
     _template: leaderCards
   - mapUrl: >-
