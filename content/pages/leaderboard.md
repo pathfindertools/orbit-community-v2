@@ -134,6 +134,16 @@ blocks:
         twitter: CryptoMint_/photo
         country: singapore
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237528/4hko-YRp_400x400_x0rnvl.jpg
+        name: The Fungi Project
+        twitter: fungiproject
+        badge: spaceship
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
     _template: leaderCards
   - category: ensign
     headline: ''
