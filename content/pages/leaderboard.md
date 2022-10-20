@@ -162,6 +162,12 @@ blocks:
         name: Blockathon DAO
         country: china
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666291104/VGfkuiJI_400x400_m2mpzi.jpg
+        name: Konvergence Inc
+        twitter: KonvergenceInc
+        country: us
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
