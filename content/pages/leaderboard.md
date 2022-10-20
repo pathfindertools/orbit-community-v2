@@ -60,6 +60,10 @@ blocks:
         name: Zondax
         twitter: _zondax_
         badge: spaceship
+      - name: Force Community
+        twitter: force_ipfs
+        country: china
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
