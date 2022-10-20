@@ -181,10 +181,12 @@ blocks:
         twitter: ''
         country: us
         badge: ensign
-      - name: Name
-        twitter: Twitter
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666238107/samt_-_Samuel_Tang_1_yr1hya.jpg
+        name: Samuel Tang
+        twitter: samueltang06
         country: us
-        badge: cadet
+        badge: ensign
     _template: leaderCards
   - category: cadet
     headline: ''
