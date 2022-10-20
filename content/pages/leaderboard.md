@@ -60,7 +60,9 @@ blocks:
         name: Zondax
         twitter: _zondax_
         badge: spaceship
-      - name: Force Community
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666235934/vXXWIbWH_400x400_yrizzs.jpg
+        name: Force Community
         twitter: force_ipfs
         country: china
         badge: spaceship
