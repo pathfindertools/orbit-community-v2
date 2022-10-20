@@ -250,7 +250,10 @@ blocks:
         twitter: Mansi17723
         country: india
         badge: cadet
-      - {}
+      - name: Disha Vyas
+        twitter: Disha7077
+        country: india
+        badge: cadet
       - {}
       - {}
       - {}
