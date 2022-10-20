@@ -207,8 +207,8 @@ blocks:
       countryLabel: Country
       badgeLabel: Tier
     items:
-      - name: Name
-        twitter: Twitter
+      - name: Tolga Yayci
+        twitter: yaycitolga
         country: us
         badge: cadet
       - name: Name
