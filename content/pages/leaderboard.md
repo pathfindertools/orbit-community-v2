@@ -280,7 +280,11 @@ blocks:
         name: Nishit Sheth
         country: us
         badge: cadet
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294792/agathe_t8qoek.png
+        name: Agathe Laurent
+        country: ''
+        badge: cadet
       - {}
       - name: Name
         twitter: Twitter
