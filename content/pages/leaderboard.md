@@ -234,7 +234,11 @@ blocks:
       - name: Mahima Thacker
         country: india
         badge: cadet
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666293911/89ADD12A-2718-42CF-8E10-4EBD7B120CDF_-_David_Turner_suaat1.jpg
+        name: David Turner
+        country: us
+        badge: cadet
       - {}
       - {}
       - {}
