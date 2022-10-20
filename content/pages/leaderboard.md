@@ -128,6 +128,12 @@ blocks:
         twitter: JobCrypt/photo
         country: uk
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237435/xfHuYsSg_400x400_udvgei.jpg
+        name: CryptoMint
+        twitter: CryptoMint_/photo
+        country: singapore
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
