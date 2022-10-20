@@ -221,23 +221,15 @@ blocks:
         name: Dhruv Sathwara
         twitter: Dhruv_Slat
         country: india
-      - name: Sarthak Tiwari
-        twitter: sarthackk
-        country: india
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666293797/TEHTVS1L6-U03T3GXRBKN-05fc9baf20d9-512_u4rn7j.jpg
         name: Ke Xu
         country: us
-      - name: Jaydip Thacker
-        country: india
-        badge: cadet
-      - name: Mahima Thacker
-        country: india
-        badge: cadet
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666293911/89ADD12A-2718-42CF-8E10-4EBD7B120CDF_-_David_Turner_suaat1.jpg
-        name: David Turner
-        country: us
+          https://res.cloudinary.com/protocolai/image/upload/v1666294373/TEHTVS1L6-U016SPYUW93-e7fa4800ba30-512_ohux62.jpg
+        name: Mansi Joshi
+        twitter: Mansi17723
+        country: india
         badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294289/profilephoto_-_Scarlett_Arana_1_dzb6eg.jpg
@@ -245,9 +237,17 @@ blocks:
         country: us
         badge: cadet
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666294373/TEHTVS1L6-U016SPYUW93-e7fa4800ba30-512_ohux62.jpg
-        name: Mansi Joshi
-        twitter: Mansi17723
+          https://res.cloudinary.com/protocolai/image/upload/v1666293911/89ADD12A-2718-42CF-8E10-4EBD7B120CDF_-_David_Turner_suaat1.jpg
+        name: David Turner
+        country: us
+        badge: cadet
+      - name: Sarthak Tiwari
+        twitter: sarthackk
+        country: india
+      - name: Jaydip Thacker
+        country: india
+        badge: cadet
+      - name: Mahima Thacker
         country: india
         badge: cadet
       - name: Disha Vyas
@@ -261,15 +261,19 @@ blocks:
         twitter: 0x_Mitch
         country: us
         badge: cadet
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
       - name: Tolga Yayci
         twitter: yaycitolga
         country: us
         badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294558/TEHTVS1L6-U03RVGBSMDF-7c834bbd6095-512_hsr7yk.jpg
+        name: Konstantin Tkachuk
+        country: china
+        badge: cadet
+      - {}
+      - {}
+      - {}
+      - {}
       - name: Name
         twitter: Twitter
         country: us
