@@ -231,6 +231,12 @@ blocks:
         country: ''
         badge: cadet
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294857/TEHTVS1L6-U01S544SKLZ-56484d3a53a4-512_exmoel.jpg
+        name: Dante Cullari
+        twitter: KonvergenceInc
+        country: us
+        badge: cadet
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294652/Nishit_Sheth_for_Regulus_Website_-_Nishit_Sheth_1_yyled6.jpg
         name: Nishit Sheth
         country: us
@@ -286,14 +292,10 @@ blocks:
         country: us
         badge: cadet
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666294857/TEHTVS1L6-U01S544SKLZ-56484d3a53a4-512_exmoel.jpg
-        name: Dante Cullari
-        twitter: KonvergenceInc
-        country: us
-        badge: cadet
-      - name: Name
+          https://res.cloudinary.com/protocolai/image/upload/v1666294903/35195457-6FA7-4913-81D6-5B20C8533FCB_-_Kumaraguru_T_1_ji529n.jpg
+        name: Kumaraguru T
         twitter: Twitter
-        country: us
+        country: india
         badge: cadet
       - name: Name
         twitter: Twitter
