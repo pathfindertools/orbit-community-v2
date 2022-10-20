@@ -41,7 +41,7 @@ blocks:
           https://res.cloudinary.com/protocolai/image/upload/v1666235591/gfw1IhQD_400x400_ucmbat.jpg
         name: KEN Labs
         twitter: KenLabs_Web3
-        country: us
+        country: china
         badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666235698/Amza-Ifq_400x400_ezag9z.png
