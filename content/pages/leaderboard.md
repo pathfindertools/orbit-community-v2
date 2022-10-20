@@ -230,6 +230,7 @@ blocks:
         country: us
       - name: Jaydip Thacker
         country: india
+        badge: cadet
       - {}
       - {}
       - {}
