@@ -31,10 +31,12 @@ blocks:
         twitter: EthereumNigeria
         country: kenya
         badge: spaceship
-      - name: Name
-        twitter: Twitter
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666235515/OkK7RRr1_400x400_xziwrk.jpg
+        name: FilSwan
+        twitter: 0xfilswan
         country: us
-        badge: cadet
+        badge: spaceship
       - name: Name
         twitter: Twitter
         country: us
