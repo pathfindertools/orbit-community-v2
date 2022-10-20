@@ -111,6 +111,9 @@ blocks:
         twitter: Filet_finance
         country: us
         badge: spaceship
+      - name: Codecrunch Techlabs
+        country: india
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
