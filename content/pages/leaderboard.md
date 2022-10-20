@@ -114,6 +114,8 @@ blocks:
       - name: Codecrunch Techlabs
         country: india
         badge: spaceship
+      - name: Quilt
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
