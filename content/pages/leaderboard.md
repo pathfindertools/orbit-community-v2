@@ -244,7 +244,12 @@ blocks:
         name: Scarlett Arana
         country: us
         badge: cadet
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294373/TEHTVS1L6-U016SPYUW93-e7fa4800ba30-512_ohux62.jpg
+        name: Mansi Joshi
+        twitter: Mansi17723
+        country: india
+        badge: cadet
       - {}
       - {}
       - {}
