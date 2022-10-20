@@ -116,6 +116,12 @@ blocks:
         badge: spaceship
       - name: Quilt
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237197/UOGBDOgv_400x400_ccpl2j.jpg
+        name: Valist Protocol
+        twitter: valist_io
+        country: us
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
