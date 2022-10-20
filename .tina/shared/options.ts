@@ -56,6 +56,10 @@ export const textSizeOptions: {label: string, value: string}[] = [
   { label: "6XL", value: "6xl" },
   { label: "7XL", value: "7xl" },
   { label: "8XL", value: "8xl" },
+  { label: "9XL", value: "9xl" },
+  { label: "10XL", value: "10xl" },
+  { label: "11XL", value: "11xl" },
+  { label: "12XL", value: "12xl" },
 ];
 
 export const roundedOptions: {label: string, value: string}[] = [

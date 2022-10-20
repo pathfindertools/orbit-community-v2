@@ -5,18 +5,18 @@ blocks:
       alignment: >-
         flex-col items-center items-start-vertical gap-12 sm:flex-col
         sm:items-center sm:items-center-vertical sm:gap-8
-      padding: 'pt-28 pb-28 pr-24 pl-24 sm:pt-28 sm:pb-5 sm:pr-0 sm:pl-24'
+      padding: 'pt-28 pb-10 pr-24 pl-24 sm:pt-28 sm:pb-5 sm:pr-0 sm:pl-24'
       featureImage: 'wpx- wpx- mr-auto sm:wpx-145 sm:wpx-145 sm:mr-auto'
       featureContent: w-full min-h-0 text-left
       labelStyles: >-
-        text-white font-1 text-xl mb-8  sm:text-white sm:font-1 sm:text-xl
+        text-white font-1 text-6xl mb-2.5  sm:text-white sm:font-1 sm:text-xl
         sm:mb-2.5 
       headlineStyles: >-
-        text-white font-3 text-8xl mb-8  sm:text-white sm:font-3 sm:text-4xl
+        text-white font-3 text-12xl mb-4  sm:text-white sm:font-3 sm:text-9xl
         sm:mb-2.5 
       subheadStyles: >-
-        text-white font-1 text-3xl mb-14  sm:text-white sm:font-1 sm:text-xl
-        sm:mb-5 
+        text-white font-1 text-6xl mb-16  sm:text-white sm:font-1 sm:text-xl
+        sm:mb-8 
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
     background:
@@ -37,15 +37,17 @@ blocks:
   - style:
       alignment: 'flex-col items-center items-start-vertical '
       padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-2.5 sm:pb-10 sm:pr-8 sm:pl-8'
-      featureImage: '  object-center'
+      featureImage: ' undefined'
       featureContent: w-full min-h-0 text-left
       labelStyles: 'text-white font-1 text-xs mb-0 '
-      headlineStyles: 'text-white font-1 text-xl mb-10 '
+      headlineStyles: >-
+        text-white font-1 text-5xl mb-10  sm:text-white sm:font-1 sm:text-xl
+        sm:mb-10 
       subheadStyles: >-
-        text-white font-2 text-3xl mb-10  sm:text-white sm:font-2 sm:text-xl
+        text-white font-2 text-7xl mb-10  sm:text-white sm:font-2 sm:text-4xl
         sm:mb-10 
       textStyles: >-
-        text-white font-2 text-lg mb-10  sm:text-white sm:font-2 sm:text-base
+        text-white font-2 text-4xl mb-10  sm:text-white sm:font-2 sm:text-2xl
         sm:mb-10 
       contentOrder: labelHeadingsContent
     background:
@@ -81,9 +83,11 @@ blocks:
       padding: 'pt-20 pb-16 pr-24 pl-24 sm:pt-10 sm:pb-10 sm:pr-8 sm:pl-8'
       contentWidth: w-full
       columns: '4'
-      labelStyles: 'text-white font-1 text-xl mb-10 '
+      labelStyles: >-
+        text-white font-1 text-5xl mb-10  sm:text-white sm:font-1 sm:text-xl
+        sm:mb-10 
       headlineStyles: >-
-        text-white font-3 text-5xl mb-20  sm:text-white sm:font-3 sm:text-3xl
+        text-white font-3 text-10xl mb-20  sm:text-white sm:font-3 sm:text-8xl
         sm:mb-20 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
@@ -92,7 +96,7 @@ blocks:
       fillStyles: ' opacity-100'
       padding: pt-4 pb-4 pr-4 pl-4
       borderStyles: border-white border-0
-      imageStyles: ' undefined undefined undefined'
+      imageStyles: ' object-contain undefined undefined'
       labelStyles: 'text-white undefined text-base mb-0 '
       headlineStyles: 'text-black undefined text-2xl mb-0 '
       subheadStyles: 'text-black undefined text-lg mb-0 '
@@ -134,7 +138,9 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-white font-2 text-lg mb-10 '
+      textStyles: >-
+        text-white font-2 text-4xl mb-10  sm:text-white sm:font-2 sm:text-2xl
+        sm:mb-10 
       contentOrder: labelHeadingsContent
     label: ''
     headline: ''
@@ -161,13 +167,13 @@ blocks:
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
-        text-white font-3 text-5xl mb-5  sm:text-white sm:font-3 sm:text-3xl
+        text-white font-3 text-10xl mb-5  sm:text-white sm:font-3 sm:text-9xl
         sm:mb-5 
       subheadStyles: >-
-        text-white font-2 text-xl mb-10  sm:text-white sm:font-2 sm:text-xl
-        sm:mb-10 
+        text-white font-2 text-2xl mb-10 font-bold sm:text-white sm:font-2
+        sm:text-base sm:mb-10 
       textStyles: >-
-        text-white font-2 text-lg mb-10  sm:text-white sm:font-2 sm:text-lg
+        text-white font-2 text-4xl mb-10  sm:text-white sm:font-2 sm:text-2xl
         sm:mb-10 
       contentOrder: labelHeadingsContent
     image:

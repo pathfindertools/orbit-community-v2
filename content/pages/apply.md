@@ -4,11 +4,11 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-36 pb-36 pr-24 pl-24 sm:pt-24 sm:pb-16 sm:pr-7 sm:pl-7'
+      padding: 'pt-36 pb-20 pr-24 pl-24 sm:pt-24 sm:pb-16 sm:pr-7 sm:pl-7'
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
-        text-white font-3 text-7xl mb-0  sm:text-white sm:font-3 sm:text-4xl
+        text-white font-3 text-11xl mb-0  sm:text-white sm:font-3 sm:text-4xl
         sm:mb-0 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
@@ -23,8 +23,8 @@ blocks:
       minHeight: min-h-0
       padding: 'pt-20 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
       width: normal
-      labelStyles: 'text-white font-1 text-lg mb-2.5 '
-      headlineStyles: 'text-white font-3 text-4xl mb-0 '
+      labelStyles: 'text-white font-1 text-3xl mb-10 '
+      headlineStyles: 'text-white font-3 text-10xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
@@ -45,7 +45,7 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-white font-2 text-base mb-10 '
+      textStyles: 'text-white font-2 text-2xl mb-10 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: gradientFade from-primary bg-gradient-to-b left-3 right-3 opacity-100
@@ -82,8 +82,8 @@ blocks:
       cardImage: w-full
       cardContentWrap: 'w-3/4 '
       cardContent: ''
-      cardHeadline: 'text-white font-1 text-2xl mb-10 sm:text-xl sm:mb-4'
-      cardText: 'text-white font-2 text-base sm:text-sm'
+      cardHeadline: 'text-white font-1 text-3xl mb-8 sm:text-xl sm:mb-4'
+      cardText: 'text-white font-2 text-2xl sm:text-sm'
     label: ''
     headline: ''
     subhead: ''

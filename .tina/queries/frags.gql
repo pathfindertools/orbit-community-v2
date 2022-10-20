@@ -41,6 +41,10 @@ fragment LayoutQueryFragment on Query {
         text6xl
         text7xl
         text8xl
+        text9xl
+        text10xl
+        text11xl
+        text12xl
       }
       buttons {
         primaryFill

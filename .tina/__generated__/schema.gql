@@ -112,6 +112,10 @@ type GlobalSizeLeading {
   text6xl: String
   text7xl: String
   text8xl: String
+  text9xl: String
+  text10xl: String
+  text11xl: String
+  text12xl: String
 }
 
 type GlobalButtons {
@@ -1206,6 +1210,10 @@ input GlobalSizeLeadingMutation {
   text6xl: String
   text7xl: String
   text8xl: String
+  text9xl: String
+  text10xl: String
+  text11xl: String
+  text12xl: String
 }
 
 input GlobalButtonsMutation {

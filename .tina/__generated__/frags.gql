@@ -39,6 +39,10 @@ fragment GlobalParts on Global {
     text6xl
     text7xl
     text8xl
+    text9xl
+    text10xl
+    text11xl
+    text12xl
   }
   buttons {
     __typename

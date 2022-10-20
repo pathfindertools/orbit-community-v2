@@ -105,6 +105,14 @@ export const Layout = ({
                 --text-leading-7xl: ${fontLeading(globalData?.sizeLeading?.text7xl)}px;
                 --text-size-8xl: ${fontSize(globalData?.sizeLeading?.text8xl)}px;
                 --text-leading-8xl: ${fontLeading(globalData?.sizeLeading?.text8xl)}px;
+                --text-size-9xl: ${fontSize(globalData?.sizeLeading?.text9xl)}px;
+                --text-leading-9xl: ${fontLeading(globalData?.sizeLeading?.text9xl)}px;
+                --text-size-10xl: ${fontSize(globalData?.sizeLeading?.text10xl)}px;
+                --text-leading-10xl: ${fontLeading(globalData?.sizeLeading?.text10xl)}px;
+                --text-size-11xl: ${fontSize(globalData?.sizeLeading?.text11xl)}px;
+                --text-leading-11xl: ${fontLeading(globalData?.sizeLeading?.text11xl)}px;
+                --text-size-12xl: ${fontSize(globalData?.sizeLeading?.text12xl)}px;
+                --text-leading-12xl: ${fontLeading(globalData?.sizeLeading?.text12xl)}px;
               }
               html {
                 position: relative;

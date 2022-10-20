@@ -7347,6 +7347,58 @@
                 "sizeLeading",
                 "text8xl"
               ]
+            },
+            {
+              "type": "string",
+              "label": "9xl (Size / Leading)",
+              "name": "text9xl",
+              "ui": {
+                "component": "typeSizeControl"
+              },
+              "namespace": [
+                "global",
+                "sizeLeading",
+                "text9xl"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "10xl (Size / Leading)",
+              "name": "text10xl",
+              "ui": {
+                "component": "typeSizeControl"
+              },
+              "namespace": [
+                "global",
+                "sizeLeading",
+                "text10xl"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "11xl (Size / Leading)",
+              "name": "text11xl",
+              "ui": {
+                "component": "typeSizeControl"
+              },
+              "namespace": [
+                "global",
+                "sizeLeading",
+                "text11xl"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "12xl (Size / Leading)",
+              "name": "text12xl",
+              "ui": {
+                "component": "typeSizeControl"
+              },
+              "namespace": [
+                "global",
+                "sizeLeading",
+                "text12xl"
+              ]
             }
           ],
           "namespace": [

@@ -64,6 +64,10 @@ module.exports = {
       '6xl': [ "var(--text-size-6xl)", { lineHeight: "var(--text-leading-6xl)" }],
       '7xl': [ "var(--text-size-7xl)", { lineHeight: "var(--text-leading-7xl)" }],
       '8xl': [ "var(--text-size-8xl)", { lineHeight: "var(--text-leading-8xl)" }],
+      '9xl': [ "var(--text-size-9xl)", { lineHeight: "var(--text-leading-9xl)" }],
+      '10xl': [ "var(--text-size-10xl)", { lineHeight: "var(--text-leading-10xl)" }],
+      '11xl': [ "var(--text-size-11xl)", { lineHeight: "var(--text-leading-11xl)" }],
+      '12xl': [ "var(--text-size-12xl)", { lineHeight: "var(--text-leading-12xl)" }],
     },
     borderWidth: {
       DEFAULT: "1px",

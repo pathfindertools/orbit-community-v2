@@ -76,6 +76,10 @@ function buildSizeOptions(prefix?) {
     { label: "6xl", value: "text-6xl" },
     { label: "7xl", value: "text-7xl" },
     { label: "8xl", value: "text-8xl" },
+    { label: "9xl", value: "text-9xl" },
+    { label: "10xl", value: "text-10xl" },
+    { label: "11xl", value: "text-11xl" },
+    { label: "12xl", value: "text-12xl" },
   ]
   const formattedOptions = options.map(option => {
     return {

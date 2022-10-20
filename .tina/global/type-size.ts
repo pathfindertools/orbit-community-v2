@@ -105,5 +105,37 @@ export const globalTypeSize: TinaField = {
         component: "typeSizeControl",
       },
     },
+    {
+      type: "string",
+      label: "9xl (Size / Leading)",
+      name: "text9xl",
+      ui: {
+        component: "typeSizeControl",
+      },
+    },
+    {
+      type: "string",
+      label: "10xl (Size / Leading)",
+      name: "text10xl",
+      ui: {
+        component: "typeSizeControl",
+      },
+    },
+    {
+      type: "string",
+      label: "11xl (Size / Leading)",
+      name: "text11xl",
+      ui: {
+        component: "typeSizeControl",
+      },
+    },
+    {
+      type: "string",
+      label: "12xl (Size / Leading)",
+      name: "text12xl",
+      ui: {
+        component: "typeSizeControl",
+      },
+    },
   ]
 }
