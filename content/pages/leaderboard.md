@@ -228,7 +228,8 @@ blocks:
           https://res.cloudinary.com/protocolai/image/upload/v1666293797/TEHTVS1L6-U03T3GXRBKN-05fc9baf20d9-512_u4rn7j.jpg
         name: Ke Xu
         country: us
-      - {}
+      - name: Jaydip Thacker
+        country: india
       - {}
       - {}
       - {}
