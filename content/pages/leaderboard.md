@@ -207,6 +207,28 @@ blocks:
       countryLabel: Country
       badgeLabel: Tier
     items:
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666292798/8D58F480-A91F-49CB-96F4-29806E0C0B6A_-_Pranshu_Rastogi_1_yrtmf3.jpg
+        name: Pranshu Rastogi
+        country: india
+        badge: cadet
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
       - name: Tolga Yayci
         twitter: yaycitolga
         country: us
