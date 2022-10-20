@@ -162,6 +162,12 @@ blocks:
         name: Blockathon DAO
         country: china
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666291104/VGfkuiJI_400x400_m2mpzi.jpg
+        name: Konvergence Inc
+        twitter: KonvergenceInc
+        country: us
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
@@ -170,6 +176,11 @@ blocks:
       countryLabel: Country
       badgeLabel: TIER
     items:
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666292028/aire_peuvxa.jpg
+        name: Aire Sriraket
+        twitter: AireInv
+        badge: ensign
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666237964/Screenshot_2022-08-31_172842_-_Tippi_Fifestarr_1_hxepdw.png
         name: Tippi Fifestarr
@@ -196,16 +207,100 @@ blocks:
       countryLabel: Country
       badgeLabel: Tier
     items:
-      - name: Name
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666292798/8D58F480-A91F-49CB-96F4-29806E0C0B6A_-_Pranshu_Rastogi_1_yrtmf3.jpg
+        name: Pranshu Rastogi
+        country: india
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666293495/C45FC639-5A42-4357-82E1-1DC0AD60A5FC_-_Jackson_Felty_ctj7tw.jpg
+        name: Jackson Felty
+        country: us
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666293613/TEHTVS1L6-U03JCMKQ55Z-8eb3afab61c1-512_viqsyb.jpg
+        name: Dhruv Sathwara
+        twitter: Dhruv_Slat
+        country: india
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294950/20220921_081644_0000_-_Allan_Mang_eni_2_fqfjtj.png
+        name: Allan Mang’eni
+        twitter: AllanMangeni
+        country: ''
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666293797/TEHTVS1L6-U03T3GXRBKN-05fc9baf20d9-512_u4rn7j.jpg
+        name: Ke Xu
+        country: us
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294903/35195457-6FA7-4913-81D6-5B20C8533FCB_-_Kumaraguru_T_1_ji529n.jpg
+        name: Kumaraguru T
         twitter: Twitter
+        country: india
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294792/agathe_t8qoek.png
+        name: Agathe Laurent
+        country: ''
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294857/TEHTVS1L6-U01S544SKLZ-56484d3a53a4-512_exmoel.jpg
+        name: Dante Cullari
+        twitter: KonvergenceInc
         country: us
         badge: cadet
-      - name: Name
-        twitter: Twitter
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294652/Nishit_Sheth_for_Regulus_Website_-_Nishit_Sheth_1_yyled6.jpg
+        name: Nishit Sheth
         country: us
         badge: cadet
-      - name: Name
-        twitter: Twitter
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294373/TEHTVS1L6-U016SPYUW93-e7fa4800ba30-512_ohux62.jpg
+        name: Mansi Joshi
+        twitter: Mansi17723
+        country: india
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294604/TEHTVS1L6-U041MLWE4MN-9c3a356caded-512_h4thok.jpg
+        name: Tim Shores
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294558/TEHTVS1L6-U03RVGBSMDF-7c834bbd6095-512_hsr7yk.jpg
+        name: Konstantin Tkachuk
+        country: china
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294289/profilephoto_-_Scarlett_Arana_1_dzb6eg.jpg
+        name: Scarlett Arana
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666293911/89ADD12A-2718-42CF-8E10-4EBD7B120CDF_-_David_Turner_suaat1.jpg
+        name: David Turner
+        country: us
+        badge: cadet
+      - name: Sarthak Tiwari
+        twitter: sarthackk
+        country: india
+      - name: Jaydip Thacker
+        country: india
+        badge: cadet
+      - name: Mahima Thacker
+        country: india
+        badge: cadet
+      - name: Disha Vyas
+        twitter: Disha7077
+        country: india
+        badge: cadet
+      - name: Anjali Thacker
+        country: india
+        badge: cadet
+      - name: Mitch Lewis
+        twitter: 0x_Mitch
+        country: us
+        badge: cadet
+      - name: Tolga Yayci
+        twitter: yaycitolga
         country: us
         badge: cadet
     _template: leaderCards
