@@ -115,6 +115,7 @@ blocks:
         country: india
         badge: spaceship
       - name: Quilt
+        country: china
         badge: spaceship
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666237197/UOGBDOgv_400x400_ccpl2j.jpg
