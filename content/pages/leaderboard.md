@@ -212,7 +212,10 @@ blocks:
         name: Pranshu Rastogi
         country: india
         badge: cadet
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666293495/C45FC639-5A42-4357-82E1-1DC0AD60A5FC_-_Jackson_Felty_ctj7tw.jpg
+        name: Jackson Felty
+        country: us
       - {}
       - {}
       - {}
