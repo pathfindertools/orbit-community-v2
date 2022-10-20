@@ -49,6 +49,12 @@ blocks:
         twitter: FinanceSecured
         country: germany
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666235788/oXd_jFpR_400x400_tknyun.jpg
+        name: Canza Finance
+        twitter: Canza Finance
+        country: nigeria
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
