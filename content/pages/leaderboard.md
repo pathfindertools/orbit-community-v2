@@ -37,8 +37,10 @@ blocks:
         twitter: 0xfilswan
         country: us
         badge: spaceship
-      - name: Name
-        twitter: Twitter
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666235591/gfw1IhQD_400x400_ucmbat.jpg
+        name: KEN Labs
+        twitter: KenLabs_Web3
         country: us
         badge: cadet
     _template: leaderCards
