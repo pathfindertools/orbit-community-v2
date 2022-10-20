@@ -254,7 +254,9 @@ blocks:
         twitter: Disha7077
         country: india
         badge: cadet
-      - {}
+      - name: Anjali Thacker
+        country: india
+        badge: cadet
       - {}
       - {}
       - {}
