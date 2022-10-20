@@ -139,7 +139,12 @@ blocks:
         name: The Fungi Project
         twitter: fungiproject
         badge: spaceship
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237581/WwgZ4mZh_400x400_bgdon7.png
+        name: DeSpread Creative
+        twitter: DeSpreadTeam
+        country: south-korea
+        badge: spaceship
       - {}
       - {}
       - {}
