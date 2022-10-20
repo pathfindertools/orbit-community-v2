@@ -94,6 +94,11 @@ blocks:
         name: Webq
         country: us
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666236959/oz_gc06v9.png
+        name: Ozys
+        country: south-korea
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
