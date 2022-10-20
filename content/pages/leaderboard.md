@@ -18,7 +18,7 @@ blocks:
     subhead: ''
     body: ''
     _template: banner
-  - category: spaceship
+  - category: ensign
     headline: ''
     cardlabels:
       nameLabel: Name
@@ -169,14 +169,18 @@ blocks:
       countryLabel: Country
       badgeLabel: TIER
     items:
-      - name: Name
-        twitter: Twitter
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237964/Screenshot_2022-08-31_172842_-_Tippi_Fifestarr_1_hxepdw.png
+        name: Tippi Fifestarr
+        twitter: fifestarr
         country: us
-        badge: cadet
-      - name: Name
-        twitter: Twitter
+        badge: ensign
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666238050/C100C56D-AB21-4259-AC07-F4258078FF29_-_Galina_F_1_svu0an.jpg
+        name: Galina Fendikevich
+        twitter: ''
         country: us
-        badge: cadet
+        badge: ensign
       - name: Name
         twitter: Twitter
         country: us
