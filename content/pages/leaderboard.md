@@ -145,7 +145,12 @@ blocks:
         twitter: DeSpreadTeam
         country: south-korea
         badge: spaceship
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237636/peywu6uC_400x400_humxtm.png
+        name: PiKNiK US
+        twitter: PiKNiK_US
+        country: us
+        badge: spaceship
       - {}
       - {}
       - {}
