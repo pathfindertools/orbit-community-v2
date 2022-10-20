@@ -151,7 +151,11 @@ blocks:
         twitter: PiKNiK_US
         country: us
         badge: spaceship
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237686/cwQOJ33q_400x400_th5l1q.jpg
+        name: 4EVERLAND
+        twitter: 4everland_org
+        badge: spaceship
       - {}
       - {}
     _template: leaderCards
