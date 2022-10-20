@@ -99,6 +99,12 @@ blocks:
         name: Ozys
         country: south-korea
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666237020/YvJ0POFI_400x400_c4jcop.jpg
+        name: Spheron
+        twitter: SpheronHQ/photo
+        country: india
+        badge: spaceship
     _template: leaderCards
   - category: ensign
     headline: ''
