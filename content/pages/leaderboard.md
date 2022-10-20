@@ -239,7 +239,11 @@ blocks:
         name: David Turner
         country: us
         badge: cadet
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294289/profilephoto_-_Scarlett_Arana_1_dzb6eg.jpg
+        name: Scarlett Arana
+        country: us
+        badge: cadet
       - {}
       - {}
       - {}
