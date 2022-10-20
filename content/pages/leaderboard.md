@@ -177,6 +177,11 @@ blocks:
       badgeLabel: TIER
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666292028/aire_peuvxa.jpg
+        name: Aire Sriraket
+        twitter: AireInv
+        badge: ensign
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666237964/Screenshot_2022-08-31_172842_-_Tippi_Fifestarr_1_hxepdw.png
         name: Tippi Fifestarr
         twitter: fifestarr
