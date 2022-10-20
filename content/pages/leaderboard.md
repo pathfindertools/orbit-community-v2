@@ -297,9 +297,11 @@ blocks:
         twitter: Twitter
         country: india
         badge: cadet
-      - name: Name
-        twitter: Twitter
-        country: us
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1666294950/20220921_081644_0000_-_Allan_Mang_eni_2_fqfjtj.png
+        name: Allan Mang’eni
+        twitter: AllanMangeni
+        country: ''
         badge: cadet
     _template: leaderCards
   - mapUrl: >-
