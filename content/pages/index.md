@@ -4,18 +4,18 @@ blocks:
   - style:
       alignment: >-
         flex-col items-center items-start-vertical gap-12 sm:flex-col
-        sm:items-center sm:items-center-vertical sm:
-      padding: 'pt-28 pb-28 pr-24 pl-24 sm:pt-16 sm:pb-5 sm:pr-5 sm:pl-16'
-      featureImage: ' hpx-60 mx-auto'
+        sm:items-center sm:items-center-vertical sm:gap-8
+      padding: 'pt-28 pb-28 pr-24 pl-24 sm:pt-28 sm:pb-5 sm:pr-0 sm:pl-24'
+      featureImage: 'wpx- wpx- mr-auto sm:wpx-145 sm:wpx-145 sm:mr-auto'
       featureContent: w-full min-h-0 text-left
       labelStyles: >-
-        text-white font-1 text-xl mb-5  sm:text-white sm:font-1 sm:text-xl
-        sm:mb-0 
+        text-white font-1 text-xl mb-8  sm:text-white sm:font-1 sm:text-xl
+        sm:mb-2.5 
       headlineStyles: >-
-        text-white font-3 text-8xl mb-10  sm:text-white sm:font-3 sm:text-4xl
-        sm:mb-0 
+        text-white font-3 text-8xl mb-8  sm:text-white sm:font-3 sm:text-4xl
+        sm:mb-2.5 
       subheadStyles: >-
-        text-white font-1 text-3xl mb-10  sm:text-white sm:font-1 sm:text-xl
+        text-white font-1 text-3xl mb-14  sm:text-white sm:font-1 sm:text-xl
         sm:mb-5 
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
@@ -157,7 +157,7 @@ blocks:
         flex-row-reverse items-center items-start-vertical gap-6
         sm:flex-col-reverse sm:items-center sm:items-center-vertical sm:
       padding: 'pt-20 pb-32 pr-20 pl-20 sm:pt-10 sm:pb-16 sm:pr-7 sm:pl-7'
-      featureImage: wpx-120  mx-auto
+      featureImage: 'wpx-120 wpx-120 mx-auto sm:wpx-130 sm:wpx-130 sm:mx-auto'
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
