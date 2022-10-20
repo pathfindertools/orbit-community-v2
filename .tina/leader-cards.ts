@@ -109,6 +109,7 @@ export const leaderCardsBlockSchema: TinaTemplate = {
             component: "select",
           },
           options: [
+            { label: "Australia", value: "australia" },
             { label: "China", value: "china" },
             { label: "Germany", value: "germany" },
             { label: "India", value: "india" },
@@ -116,10 +117,13 @@ export const leaderCardsBlockSchema: TinaTemplate = {
             { label: "Nigeria", value: "nigeria" },
             { label: "Singapore", value: "singapore" },
             { label: "South Korea", value: "south-korea" },
+            { label: "Spain", value: "spain" },
+            { label: "Switzerland", value: "switzerland" },
             { label: "Tanzania", value: "tanzania" },
             { label: "Uganda", value: "uganda" },
             { label: "UK", value: "uk" },
             { label: "US", value: "us" },
+            { label: "World", value: "world" },
           ]
         },
         {

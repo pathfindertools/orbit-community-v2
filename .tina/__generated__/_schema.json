@@ -19243,6 +19243,10 @@
                       },
                       "options": [
                         {
+                          "label": "Australia",
+                          "value": "australia"
+                        },
+                        {
                           "label": "China",
                           "value": "china"
                         },
@@ -19271,6 +19275,14 @@
                           "value": "south-korea"
                         },
                         {
+                          "label": "Spain",
+                          "value": "spain"
+                        },
+                        {
+                          "label": "Switzerland",
+                          "value": "switzerland"
+                        },
+                        {
                           "label": "Tanzania",
                           "value": "tanzania"
                         },
@@ -19285,6 +19297,10 @@
                         {
                           "label": "US",
                           "value": "us"
+                        },
+                        {
+                          "label": "World",
+                          "value": "world"
                         }
                       ],
                       "namespace": [
