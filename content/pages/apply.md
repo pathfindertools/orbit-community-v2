@@ -171,31 +171,6 @@ blocks:
     headline: BECOME A SPACESHIP
     subhead: Organizations
     body: >
-      If you join as a business (Spaceship level member), you will be showcasing new use cases for Filecoin, IPFS, libp2p, giving talks at local meetups, organizing workshops, introducing new collaborators, and much more.
-    buttons:
-      - label: Apply
-        link: /
-        type: secondary
-    _template: feature
-  - style:
-      alignment: flex-row items-start items-start-vertical gap-12
-      padding: pt-0 pb-20 pr-24 pl-24
-      featureImage: wpx-120 wpx-120 mx-auto
-      featureContent: w-3/4 min-h-0 text-left
-      labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: 'text-black font-1 text-5xl mb-0 '
-      subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: >-
-        text-white font-2 text-2xl mb-10  sm:text-white sm:font-2 sm:text-xl
-        sm:mb-10 
-      contentOrder: labelHeadingsContent
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1665006752/orbit-community-v2/spaceship_bpudz2.svg
-    label: ''
-    headline: ''
-    subhead: ''
-    body: >
       If you join as a business (Spaceship level member), you will be showcasing
       new use cases for Filecoin, IPFS, libp2p, giving talks at local meetups,
       organizing workshops, introducing new collaborators, and much more.
@@ -204,29 +179,6 @@ blocks:
         link: /
         type: secondary
     _template: feature
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: 'pt-28 pb-0 pr-20 pl-20 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
-      width: normal
-      labelStyles: >-
-        text-white font-1 text-4xl mb-14  sm:text-white sm:font-1 sm:text-2xl
-        sm:mb-5 
-      headlineStyles: >-
-        text-white font-3 text-10xl mb-0  sm:text-white sm:font-3 sm:text-8xl
-        sm:mb-0 
-      subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-white font-2 text-base mb-0 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: >-
-        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-4
-        right-4 sm:left-2 sm:right-2 sm:rounded-t-xl opacity-100
-    label: JOIN THE COMMUNITY
-    headline: APPLY TO CONTRIBUTE
-    subhead: ''
-    body: ''
-    _template: banner
   - style:
       minHeight: min-h-0
       fullWidth: true
