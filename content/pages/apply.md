@@ -148,28 +148,34 @@ blocks:
     _template: tailwindCards
   - style:
       alignment: >-
-        flex-row-reverse items-center items-start-vertical gap-8 sm:flex-col
-        sm:items-center sm:items-start-vertical sm:gap-8
-      padding: 'pt-20 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
-      featureImage: wpx-120 wpx-120 mr-auto
+        flex-row-reverse items-center items-start-vertical gap-6
+        sm:flex-col-reverse sm:items-center sm:items-center-vertical sm:
+      padding: 'pt-20 pb-32 pr-20 pl-20 sm:pt-10 sm:pb-16 sm:pr-7 sm:pl-7'
+      featureImage: 'wpx-120 wpx-120 mx-auto sm:wpx-130 sm:wpx-130 sm:mx-auto'
       featureContent: w-2/3 min-h-0 text-left
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: >-
-        text-white font-3 text-10xl mb-5  sm:text-white sm:font-3 sm:text-8xl
-        sm:mb-2.5 
+        text-white font-3 text-10xl mb-5  sm:text-white sm:font-3 sm:text-9xl
+        sm:mb-5 
       subheadStyles: >-
         text-white font-2 text-2xl mb-10 font-bold sm:text-white sm:font-2
-        sm:text-lg sm:mb-10 
+        sm:text-base sm:mb-10 
       textStyles: >-
-        text-white font-2 text-2xl mb-10  sm:text-white sm:font-2 sm:text-sm
+        text-white font-2 text-4xl mb-10  sm:text-white sm:font-2 sm:text-2xl
         sm:mb-10 
       contentOrder: labelHeadingsContent
     image:
-      src: ''
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1665006752/orbit-community-v2/spaceship_bpudz2.svg
     label: ''
     headline: BECOME A SPACESHIP
     subhead: Organizations
-    body: ''
+    body: >
+      If you join as a business (Spaceship level member), you will be showcasing new use cases for Filecoin, IPFS, libp2p, giving talks at local meetups, organizing workshops, introducing new collaborators, and much more.
+    buttons:
+      - label: Apply
+        link: /
+        type: secondary
     _template: feature
   - style:
       alignment: flex-row items-start items-start-vertical gap-12
