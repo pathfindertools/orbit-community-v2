@@ -88,7 +88,7 @@
       }
     ],
     "navAlignment": "text-left",
-    "navTypeStyle": "text-white font-1 text-base mb-0 ",
+    "navTypeStyle": "text-white font-1 text-2xl mb-0 ",
     "navBackgroundColor": "bg-primary opacity-100",
     "padding": "pt-20 pb-0 pr-0 pl-10"
   },
