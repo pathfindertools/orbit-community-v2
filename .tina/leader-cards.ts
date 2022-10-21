@@ -120,6 +120,7 @@ export const leaderCardsBlockSchema: TinaTemplate = {
             { label: "Spain", value: "spain" },
             { label: "Switzerland", value: "switzerland" },
             { label: "Tanzania", value: "tanzania" },
+            { label: "Thailand", value: "thailand" },
             { label: "Uganda", value: "uganda" },
             { label: "UK", value: "uk" },
             { label: "US", value: "us" },
