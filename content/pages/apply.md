@@ -21,21 +21,21 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-20 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
+      padding: 'pt-28 pb-0 pr-24 pl-24 sm:pt-10 sm:pb-0 sm:pr-8 sm:pl-8'
       width: normal
       labelStyles: >-
-        text-white font-1 text-3xl mb-10  sm:text-white sm:font-1 sm:text-xl
+        text-white font-1 text-3xl mb-16  sm:text-white sm:font-1 sm:text-xl
         sm:mb-10 
       headlineStyles: >-
-        text-white font-3 text-10xl mb-0  sm:text-white sm:font-3 sm:text-8xl
+        text-white font-3 text-10xl mb-5  sm:text-white sm:font-3 sm:text-8xl
         sm:mb-0 
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: >-
-        gradientRounded from-accent2 to-primary bg-gradient-to-b rounded-t-xl
-        left-3 right-3 opacity-100
+        gradientRounded from-accent2 to-primary bg-gradient-to-b rounded-t-2xl
+        left-4 right-4 sm:left-2 sm:right-2 sm:rounded-t-xl opacity-100
     label: COMMUNITY TIERS
     headline: BECOME AN INDIVIDUAL CONTRIBUTOR
     subhead: ''
@@ -49,10 +49,12 @@ blocks:
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-white font-2 text-2xl mb-10 '
+      textStyles: 'text-white font-2 text-2xl mb-16 '
       contentOrder: labelHeadingsContent
     background:
-      fillStyles: gradientFade from-primary bg-gradient-to-b left-3 right-3 opacity-100
+      fillStyles: >-
+        gradientFade from-primary bg-gradient-to-b left-4 right-4 sm:left-2
+        sm:right-2 opacity-100
     label: ''
     headline: ''
     subhead: ''
@@ -212,8 +214,8 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: >-
-        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-2
-        right-2 sm:rounded-t-xl opacity-100
+        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-4
+        right-4 sm:left-2 sm:right-2 sm:rounded-t-xl opacity-100
     label: JOIN THE COMMUNITY
     headline: APPLY TO CONTRIBUTE
     subhead: ''

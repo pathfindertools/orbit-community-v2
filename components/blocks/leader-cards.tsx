@@ -43,15 +43,15 @@ export const LeaderCards = ({ data, parentField = "" }) => {
   const isHome = data.category === "home"
   const wrapClasses = isHome ?
     "max-w-5xl mx-auto bg-gradient-to-b from-accent1 via-primary to-accent2 p-20 rounded-xl sm:px-4 sm:py-12" :
-    "max-w-5xl mx-auto flex gap-16 px-20 sm:px-0 transform translate-x-16 sm:translate-x-0"
+    "max-w-5xl mx-auto flex gap-16 px-20 sm:px-0 transform translate-x-16 sm:translate-x-0 sm:flex-col sm:gap-4"
   return (
     <Section className="p-20 sm:px-4 sm:py-8" navigationLabel={data.navigationLabel}>
       <div className={wrapClasses}>
         {data.headline && <h2 className="font-bold font-3 text-9xl uppercase text-center text-white mb-12 sm:text-7xl sm:mb-6" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
         {!isHome &&
-          <div className="w-48 sm:hidden">
-            <div className="flex items-center px-10 md:px-6 py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
-              <span className="px-6 ">{data.cardlabels?.badgeLabel}</span>
+          <div className="w-48 sm:w-28">
+            <div className="flex items-center px-10 md:px-6 sm:px-6 py-4 text-md font-2 text-white font-bold uppercase">
+              <span className="px-6 sm:hidden">{data.cardlabels?.badgeLabel}</span>
             </div>
             <img src={`/img/${data.category}.svg`} />
           </div>

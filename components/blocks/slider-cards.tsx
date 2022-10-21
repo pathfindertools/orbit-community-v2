@@ -47,7 +47,7 @@ export const SliderCards = ({ data, parentField = "" }) => {
       <div className="p-20 max-w-5xl mx-auto sm:px-6 sm:py-12">
         <div className="w-full">
           {data.headline &&
-            <h2 className="uppercase text-white text-xl mb-12 sm:mb-4 font-1">{data.headline}</h2>
+            <h2 className="uppercase text-white text-3xl mb-20 sm:mb-4 font-1">{data.headline}</h2>
           }
           {data.body && (
             <div className={`markdown text-white text-base mb-10`} data-tinafield={`${parentField}.body`}>

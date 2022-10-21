@@ -21,8 +21,8 @@ blocks:
   - slidesToShow: '1'
     background:
       fillStyles: >-
-        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-2
-        right-2 sm:rounded-t-xl opacity-100
+        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-4
+        right-4 sm:left-2 sm:right-2 sm:rounded-t-xl opacity-100
     headline: Upcoming Events
     body: ''
     items:

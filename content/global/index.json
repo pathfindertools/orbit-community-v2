@@ -5,9 +5,9 @@
   "desktopWidth": "1380",
   "backgroundColor": "white",
   "colors": {
-    "primary": "#3F8EF7",
+    "primary": "#0087FF",
     "accent1": "#071C31",
-    "accent2": "#D45A65",
+    "accent2": "#FF324F",
     "accent3": "#2DD0DB",
     "accent4": "#00D0DB",
     "white": "#FFFFFF",
@@ -28,7 +28,7 @@
     "textMd": "16/20",
     "textLg": "18/28",
     "textXl": "20/24",
-    "text2xl": "22/28",
+    "text2xl": "22/36",
     "text3xl": "26/32",
     "text4xl": "28/36",
     "text5xl": "32/37",
@@ -88,7 +88,7 @@
       }
     ],
     "navAlignment": "text-left",
-    "navTypeStyle": "text-white font-1 text-base mb-0 ",
+    "navTypeStyle": "text-white font-1 text-2xl mb-0 ",
     "navBackgroundColor": "bg-primary opacity-100",
     "padding": "pt-20 pb-0 pr-0 pl-10"
   },
