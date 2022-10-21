@@ -6,7 +6,7 @@ import { Section } from "../section"
 
 const Card = ({ data, category, imageWidth, index, parentField = "" }) => {
   const isHome = category === "home"
-  const arrowIcon = <svg className="inline-block relative -top-0.5 ml-2" width="20" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 2.7915H27V27.7915" stroke="#3F8EF7" strokeWidth="4" /><path d="M27 2.7915L2 27.7915" stroke="#3F8EF7" strokeWidth="4" /></svg>
+  const arrowIcon = <svg className="inline-block relative -top-0.5 ml-2 sm:w-4" width="20" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 2.7915H27V27.7915" stroke="#3F8EF7" strokeWidth="4" /><path d="M27 2.7915L2 27.7915" stroke="#3F8EF7" strokeWidth="4" /></svg>
   return (
     <div className="rounded-lg sm:rounded overflow-hidden mx-2 mb-10">
       {data.imageSrc && (
@@ -21,9 +21,9 @@ const Card = ({ data, category, imageWidth, index, parentField = "" }) => {
         </div>
       )}
       <div className="bg-white p-5 font-2">
-        <p className="text-xs mb-3">{data.time}</p>
-        <h3 className="text-2xl mb-3">{data.name}</h3>
-        <a className='text-primary font-1 text-base' href={data.link}>
+        <p className="text-base mb-3 sm:text-sm">{data.time}</p>
+        <h3 className="text-5xl mb-3 sm:text-2xl">{data.name}</h3>
+        <a className='text-primary font-1 text-2xl sm:text-lg' href={data.link}>
           LEARN MORE {arrowIcon}
         </a>
       </div>
