@@ -95,6 +95,7 @@ blocks:
     cardStyle:
       fillStyles: ' opacity-100'
       padding: pt-4 pb-4 pr-4 pl-4
+      textAlignment: text-center
       borderStyles: border-white border-0
       imageStyles: ' object-contain undefined undefined'
       labelStyles: 'text-white undefined text-base mb-0 '

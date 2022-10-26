@@ -210,7 +210,7 @@ const FieldRow = ({ inputValue='', onUpdate=(value)=>{ value }, isMobile = false
         <SelectMenu value={fit} onChange={setFit} options={fits} className="w-1/2" />
         <SelectMenu value={position} onChange={setPosition} options={positions} className="w-1/2" />
       </div>
-      <input type="text" value={`${height} ${fit} ${position} ${margin}`} className="" />
+      <input type="text" value={`${height} ${fit} ${position} ${margin}`} className="hidden" />
     </>
   )
 }

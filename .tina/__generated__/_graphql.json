@@ -3128,6 +3128,21 @@
           "kind": "FieldDefinition",
           "name": {
             "kind": "Name",
+            "value": "textAlignment"
+          },
+          "arguments": [],
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "value": "String"
+            }
+          }
+        },
+        {
+          "kind": "FieldDefinition",
+          "name": {
+            "kind": "Name",
             "value": "fillStyles"
           },
           "arguments": [],
@@ -4051,6 +4066,21 @@
           "name": {
             "kind": "Name",
             "value": "padding"
+          },
+          "arguments": [],
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "value": "String"
+            }
+          }
+        },
+        {
+          "kind": "FieldDefinition",
+          "name": {
+            "kind": "Name",
+            "value": "textAlignment"
           },
           "arguments": [],
           "type": {
@@ -8593,6 +8623,21 @@
           "kind": "FieldDefinition",
           "name": {
             "kind": "Name",
+            "value": "textAlignment"
+          },
+          "arguments": [],
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "value": "String"
+            }
+          }
+        },
+        {
+          "kind": "FieldDefinition",
+          "name": {
+            "kind": "Name",
             "value": "fillStyles"
           },
           "arguments": [],
@@ -9516,6 +9561,21 @@
           "name": {
             "kind": "Name",
             "value": "padding"
+          },
+          "arguments": [],
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "value": "String"
+            }
+          }
+        },
+        {
+          "kind": "FieldDefinition",
+          "name": {
+            "kind": "Name",
+            "value": "textAlignment"
           },
           "arguments": [],
           "type": {
@@ -16003,6 +16063,20 @@
           "kind": "InputValueDefinition",
           "name": {
             "kind": "Name",
+            "value": "textAlignment"
+          },
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "value": "String"
+            }
+          }
+        },
+        {
+          "kind": "InputValueDefinition",
+          "name": {
+            "kind": "Name",
             "value": "fillStyles"
           },
           "type": {
@@ -16855,6 +16929,20 @@
           "name": {
             "kind": "Name",
             "value": "padding"
+          },
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "value": "String"
+            }
+          }
+        },
+        {
+          "kind": "InputValueDefinition",
+          "name": {
+            "kind": "Name",
+            "value": "textAlignment"
           },
           "type": {
             "kind": "NamedType",
@@ -20871,6 +20959,20 @@
           "kind": "InputValueDefinition",
           "name": {
             "kind": "Name",
+            "value": "textAlignment"
+          },
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "value": "String"
+            }
+          }
+        },
+        {
+          "kind": "InputValueDefinition",
+          "name": {
+            "kind": "Name",
             "value": "fillStyles"
           },
           "type": {
@@ -21723,6 +21825,20 @@
           "name": {
             "kind": "Name",
             "value": "padding"
+          },
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "value": "String"
+            }
+          }
+        },
+        {
+          "kind": "InputValueDefinition",
+          "name": {
+            "kind": "Name",
+            "value": "textAlignment"
           },
           "type": {
             "kind": "NamedType",

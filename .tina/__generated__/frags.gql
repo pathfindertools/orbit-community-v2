@@ -163,6 +163,7 @@ fragment GlobalParts on Global {
       }
       cardStyle {
         __typename
+        textAlignment
         fillStyles
         padding
         borderStyles
@@ -235,6 +236,7 @@ fragment GlobalParts on Global {
         __typename
         fillStyles
         padding
+        textAlignment
         borderStyles
         typographyTitle
         labelStyles
@@ -553,6 +555,7 @@ fragment PagesParts on Pages {
       }
       cardStyle {
         __typename
+        textAlignment
         fillStyles
         padding
         borderStyles
@@ -625,6 +628,7 @@ fragment PagesParts on Pages {
         __typename
         fillStyles
         padding
+        textAlignment
         borderStyles
         typographyTitle
         labelStyles

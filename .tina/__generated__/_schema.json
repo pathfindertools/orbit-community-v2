@@ -8807,6 +8807,7 @@
                   "cardStyle": {
                     "fillStyles": "bg-gray",
                     "padding": "pt-4 pr-4 pb-4 pl-4",
+                    "textAlignment": "text-left",
                     "labelStyles": "text-black text-sm mb-0",
                     "headlineStyles": "text-black text-2xl mb-0",
                     "subheadStyles": "text-black text-lg mb-0",
@@ -9032,6 +9033,14 @@
                         {
                           "label": "4",
                           "value": "4"
+                        },
+                        {
+                          "label": "5",
+                          "value": "5"
+                        },
+                        {
+                          "label": "6",
+                          "value": "6"
                         }
                       ],
                       "namespace": [
@@ -9174,6 +9183,35 @@
                     "component": "group"
                   },
                   "fields": [
+                    {
+                      "label": "Text Alignment",
+                      "name": "textAlignment",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Left",
+                          "value": "text-left"
+                        },
+                        {
+                          "label": "Center",
+                          "value": "text-center"
+                        },
+                        {
+                          "label": "Right",
+                          "value": "text-right"
+                        }
+                      ],
+                      "namespace": [
+                        "global",
+                        "blocks",
+                        "photoCards",
+                        "cardStyle",
+                        "textAlignment"
+                      ]
+                    },
                     {
                       "type": "string",
                       "label": "Background",
@@ -9900,11 +9938,12 @@
                   "cardStyle": {
                     "fillStyles": "bg-gray",
                     "padding": "pt-4 pr-4 pb-4 pl-4",
+                    "textAlignment": "text-left",
+                    "borderStyles": "border-gray",
                     "labelStyles": "text-black font-1 text-sm mb-0",
                     "headlineStyles": "text-black font-1 text-2xl mb-0",
                     "subheadStyles": "text-black font-1 text-md mb-0",
-                    "textStyles": "text-black font-1 text-sm mb-0",
-                    "borderStyles": "border-gray"
+                    "textStyles": "text-black font-1 text-sm mb-0"
                   },
                   "items": [
                     {
@@ -10125,6 +10164,14 @@
                         {
                           "label": "4",
                           "value": "4"
+                        },
+                        {
+                          "label": "5",
+                          "value": "5"
+                        },
+                        {
+                          "label": "6",
+                          "value": "6"
                         }
                       ],
                       "namespace": [
@@ -10295,6 +10342,35 @@
                         "textCards",
                         "cardStyle",
                         "padding"
+                      ]
+                    },
+                    {
+                      "label": "Text Alignment",
+                      "name": "textAlignment",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Left",
+                          "value": "text-left"
+                        },
+                        {
+                          "label": "Center",
+                          "value": "text-center"
+                        },
+                        {
+                          "label": "Right",
+                          "value": "text-right"
+                        }
+                      ],
+                      "namespace": [
+                        "global",
+                        "blocks",
+                        "textCards",
+                        "cardStyle",
+                        "textAlignment"
                       ]
                     },
                     {
@@ -14305,6 +14381,7 @@
                   "cardStyle": {
                     "fillStyles": "bg-gray",
                     "padding": "pt-4 pr-4 pb-4 pl-4",
+                    "textAlignment": "text-left",
                     "labelStyles": "text-black text-sm mb-0",
                     "headlineStyles": "text-black text-2xl mb-0",
                     "subheadStyles": "text-black text-lg mb-0",
@@ -14530,6 +14607,14 @@
                         {
                           "label": "4",
                           "value": "4"
+                        },
+                        {
+                          "label": "5",
+                          "value": "5"
+                        },
+                        {
+                          "label": "6",
+                          "value": "6"
                         }
                       ],
                       "namespace": [
@@ -14672,6 +14757,35 @@
                     "component": "group"
                   },
                   "fields": [
+                    {
+                      "label": "Text Alignment",
+                      "name": "textAlignment",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Left",
+                          "value": "text-left"
+                        },
+                        {
+                          "label": "Center",
+                          "value": "text-center"
+                        },
+                        {
+                          "label": "Right",
+                          "value": "text-right"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "photoCards",
+                        "cardStyle",
+                        "textAlignment"
+                      ]
+                    },
                     {
                       "type": "string",
                       "label": "Background",
@@ -15398,11 +15512,12 @@
                   "cardStyle": {
                     "fillStyles": "bg-gray",
                     "padding": "pt-4 pr-4 pb-4 pl-4",
+                    "textAlignment": "text-left",
+                    "borderStyles": "border-gray",
                     "labelStyles": "text-black font-1 text-sm mb-0",
                     "headlineStyles": "text-black font-1 text-2xl mb-0",
                     "subheadStyles": "text-black font-1 text-md mb-0",
-                    "textStyles": "text-black font-1 text-sm mb-0",
-                    "borderStyles": "border-gray"
+                    "textStyles": "text-black font-1 text-sm mb-0"
                   },
                   "items": [
                     {
@@ -15623,6 +15738,14 @@
                         {
                           "label": "4",
                           "value": "4"
+                        },
+                        {
+                          "label": "5",
+                          "value": "5"
+                        },
+                        {
+                          "label": "6",
+                          "value": "6"
                         }
                       ],
                       "namespace": [
@@ -15793,6 +15916,35 @@
                         "textCards",
                         "cardStyle",
                         "padding"
+                      ]
+                    },
+                    {
+                      "label": "Text Alignment",
+                      "name": "textAlignment",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Left",
+                          "value": "text-left"
+                        },
+                        {
+                          "label": "Center",
+                          "value": "text-center"
+                        },
+                        {
+                          "label": "Right",
+                          "value": "text-right"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "textCards",
+                        "cardStyle",
+                        "textAlignment"
                       ]
                     },
                     {
@@ -19285,6 +19437,10 @@
                         {
                           "label": "Tanzania",
                           "value": "tanzania"
+                        },
+                        {
+                          "label": "Thailand",
+                          "value": "thailand"
                         },
                         {
                           "label": "Uganda",

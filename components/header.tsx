@@ -145,13 +145,13 @@ export const Header = ({
               <Logo className="flex-none mb-16" />
               <ul style={navStyles} className={`${nav.navTypeStyle} ${nav.navAlignment} w-48 flex-grow list-none md:hidden pointer-events-auto`}>
 
-                {pageJumps(blocks)?.map(function (item, index) {
+                {/* {pageJumps(blocks)?.map(function (item, index) {
                   return (
                     <li className="" key={index}>
                       <a style={linkStyles} className={"block no-underline hover:underline hover:text-primary"} href={`#${lowerDash(item)}`} onClick={ () => pageJump(item) }>{item}</a>
                     </li>
                   )
-                })}
+                })} */}
 
                 {navItems.map(function (item, index) {
                   const subNavItems = item.subNavItems || null
@@ -185,14 +185,14 @@ export const Header = ({
             </div>
             <ul style={navStyles} className={`${navClasses} ${nav.navTypeStyle} flex-grow hidden md:block mt-12`}>
 
-              {pageJumps(blocks)?.map(function (item, index) {
+              {/* {pageJumps(blocks)?.map(function (item, index) {
                 return (
                   <li className="block" key={index}>
                     <div className={`bg-white h-px opacity-25`} />
                     <a style={linkStyles} className={"block no-underline"} href={`#${lowerDash(item)}`} onClick={ () => pageJump(item) }>{item}</a>
                   </li>
                 )
-              })}
+              })} */}
 
               {navItems.map(function (item, index) {
                 const subNavItems = item.subNavItems || null

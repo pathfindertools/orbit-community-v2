@@ -3,7 +3,8 @@ import { backgroundSchema } from "./shared/background";
 import { buttonsSchema } from "./shared/buttons";
 import { cardsSchema } from "./shared/cards";
 import { navigationLabelSchema } from "./shared/navigation-label";
-import { colorOptions } from "./shared/options"
+import { hAlignOptions } from "./shared/options"
+
 
 const defaultCard = {
   headline: "Here's Another Card",
@@ -57,11 +58,12 @@ export const textCardsBlockSchema: TinaTemplate = {
       cardStyle: {
         fillStyles: "bg-gray",
         padding: "pt-4 pr-4 pb-4 pl-4",
+        textAlignment: "text-left",
+        borderStyles: "border-gray",
         labelStyles: "text-black font-1 text-sm mb-0",
         headlineStyles: "text-black font-1 text-2xl mb-0",
         subheadStyles: "text-black font-1 text-md mb-0",
         textStyles: "text-black font-1 text-sm mb-0",
-        borderStyles: "border-gray",
       },
       items: [defaultCard, defaultCard, defaultCard],
     },
@@ -91,6 +93,15 @@ export const textCardsBlockSchema: TinaTemplate = {
           ui: {
             component: "paddingControl",
           }
+        },
+        {
+          label: "Text Alignment",
+          name: "textAlignment",
+          type: "string",
+          ui: {
+            component: "selectField",
+          },
+          options: hAlignOptions,
         },
         {
           type: "string",
