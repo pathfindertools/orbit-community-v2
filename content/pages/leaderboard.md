@@ -146,7 +146,9 @@ blocks:
         twitter: Filet_finance
         country: us
         badge: spaceship
-      - name: Codecrunch Techlabs
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667240372/codecrunch_jgqfxh.png
+        name: Codecrunch Techlabs
         country: india
         badge: spaceship
       - name: Quilt
