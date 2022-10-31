@@ -321,35 +321,6 @@ blocks:
         name: Scarlett Arana
         country: us
         badge: cadet
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666293911/89ADD12A-2718-42CF-8E10-4EBD7B120CDF_-_David_Turner_suaat1.jpg
-        name: David Turner
-        country: us
-        badge: cadet
-      - name: Sarthak Tiwari
-        twitter: sarthackk
-        country: india
-      - name: Jaydip Thacker
-        country: india
-        badge: cadet
-      - name: Mahima Thacker
-        country: india
-        badge: cadet
-      - name: Disha Vyas
-        twitter: Disha7077
-        country: india
-        badge: cadet
-      - name: Anjali Thacker
-        country: india
-        badge: cadet
-      - name: Mitch Lewis
-        twitter: 0x_Mitch
-        country: us
-        badge: cadet
-      - name: Tolga Yayci
-        twitter: yaycitolga
-        country: us
-        badge: cadet
     navigationLabel: cadet
     _template: leaderCards
   - category: lieutenant
@@ -380,10 +351,12 @@ blocks:
       countryLabel: Country
       badgeLabel: Tier
     items:
-      - name: Name
-        twitter: Twitter
-        country: us
-        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667239881/FF7A73C9-A31A-4FC6-879C-D36D90D2821E_-_Ahimbisibwe_Brian_1_dsfmox.jpg
+        name: Brian Ahimbisibwe
+        twitter: ahimbis072604944
+        country: uganda
+        badge: captain
       - name: Name
         twitter: Twitter
         country: us
