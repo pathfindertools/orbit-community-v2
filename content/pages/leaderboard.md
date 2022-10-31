@@ -135,16 +135,6 @@ blocks:
         country: china
         badge: spaceship
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666236801/q_iqgqjg.png
-        name: Webq
-        country: us
-        badge: spaceship
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666236959/oz_gc06v9.png
-        name: Ozys
-        country: south-korea
-        badge: spaceship
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666237020/YvJ0POFI_400x400_c4jcop.jpg
         name: Spheron
         twitter: SpheronHQ/photo
