@@ -357,10 +357,12 @@ blocks:
         twitter: ahimbis072604944
         country: uganda
         badge: captain
-      - name: Name
-        twitter: Twitter
-        country: us
-        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667239946/9595F3CC-4187-44A2-A274-54F51F6D6C73_-_Martin_Silvester_Kyanja_zacxc3.jpg
+        name: Martin Kyanja
+        twitter: kyanja_m
+        country: tanzania
+        badge: captain
       - name: Name
         twitter: Twitter
         country: us
