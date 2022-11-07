@@ -27,24 +27,18 @@ blocks:
     body: ''
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
+        name: 'ATX Filecoin Orbit Meetup #1'
+        time: 'Tues, November 22nd, 2022, 7:30 PM EST'
+        link: >-
+          https://www.meetup.com/austin-filecoin-orbit-meetup-group/events/289105760/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1665586731/orbit-community-v2/event-filecoin-miami_cksat4.jpg
         name: Filecoin Miami Community Launch
         time: 'Mon, July 18, 2022, 6:30 PM EDT'
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1665586734/orbit-community-v2/event-future-data-storage_oa12ke.jpg
         name: The Future of Data Storage
-        time: 'Sat, July 23, 2022, 7:00 PM EDT'
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1665586734/orbit-community-v2/event-future-data-storage_oa12ke.jpg
-        name: Slide 3
-        time: 'Sat, July 23, 2022, 7:00 PM EDT'
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1665586734/orbit-community-v2/event-future-data-storage_oa12ke.jpg
-        name: Slide 4
-        time: 'Sat, July 23, 2022, 7:00 PM EDT'
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1665586734/orbit-community-v2/event-future-data-storage_oa12ke.jpg
-        name: Slide 5
         time: 'Sat, July 23, 2022, 7:00 PM EDT'
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
