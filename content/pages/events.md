@@ -61,6 +61,12 @@ blocks:
         time: 'Sat, November 19, 2022, 10:30 AM EAT'
         link: >-
           https://www.eventbrite.com/e/web-30-ipfs-and-filecoin-workshop-tickets-449456475417
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667860911/676x380_dvoe57.webp
+        name: Filecoin UON Meetup
+        time: 'Wed, November 9th, 2022, 6:00 AM EST'
+        link: >-
+          https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289328524/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
