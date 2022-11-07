@@ -281,6 +281,12 @@ blocks:
         time: 'Sat, November 12, 2022, 1:00 PM EAT'
         link: >-
           https://www.eventbrite.com/e/fil-morogoro-filecoin-blockchain-and-ipfs-tickets-446943669547
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667860862/https___cdn.evbuc.com_images_379182889_1128578462303_1_original_s7uigi.avif
+        name: 'WEB 3.0, IPFS AND FILECOIN WORKSHOP'
+        time: 'Sat, November 19, 2022, 10:30 AM EAT'
+        link: >-
+          https://www.eventbrite.com/e/web-30-ipfs-and-filecoin-workshop-tickets-449456475417
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
