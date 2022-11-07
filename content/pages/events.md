@@ -49,6 +49,12 @@ blocks:
         time: 'Tues, November 15th, 2022, 8:00 AM CST'
         link: >-
           https://www.eventbrite.co.uk/e/alabama-am-filecoin-workshop-tickets-441976903817?utm_campaign=post_publish&utm_medium=email&utm_source=eventbrite&utm_content=shortLinkNewEmail
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667860811/https___cdn.evbuc.com_images_378581379_1128578462303_1_original_mhdprl.avif
+        name: FIL MOROGORO
+        time: 'Sat, November 12, 2022, 1:00 PM EAT'
+        link: >-
+          https://www.eventbrite.com/e/fil-morogoro-filecoin-blockchain-and-ipfs-tickets-446943669547
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
