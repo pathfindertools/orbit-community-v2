@@ -253,6 +253,12 @@ blocks:
     body: ''
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667860752/https___cdn.evbuc.com_images_374902569_1008188460393_1_original_loktzp.avif
+        name: Alabama A&M Filecoin Workshop
+        time: 'Tue, November 15, 2022, 8:00 AM CST'
+        link: >-
+          https://www.eventbrite.co.uk/e/alabama-am-filecoin-workshop-tickets-441976903817?utm_campaign=post_publish&utm_medium=email&utm_source=eventbrite&utm_content=shortLinkNewEmail
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
         name: 'ATX Filecoin Orbit Meetup #1'
         time: 'Tues, November 22nd, 2022, 7:30 PM EST'
