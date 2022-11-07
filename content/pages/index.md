@@ -264,6 +264,11 @@ blocks:
         time: 'Friday, November 11th, 2022, 10 AM EAT'
         link: >-
           https://www.meetup.com/orbit-community-kampala-uganda/events/289119793/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667860655/mosaic-web3dubai_xzynbi.webp
+        name: Web3 Dubai
+        time: 'Thursday, November 17th, 2022'
+        link: 'https://www.web3dubai.org/'
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
