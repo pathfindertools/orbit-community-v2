@@ -275,6 +275,12 @@ blocks:
         name: Web3 Dubai
         time: 'Thursday, November 17th, 2022'
         link: 'https://www.web3dubai.org/'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667860811/https___cdn.evbuc.com_images_378581379_1128578462303_1_original_mhdprl.avif
+        name: FIL MOROGORO
+        time: 'Sat, November 12, 2022, 1:00 PM EAT'
+        link: >-
+          https://www.eventbrite.com/e/fil-morogoro-filecoin-blockchain-and-ipfs-tickets-446943669547
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
