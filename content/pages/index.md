@@ -269,12 +269,6 @@ blocks:
         link: >-
           https://www.eventbrite.com/e/web-30-ipfs-and-filecoin-workshop-tickets-449456475417
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
-        name: 'ATX Filecoin Orbit Meetup #1'
-        time: 'Tues, November 22nd, 2022, 7:30 PM EST'
-        link: >-
-          https://www.meetup.com/austin-filecoin-orbit-meetup-group/events/289105760/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453493/676x380_zigwui.webp
         name: Future of NFT and Metaverse
         time: 'Friday, November 18th, 2022'
@@ -302,6 +296,18 @@ blocks:
         time: 'Sunday, November 20th, 2022'
         link: >-
           https://www.meetup.com/chicago-orbit-community-program/events/289231399?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
+        name: 'ATX Filecoin Orbit Meetup #1'
+        time: 'Tues, November 22nd, 2022, 7:30 PM EST'
+        link: >-
+          https://www.meetup.com/austin-filecoin-orbit-meetup-group/events/289105760/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668454224/kampala_tvyrry.png
+        name: Reinventing Storage
+        time: 'Friday, November 25th, 2022'
+        link: >-
+          https://www.meetup.com/orbit-community-kampala-uganda/events/289545228?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
