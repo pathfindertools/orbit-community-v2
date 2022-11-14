@@ -284,7 +284,7 @@ blocks:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294792/agathe_t8qoek.png
         name: Agathe Laurent
-        country: ''
+        country: spain
         badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294857/TEHTVS1L6-U01S544SKLZ-56484d3a53a4-512_exmoel.jpg
