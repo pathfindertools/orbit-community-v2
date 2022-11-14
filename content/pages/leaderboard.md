@@ -122,6 +122,7 @@ blocks:
           https://res.cloudinary.com/protocolai/image/upload/v1666236121/579Q2sYB_400x400_hjcmwa.jpg
         name: OpenGate
         twitter: OpenGateNFT
+        country: uk
         badge: spaceship
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666236628/DzYv6tUo_400x400_xp0e3n.jpg
