@@ -261,7 +261,7 @@ blocks:
           https://res.cloudinary.com/protocolai/image/upload/v1666294950/20220921_081644_0000_-_Allan_Mang_eni_2_fqfjtj.png
         name: Allan Mang’eni
         twitter: AllanMangeni
-        country: ''
+        country: kenya
         badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666293797/TEHTVS1L6-U03T3GXRBKN-05fc9baf20d9-512_u4rn7j.jpg
