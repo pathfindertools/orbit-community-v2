@@ -27,6 +27,12 @@ blocks:
     body: ''
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668455251/1200x676_cgutbx.webp
+        name: Filecoin Orbit Mombasa meetup
+        time: 'Saturday, December 3rd, 2022'
+        link: >-
+          https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289541169
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668454533/Capture_g5l6rt.png
         name: Filecoin Orbit Bangalore
         time: 'Thursday, December 11th, 2022'
