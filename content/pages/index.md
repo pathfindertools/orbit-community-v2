@@ -253,7 +253,7 @@ blocks:
     body: ''
     items:
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
+          https://res.cloudinary.com/protocolai/image/upload/v1668455790/287b3ac3401dca201518107c20b3d1d_hzqa3l.png
         name: Embracing Web3 Private Storage
         time: 'Wednesday, November 16th, 2022'
         link: 'https://iee.h5.xeknow.com/sl/3uUbbf'
