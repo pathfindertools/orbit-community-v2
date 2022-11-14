@@ -305,13 +305,9 @@ blocks:
         country: india
         badge: cadet
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1666294604/TEHTVS1L6-U041MLWE4MN-9c3a356caded-512_h4thok.jpg
-        name: Tim Shores
-        country: us
-        badge: cadet
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294558/TEHTVS1L6-U03RVGBSMDF-7c834bbd6095-512_hsr7yk.jpg
         name: Konstantin Tkachuk
+        twitter: tkachuk_science
         country: china
         badge: cadet
       - imageSrc: >-
