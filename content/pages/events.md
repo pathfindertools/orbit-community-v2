@@ -26,6 +26,12 @@ blocks:
     headline: Upcoming Events
     body: ''
     items:
+      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
+        name: Embracing Web3 Private Storage
+        time: 'Saturday, November 19th, 2022'
+        link: 'https://iee.h5.xeknow.com/sl/3QK8mb'
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453493/676x380_zigwui.webp
         name: Future of NFT and Metaverse
@@ -48,6 +54,12 @@ blocks:
         name: Web3Dubai
         time: 'Thurs, Nov 17th, 2022'
         link: 'https://www.web3dubai.org/'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453859/0Iv2C6tt_400x400_fsn4jw.jpg
+        name: Filecoin Orbit Chuka Workshop
+        time: 'Saturday, November 19th, 2022'
+        link: >-
+          https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289596100/
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1667860862/https___cdn.evbuc.com_images_379182889_1128578462303_1_original_s7uigi.avif
         name: 'WEB 3.0, IPFS AND FILECOIN WORKSHOP'
