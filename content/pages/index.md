@@ -296,6 +296,12 @@ blocks:
         name: Filecoin Orbit Accra
         time: 'Saturday, November 19th, 2022'
         link: 'https://www.eventbrite.com/e/fil-accra-tickets-461362757427'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668454005/676x380_o1u2vh.webp
+        name: Hackathon Hackathon
+        time: 'Sunday, November 20th, 2022'
+        link: >-
+          https://www.meetup.com/chicago-orbit-community-program/events/289231399?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
