@@ -291,6 +291,11 @@ blocks:
         time: 'Saturday, November 19th, 2022'
         link: >-
           https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289596100/
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453959/https___cdn.evbuc.com_images_390097039_162344790939_1_original_k65evr.avif
+        name: Filecoin Orbit Accra
+        time: 'Saturday, November 19th, 2022'
+        link: 'https://www.eventbrite.com/e/fil-accra-tickets-461362757427'
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
