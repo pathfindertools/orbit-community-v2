@@ -104,6 +104,7 @@ blocks:
           https://res.cloudinary.com/protocolai/image/upload/v1666235877/npFrt5FX_400x400_odrt8s.jpg
         name: Zondax
         twitter: _zondax_
+        country: switzerland
         badge: spaceship
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666235934/vXXWIbWH_400x400_yrizzs.jpg
