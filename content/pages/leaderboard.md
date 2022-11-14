@@ -151,6 +151,7 @@ blocks:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1667240372/codecrunch_jgqfxh.png
         name: Codecrunch Techlabs
+        twitter: codecrunch_co
         country: india
         badge: spaceship
       - imageSrc: >-
