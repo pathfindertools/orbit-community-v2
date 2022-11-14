@@ -176,6 +176,7 @@ blocks:
           https://res.cloudinary.com/protocolai/image/upload/v1666237528/4hko-YRp_400x400_x0rnvl.jpg
         name: The Fungi Project
         twitter: fungiproject
+        country: spain
         badge: spaceship
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666237581/WwgZ4mZh_400x400_bgdon7.png
