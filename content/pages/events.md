@@ -29,6 +29,11 @@ blocks:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
         name: The application and future of Web3 storage
+        time: 'Sunday, December 18th, 2022'
+        link: 'https://iee.h5.xeknow.com/sl/uT3wi'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
+        name: The application and future of Web3 storage
         time: 'Thursday, December 15th, 2022'
         link: 'https://iee.h5.xeknow.com/sl/47Y8si'
       - imageSrc: >-
