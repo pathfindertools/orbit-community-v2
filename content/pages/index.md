@@ -308,6 +308,12 @@ blocks:
         time: 'Friday, November 25th, 2022'
         link: >-
           https://www.meetup.com/orbit-community-kampala-uganda/events/289545228?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668455251/1200x676_cgutbx.webp
+        name: Filecoin Orbit Mombasa Meetup
+        time: 'Saturday, December 3rd, 2022'
+        link: >-
+          https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289541169
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
