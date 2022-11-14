@@ -27,6 +27,11 @@ blocks:
     body: ''
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
+        name: The application and future of Web3 storage
+        time: 'Monday, December 12th, 2022'
+        link: 'https://iee.h5.xeknow.com/sl/1b3U6t'
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668455251/1200x676_cgutbx.webp
         name: Filecoin Orbit Mombasa meetup
         time: 'Saturday, December 3rd, 2022'
