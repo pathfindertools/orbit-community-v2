@@ -284,6 +284,7 @@ blocks:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294792/agathe_t8qoek.png
         name: Agathe Laurent
+        twitter: agathedavray
         country: spain
         badge: cadet
       - imageSrc: >-
