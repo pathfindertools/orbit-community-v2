@@ -27,6 +27,17 @@ blocks:
     body: ''
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668454533/Capture_g5l6rt.png
+        name: Filecoin Orbit Bangalore
+        time: 'Thursday, December 11th, 2022'
+        link: 'https://lu.ma/FILOrbitBangalore'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668454224/kampala_tvyrry.png
+        name: Reinventing Storage
+        time: 'Friday, November 25th, 2022'
+        link: >-
+          https://www.meetup.com/orbit-community-kampala-uganda/events/289545228/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668454005/676x380_o1u2vh.webp
         name: Hackathon Hackathon
         time: 'Sunday, November 20th, 2022'
