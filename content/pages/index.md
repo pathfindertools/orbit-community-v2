@@ -253,11 +253,10 @@ blocks:
     body: ''
     items:
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667860752/https___cdn.evbuc.com_images_374902569_1008188460393_1_original_loktzp.avif
-        name: Alabama A&M Filecoin Workshop
-        time: 'Tues, November 15, 2022, 8:00 AM CST'
-        link: >-
-          https://www.eventbrite.co.uk/e/alabama-am-filecoin-workshop-tickets-441976903817?utm_campaign=post_publish&utm_medium=email&utm_source=eventbrite&utm_content=shortLinkNewEmail
+          https://res.cloudinary.com/protocolai/image/upload/v1668455790/287b3ac3401dca201518107c20b3d1d_hzqa3l.png
+        name: Embracing Web3 Private Storage
+        time: 'Sunday, November 13th, 2022'
+        link: 'https://iee.h5.xeknow.com/sl/4ofQBV'
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
         name: 'ATX Filecoin Orbit Meetup #1'
@@ -265,34 +264,16 @@ blocks:
         link: >-
           https://www.meetup.com/austin-filecoin-orbit-meetup-group/events/289105760/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667860545/676x380_cpln0q.webp
-        name: Filecoin Virtual Machine Developer Meetup
-        time: 'Friday, November 11th, 2022, 10 AM EAT'
-        link: >-
-          https://www.meetup.com/orbit-community-kampala-uganda/events/289119793/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1667860655/mosaic-web3dubai_xzynbi.webp
         name: Web3 Dubai
         time: 'Thursday, November 17th, 2022'
         link: 'https://www.web3dubai.org/'
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667860811/https___cdn.evbuc.com_images_378581379_1128578462303_1_original_mhdprl.avif
-        name: FIL MOROGORO
-        time: 'Sat, November 12, 2022, 1:00 PM EAT'
-        link: >-
-          https://www.eventbrite.com/e/fil-morogoro-filecoin-blockchain-and-ipfs-tickets-446943669547
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1667860862/https___cdn.evbuc.com_images_379182889_1128578462303_1_original_s7uigi.avif
         name: 'WEB 3.0, IPFS AND FILECOIN WORKSHOP'
         time: 'Sat, November 19, 2022, 10:30 AM EAT'
         link: >-
           https://www.eventbrite.com/e/web-30-ipfs-and-filecoin-workshop-tickets-449456475417
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667860911/676x380_dvoe57.webp
-        name: Filecoin UON Meetup
-        time: 'Wednesday, November 9th, 2022, 2:00 PM EAT'
-        link: >-
-          https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289328524/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
