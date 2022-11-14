@@ -314,6 +314,11 @@ blocks:
         time: 'Saturday, December 3rd, 2022'
         link: >-
           https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289541169
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668454533/Capture_g5l6rt.png
+        name: Filecoin Orbit Bangalore
+        time: 'Thursday, December 1st, 2022'
+        link: 'https://lu.ma/FILOrbitBangalore'
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
