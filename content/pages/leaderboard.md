@@ -258,6 +258,7 @@ blocks:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666293495/C45FC639-5A42-4357-82E1-1DC0AD60A5FC_-_Jackson_Felty_ctj7tw.jpg
         name: Jackson Felty
+        twitter: jackson_cookbook
         country: us
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666293613/TEHTVS1L6-U03JCMKQ55Z-8eb3afab61c1-512_viqsyb.jpg
