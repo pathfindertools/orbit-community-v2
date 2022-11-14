@@ -27,6 +27,12 @@ blocks:
     body: ''
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453493/676x380_zigwui.webp
+        name: Future of NFT and Metaverse
+        time: 'Friday, November 18th, 2022'
+        link: >-
+          https://www.meetup.com/filecoin-orbit-kigali/events/289548610?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
         name: Embracing Web3 Private Storage
         time: 'Wednesday, November 16th, 2022'
