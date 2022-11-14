@@ -258,12 +258,6 @@ blocks:
         time: 'Wednesday, November 16th, 2022'
         link: 'https://iee.h5.xeknow.com/sl/3uUbbf'
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
-        name: 'ATX Filecoin Orbit Meetup #1'
-        time: 'Tues, November 22nd, 2022, 7:30 PM EST'
-        link: >-
-          https://www.meetup.com/austin-filecoin-orbit-meetup-group/events/289105760/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1667860655/mosaic-web3dubai_xzynbi.webp
         name: Web3 Dubai
         time: 'Thursday, November 17th, 2022'
@@ -274,6 +268,18 @@ blocks:
         time: 'Sat, November 19, 2022, 10:30 AM EAT'
         link: >-
           https://www.eventbrite.com/e/web-30-ipfs-and-filecoin-workshop-tickets-449456475417
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
+        name: 'ATX Filecoin Orbit Meetup #1'
+        time: 'Tues, November 22nd, 2022, 7:30 PM EST'
+        link: >-
+          https://www.meetup.com/austin-filecoin-orbit-meetup-group/events/289105760/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453493/676x380_zigwui.webp
+        name: Future of NFT and Metaverse
+        time: 'Friday, November 18th, 2022'
+        link: >-
+          https://www.meetup.com/filecoin-orbit-kigali/events/289548610?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
