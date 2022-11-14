@@ -313,6 +313,7 @@ blocks:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666294289/profilephoto_-_Scarlett_Arana_1_dzb6eg.jpg
         name: Scarlett Arana
+        twitter: bitbaselhub
         country: us
         badge: cadet
     navigationLabel: cadet
