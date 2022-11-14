@@ -151,9 +151,6 @@ blocks:
         name: Codecrunch Techlabs
         country: india
         badge: spaceship
-      - name: Quilt
-        country: china
-        badge: spaceship
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666237197/UOGBDOgv_400x400_ccpl2j.jpg
         name: Valist Protocol
@@ -315,27 +312,6 @@ blocks:
         badge: cadet
     navigationLabel: cadet
     _template: leaderCards
-  - category: lieutenant
-    headline: ''
-    cardlabels:
-      nameLabel: Name / Twitter
-      countryLabel: Country
-      badgeLabel: Tier
-    items:
-      - name: Name
-        twitter: Twitter
-        country: us
-        badge: cadet
-      - name: Name
-        twitter: Twitter
-        country: us
-        badge: cadet
-      - name: Name
-        twitter: Twitter
-        country: us
-        badge: cadet
-    navigationLabel: lieutenant
-    _template: leaderCards
   - category: captain
     headline: ''
     cardlabels:
@@ -355,10 +331,6 @@ blocks:
         twitter: kyanja_m
         country: tanzania
         badge: captain
-      - name: Name
-        twitter: Twitter
-        country: us
-        badge: cadet
     navigationLabel: captain
     _template: leaderCards
   - mapUrl: >-
