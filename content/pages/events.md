@@ -28,19 +28,60 @@ blocks:
     items:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
-        name: The application and future of Web3 storage
-        time: 'Sunday, December 18th, 2022'
-        link: 'https://iee.h5.xeknow.com/sl/uT3wi'
+        name: Embracing Web3 Private Storage
+        time: 'Wednesday, November 16th, 2022'
+        link: 'chttps://iee.h5.xeknow.com/sl/3uUbbf'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667860655/mosaic-web3dubai_xzynbi.webp
+        name: Web3Dubai
+        time: 'Thurs, Nov 17th, 2022'
+        link: 'https://www.web3dubai.org/'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667860862/https___cdn.evbuc.com_images_379182889_1128578462303_1_original_s7uigi.avif
+        name: 'WEB 3.0, IPFS AND FILECOIN WORKSHOP'
+        time: 'Sat, November 19, 2022, 10:30 AM EAT'
+        link: >-
+          https://www.eventbrite.com/e/web-30-ipfs-and-filecoin-workshop-tickets-449456475417
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453493/676x380_zigwui.webp
+        name: Future of NFT and Metaverse
+        time: 'Friday, November 18th, 2022'
+        link: >-
+          https://www.meetup.com/filecoin-orbit-kigali/events/289548610?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
-        name: The application and future of Web3 storage
-        time: 'Thursday, December 15th, 2022'
-        link: 'https://iee.h5.xeknow.com/sl/47Y8si'
+        name: Embracing Web3 Private Storage
+        time: 'Saturday, November 19th, 2022'
+        link: 'https://iee.h5.xeknow.com/sl/3QK8mb'
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
-        name: The application and future of Web3 storage
-        time: 'Monday, December 12th, 2022'
-        link: 'https://iee.h5.xeknow.com/sl/1b3U6t'
+          https://res.cloudinary.com/protocolai/image/upload/v1668453859/0Iv2C6tt_400x400_fsn4jw.jpg
+        name: Filecoin Orbit Chuka Workshop
+        time: 'Saturday, November 19th, 2022'
+        link: >-
+          https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289596100/
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453959/https___cdn.evbuc.com_images_390097039_162344790939_1_original_k65evr.avif
+        name: Filecoin Orbit Accra
+        time: 'Saturday, November 19th, 2022'
+        link: 'http://bit.ly/FILACCRA'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668454005/676x380_o1u2vh.webp
+        name: Hackathon Hackathon
+        time: 'Sunday, November 20th, 2022'
+        link: >-
+          https://www.meetup.com/chicago-orbit-community-program/events/289231399/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
+        name: 'ATX Filecoin Orbit Meetup #1'
+        time: 'Tues, November 22nd, 2022, 7:30 PM EST'
+        link: >-
+          https://www.meetup.com/austin-filecoin-orbit-meetup-group/events/289105760/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668454224/kampala_tvyrry.png
+        name: Reinventing Storage
+        time: 'Friday, November 25th, 2022'
+        link: >-
+          https://www.meetup.com/orbit-community-kampala-uganda/events/289545228/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668455251/1200x676_cgutbx.webp
         name: Filecoin Orbit Mombasa meetup
@@ -53,61 +94,20 @@ blocks:
         time: 'Thursday, December 11th, 2022'
         link: 'https://lu.ma/FILOrbitBangalore'
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1668454224/kampala_tvyrry.png
-        name: Reinventing Storage
-        time: 'Friday, November 25th, 2022'
-        link: >-
-          https://www.meetup.com/orbit-community-kampala-uganda/events/289545228/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1668454005/676x380_o1u2vh.webp
-        name: Hackathon Hackathon
-        time: 'Sunday, November 20th, 2022'
-        link: >-
-          https://www.meetup.com/chicago-orbit-community-program/events/289231399/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1668453959/https___cdn.evbuc.com_images_390097039_162344790939_1_original_k65evr.avif
-        name: Filecoin Orbit Accra
-        time: 'Saturday, November 19th, 2022'
-        link: 'http://bit.ly/FILACCRA'
+          https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
+        name: The application and future of Web3 storage
+        time: 'Sunday, December 18th, 2022'
+        link: 'https://iee.h5.xeknow.com/sl/uT3wi'
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
-        name: Embracing Web3 Private Storage
-        time: 'Saturday, November 19th, 2022'
-        link: 'https://iee.h5.xeknow.com/sl/3QK8mb'
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1668453493/676x380_zigwui.webp
-        name: Future of NFT and Metaverse
-        time: 'Friday, November 18th, 2022'
-        link: >-
-          https://www.meetup.com/filecoin-orbit-kigali/events/289548610?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+        name: The application and future of Web3 storage
+        time: 'Monday, December 12th, 2022'
+        link: 'https://iee.h5.xeknow.com/sl/1b3U6t'
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
-        name: Embracing Web3 Private Storage
-        time: 'Wednesday, November 16th, 2022'
-        link: 'chttps://iee.h5.xeknow.com/sl/3uUbbf'
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667859133/676x380_ho1inn.webp
-        name: 'ATX Filecoin Orbit Meetup #1'
-        time: 'Tues, November 22nd, 2022, 7:30 PM EST'
-        link: >-
-          https://www.meetup.com/austin-filecoin-orbit-meetup-group/events/289105760/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667860655/mosaic-web3dubai_xzynbi.webp
-        name: Web3Dubai
-        time: 'Thurs, Nov 17th, 2022'
-        link: 'https://www.web3dubai.org/'
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1668453859/0Iv2C6tt_400x400_fsn4jw.jpg
-        name: Filecoin Orbit Chuka Workshop
-        time: 'Saturday, November 19th, 2022'
-        link: >-
-          https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289596100/
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1667860862/https___cdn.evbuc.com_images_379182889_1128578462303_1_original_s7uigi.avif
-        name: 'WEB 3.0, IPFS AND FILECOIN WORKSHOP'
-        time: 'Sat, November 19, 2022, 10:30 AM EAT'
-        link: >-
-          https://www.eventbrite.com/e/web-30-ipfs-and-filecoin-workshop-tickets-449456475417
+        name: The application and future of Web3 storage
+        time: 'Thursday, December 15th, 2022'
+        link: 'https://iee.h5.xeknow.com/sl/47Y8si'
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
