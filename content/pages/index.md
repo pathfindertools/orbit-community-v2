@@ -285,6 +285,12 @@ blocks:
         name: Embracing Web3 Private Storage
         time: 'Saturday, November 19th, 2022'
         link: 'https://iee.h5.xeknow.com/sl/3QK8mb'
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668455251/1200x676_cgutbx.webp
+        name: Filecoin Orbit Chuka Workshop
+        time: 'Saturday, November 19th, 2022'
+        link: >-
+          https://www.meetup.com/orbit-community-program-nairobi-kenya/events/289596100/
     buttonLabel: SEE ALL EVENTS
     buttonLink: '#'
     buttonType: minor
