@@ -26,7 +26,17 @@ blocks:
     headline: Upcoming Events
     body: ''
     items:
-      - {}
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668454005/676x380_o1u2vh.webp
+        name: Hackathon Hackathon
+        time: 'Sunday, November 20th, 2022'
+        link: >-
+          https://www.meetup.com/chicago-orbit-community-program/events/289231399/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668453959/https___cdn.evbuc.com_images_390097039_162344790939_1_original_k65evr.avif
+        name: Filecoin Orbit Accra
+        time: 'Saturday, November 19th, 2022'
+        link: 'http://bit.ly/FILACCRA'
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
         name: Embracing Web3 Private Storage
