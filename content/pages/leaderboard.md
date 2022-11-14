@@ -71,6 +71,12 @@ blocks:
       badgeLabel: TIER
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1668455790/287b3ac3401dca201518107c20b3d1d_hzqa3l.png
+        name: SXX Future Data
+        twitter: sxxfuture
+        country: china
+        badge: spaceship
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1665414845/orbit-community-v2/avatar-ethereum-nigeria_kzjzui.png
         name: Ethereum Nigeria
         twitter: EthereumNigeria
