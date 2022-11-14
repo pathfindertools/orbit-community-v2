@@ -225,7 +225,7 @@ blocks:
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1666238050/C100C56D-AB21-4259-AC07-F4258078FF29_-_Galina_F_1_svu0an.jpg
         name: Galina Fendikevich
-        twitter: ''
+        twitter: galinaweb3
         country: us
         badge: ensign
       - imageSrc: >-
