@@ -30,7 +30,7 @@ blocks:
     body: ''
     buttons:
       - label: Apply
-        link: /
+        link: /apply
         type: primary
     navigationLabel: ''
     _template: feature
@@ -73,7 +73,7 @@ blocks:
       information through events and content like Filecoin Orbit.
     buttons:
       - label: Learn More
-        link: /
+        link: /about
         type: minor
     navigationLabel: ''
     _template: feature
@@ -153,10 +153,10 @@ blocks:
       like-minded individuals.
     buttons:
       - label: Learn more
-        link: /
+        link: /about
         type: minor
       - label: Apply
-        link: /
+        link: /apply
         type: secondary
     _template: banner
   - style:
@@ -188,10 +188,10 @@ blocks:
       member as a part of Filecoin Orbit Program and help us grow the Community.
     buttons:
       - label: Learn More
-        link: /
+        link: /about
         type: minor
       - label: Apply
-        link: /
+        link: /apply
         type: secondary
     _template: feature
   - category: home
@@ -335,7 +335,7 @@ blocks:
         time: 'Sunday, December 18th, 2022'
         link: 'https://iee.h5.xeknow.com/sl/uT3wi'
     buttonLabel: SEE ALL EVENTS
-    buttonLink: '#'
+    buttonLink: /events
     buttonType: minor
     _template: sliderCards
 meta:

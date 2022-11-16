@@ -109,7 +109,7 @@ blocks:
         time: 'Thursday, December 15th, 2022'
         link: 'https://iee.h5.xeknow.com/sl/47Y8si'
     buttonLabel: SEE ALL EVENTS
-    buttonLink: '#'
+    buttonLink: 'https://www.meetup.com/pro/orbit-community-program/'
     buttonType: minor
     _template: sliderCards
   - tailwind:
