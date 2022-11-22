@@ -183,37 +183,27 @@ blocks:
       minHeight: min-h-0
       fullWidth: true
       padding: pt-20 pr-10 pb-20 pl-10
+    background:
+      fillStyles: >-
+        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-4
+        right-4 sm:left-2 sm:right-2 sm:rounded-t-xl opacity-100
     markup: >-
-      <div class="px-40 sm:px-0 max-w-5xl mx-auto">
+      <div class="relative px-40
+       sm:px-0 max-w-5xl mx-auto">
+      <h3 class="text-white text-2xl font-1 uppercase mb-12">JOIN THE
+      COMMUNITY</h3>
 
-      <h2 class="text-white text-2xl font-1 uppercase mb-8">Apply as an
-      Individual</h2>
+      <h2 class="text-white text-10xl font-3 uppercase mb-20">APPLY TO
+      CONTRIBUTE</h2>
 
-      <div data-tf-widget="ymd3bOdh" data-tf-iframe-props="title=Orbit
-      Individual Contributor Application" data-tf-medium="snippet"
-      style="width:100%;height:400px;"></div>
+
+
+      <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfIjth-qWpuYqSYtGwlZ9HxllcZ_5zCT80tCd7XF2P5mYfh2Q/viewform?embedded=true"
+      width="640" height="1067" frameborder="0" marginheight="0"
+      marginwidth="0">Loading…</iframe>
 
       </div>
-
-      <script src="//embed.typeform.com/next/embed.js"></script>
-    _template: embed
-  - style:
-      minHeight: min-h-0
-      fullWidth: true
-      padding: pt-20 pr-10 pb-20 pl-10
-    markup: >-
-      <div class="px-40 sm:px-0 max-w-5xl mx-auto">
-
-      <h2 class="text-white text-2xl font-1 uppercase mb-8">Apply as an
-      Enterprise</h2>
-
-      <div data-tf-widget="yKqclHrB" data-tf-iframe-props="title=Orbit Spaceship
-      Application" data-tf-medium="snippet"
-      style="width:100%;height:400px;"></div>
-
-      </div>
-
-      <script src="//embed.typeform.com/next/embed.js"></script>
     _template: embed
 meta:
   pageTitle: Orbit Community - Apply
