@@ -30,7 +30,7 @@ blocks:
           https://res.cloudinary.com/protocolai/image/upload/v1668453408/________________bjgsss.png
         name: Embracing Web3 Private Storage
         time: 'Wednesday, November 16th, 2022'
-        link: 'chttps://iee.h5.xeknow.com/sl/3uUbbf'
+        link: 'https://iee.h5.xeknow.com/sl/3uUbbf'
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1667860655/mosaic-web3dubai_xzynbi.webp
         name: Web3Dubai
