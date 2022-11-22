@@ -66,7 +66,7 @@ blocks:
       Filecoin & IPFS in your region and globally.&#x20;
     buttons:
       - label: Apply
-        link: /
+        link: 'https://forms.gle/AUeK7RnBnChBH5iP7'
         type: secondary
     _template: banner
   - tailwind:
