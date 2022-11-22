@@ -176,35 +176,9 @@ blocks:
       organizing workshops, introducing new collaborators, and much more.
     buttons:
       - label: Apply
-        link: /
+        link: 'https://forms.gle/AUeK7RnBnChBH5iP7'
         type: secondary
     _template: feature
-  - style:
-      minHeight: min-h-0
-      fullWidth: true
-      padding: pt-20 pr-10 pb-20 pl-10
-    background:
-      fillStyles: >-
-        gradientRoundedFade from-primary bg-gradient-to-b rounded-t-2xl left-4
-        right-4 sm:left-2 sm:right-2 sm:rounded-t-xl opacity-100
-    markup: >-
-      <div class="relative px-40
-       sm:px-0 max-w-5xl mx-auto">
-      <h3 class="text-white text-2xl font-1 uppercase mb-12">JOIN THE
-      COMMUNITY</h3>
-
-      <h2 class="text-white text-10xl font-3 uppercase mb-20">APPLY TO
-      CONTRIBUTE</h2>
-
-
-
-      <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSfIjth-qWpuYqSYtGwlZ9HxllcZ_5zCT80tCd7XF2P5mYfh2Q/viewform?embedded=true"
-      width="640" height="1067" frameborder="0" marginheight="0"
-      marginwidth="0">Loading…</iframe>
-
-      </div>
-    _template: embed
 meta:
   pageTitle: Orbit Community - Apply
   pageDescription: Orbit Community - Apply
